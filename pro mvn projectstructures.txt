@@ -1,0 +1,44 @@
+-----------------------------------------------------------------------------
+Pro Springboot 2
+-----------------------------------------------------------------------------
+
+# Parent Module - (File->New->Project)
+	groupId: 		    ch.ttt
+	artifactId:		    prospringboot2
+	project name:		prospringboot2
+	project location: 	D:\dev\workspace\prospringboot2
+	module name: 		prospringboot2
+	content root:		D:\dev\workspace\prospringboot2
+
+	- delete src folder in parent module
+
+# Modules - (parent->New->Module)
+	groupId: 	    ch.ttt
+	artifactId:	    ch2-gettingstarted
+	module name:	ch2-gettingstarted
+	content root:	D:\dev\workspace\prospringboot2\ch2-gettingstarted
+
+	- parent->New->Module automatically updates parent and module poms
+      with <modules> resp. <parent>
+
+# Package Names
+	ch2.apps, ch2.shared, etc.
+	chapter.<anything short>
+
+	- use package names with chapter name for non confusing imports
+	- Keine 2 packages dürfen gleich heissen! Auch nicht in unterschiedlichen Modulen
+
+-----------------------------------------------------------------------------
+Dependencies
+-----------------------------------------------------------------------------
+# parent pom - dependencyManagement
+    defines: version
+    does not define: scope
+
+# module pom - dependencies
+
+# <scope>
+    test: will be available only under src/test/
+
+
+
