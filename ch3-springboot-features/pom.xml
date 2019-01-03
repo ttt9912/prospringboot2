@@ -13,11 +13,8 @@
     <artifactId>ch3-springboot-features</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>app-arguments</module>
-        <module>application-listeners</module>
-        <module>spring-application</module>
-        <module>spring-application-builder</module>
-        <module>app-properties</module>
+        <module>app-configuration</module>
+        <module>application</module>
     </modules>
 
     <dependencies>
