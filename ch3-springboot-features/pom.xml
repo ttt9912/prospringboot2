@@ -17,6 +17,7 @@
         <module>application-listeners</module>
         <module>spring-application</module>
         <module>spring-application-builder</module>
+        <module>app-properties</module>
     </modules>
 
     <dependencies>

@@ -17,15 +17,20 @@ import java.util.Arrays;
  * - addCommandLineProperties(true) required to
  *   pass command line args from main method to spring application
  *
- * # Provide args to run config
- *   Program Arguments: --enable
  *
  * # Provide args to mvn spring-boot:run command
  *   mvn spring-boot:run -Dspring-boot.run.arguments="--enable"
  *   mvn spring-boot:run -Dspring-boot.run.arguments="arg1,arg2"
  *
+ * # Provide args to run config
+ *   Program Arguments: --enable
+ *
  * # Provide args to JAR
  *   > java -jar app-arguments-0.0.1-SNAPSHOT.jar --enable arg1 arg2
+ *
+ *
+ * # Override System Properties
+ *   spring-boot:run -Dspring-boot.run.arguments=--server.port=8085
  */
 @SpringBootApplication
 public class ArgsDemo {
@@ -36,7 +41,7 @@ public class ArgsDemo {
 
         new SpringApplicationBuilder(ArgsDemo.class)
                 .addCommandLineProperties(true)
-                .run(args);
+                .run(args).close();
     }
 
     @Bean
