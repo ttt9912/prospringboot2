@@ -1,0 +1,16 @@
+-----------------------------------------------------------------------------
+Dependencies
+-----------------------------------------------------------------------------
+# parent pom - dependencyManagement
+    defines: version
+    does not define: scope
+
+# module pom - dependencies
+
+# <scope>
+    test: will be available only under src/test/
+
+# spring-boot-starter-parent pom
+    manages the following dependencies with versions:
+        https://mvnrepository.com/artifact/org.springframework.boot
+        /spring-boot-starter-parent/2.1.1.RELEASE

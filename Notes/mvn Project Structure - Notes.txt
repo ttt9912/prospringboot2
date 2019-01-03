@@ -27,18 +27,3 @@ Pro Springboot 2
 
 	- use package names with chapter name for non confusing imports
 	- Keine 2 packages dürfen gleich heissen! Auch nicht in unterschiedlichen Modulen
-
------------------------------------------------------------------------------
-Dependencies
------------------------------------------------------------------------------
-# parent pom - dependencyManagement
-    defines: version
-    does not define: scope
-
-# module pom - dependencies
-
-# <scope>
-    test: will be available only under src/test/
-
-
-
