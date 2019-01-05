@@ -13,8 +13,9 @@
     <artifactId>ch3-springboot-features</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>app-configuration</module>
         <module>application</module>
+        <module>auto-configuration</module>
+        <module>args-and-properties</module>
     </modules>
 
     <dependencies>

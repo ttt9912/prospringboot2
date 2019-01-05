@@ -1,0 +1,43 @@
+-----------------------------------------------------------------------------
+Auto Configuration
+-----------------------------------------------------------------------------
+# @EnableAutoConfiguration - configures beans that the application likely
+needs based on the classpath, annotations and other configurations
+(@Enable<Technology>)
+
+# Auto Configuration Report (run with --debug)
+- Positive Matches - configurations that have been auto configured because
+  the requires classes (@ConditionalOnClass) are on the classpath
+- Negative Matches - not auto configured because of the classpath
+
+# List of all Spring Boot AutoConfigure classes
+  spring-boot-autoconfigure/META-INF/spring.factories
+
+-----------------------------------------------------------------------------
+Examples
+-----------------------------------------------------------------------------
+# @ConditionalOnClass
+DataSourceTransactionManagerAutoConfiguration will only
+be auto configured if JdbcTemplate and PlatformTransactionManager are on the
+classpath (i.e. if spring data is in the dependencies)
+    -
+    @Configuration
+    @ConditionalOnClass({ JdbcTemplate.class, PlatformTransactionManager.class })
+    @AutoConfigureOrder(Ordered.LOWEST_PRECEDENCE)
+    @EnableConfigurationProperties(DataSourceProperties.class)
+    public class DataSourceTransactionManagerAutoConfiguration{ ...
+    -
+
+# @ConditionalOnMissingBean
+bean is configured only if there is no other bean configured with the same name
+    -
+    @Bean
+    @ConditionalOnMissingBean
+    public RestTemplateBuilder restTemplateBuilder() {...
+    -
+
+# @ConditionalOnMissingBean({DataSource.class, XADataSource.class})
+bean is configured only if there is no bean of the given types
+
+# @Conditional({EmbeddedDatabaseCondition.class})
+bean is configured only if given class is on the classpath
