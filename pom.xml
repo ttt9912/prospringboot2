@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ch3-springboot-features</module>
+        <module>ch4-web</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
