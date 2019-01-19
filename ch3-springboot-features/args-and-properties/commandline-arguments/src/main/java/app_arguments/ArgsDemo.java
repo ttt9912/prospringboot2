@@ -15,16 +15,15 @@ import java.util.Arrays;
  * Beans have access to args
  * - args must be provided to the run() method
  *
- * # Provide args to mvn spring-boot:run command
+ * # Provide args via mvn spring-boot:run command
  *   mvn spring-boot:run -Dspring-boot.run.arguments="--enable"
  *   mvn spring-boot:run -Dspring-boot.run.arguments="arg1,arg2"
  *
- * # Provide args to run config
+ * # Provide args via run config
  *   Program Arguments: --enable
  *
- * # Provide args to JAR
+ * # Provide args via JAR
  *   java -jar app-arguments-0.0.1-SNAPSHOT.jar --enable arg1 arg2
- *
  *
  * # Override System Properties
  *   spring-boot:run -Dspring-boot.run.arguments=--server.port=8085
@@ -32,6 +31,12 @@ import java.util.Arrays;
  * # Note - maven arg. vs spring boot arg
  *   mvn spring-boot:run --debug                                -> maven in debug mode
  *   mvn spring-boot:run -Dspring-boot.run.arguments=--debug    -> springboot in debug mode
+ *
+ * # Accessing args in application.properties via SpEL
+ *   - appl.properties
+ *      -> server.port=${port:8082} // 8082 is the default
+ *   - mvn spring-boot:run -Dspring-boot.run.arguments="--port=8787"
+ *   - java -jar app-arguments-0.0.1-SNAPSHOT.jar --port=8787
  */
 @SpringBootApplication
 public class ArgsDemo {

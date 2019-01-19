@@ -1,0 +1,8 @@
+ResponseEntity
+    .ok()           -> BodyBuilder
+
+BodyBuilder
+    .build()        -> ResponseEntity
+
+HeadersBuilder
+    .build()        -> ResponseEntity

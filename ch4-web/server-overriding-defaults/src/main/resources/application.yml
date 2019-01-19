@@ -1,0 +1,9 @@
+#Server
+server:
+  port: 8088
+
+  # curl -I http://localhost:8080/my-app/api/todos
+  servlet:
+    context-path: /my-app
+
+    #manage the session

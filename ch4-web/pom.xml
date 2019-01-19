@@ -11,6 +11,13 @@
 
     <groupId>ch.ttt</groupId>
     <artifactId>ch4-web</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>server</module>
+        <module>client</module>
+        <module>server-overriding-defaults</module>
+        <module>server-https</module>
+    </modules>
 
     <dependencies>
         <dependency>

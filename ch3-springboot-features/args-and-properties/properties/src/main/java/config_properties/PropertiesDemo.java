@@ -28,7 +28,6 @@ import org.springframework.core.env.Environment;
  * # application.properties, application.yml
  * - data.server=remoteserver:3030
  * ---------------------------------------------------------------------------------------------------
- *
  * # Common application properties
  *   https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
  *
@@ -41,6 +40,7 @@ import org.springframework.core.env.Environment;
  * > mvn spring-boot:run -Dspring.config.name=mycfg -Dspring.config.location=classpath:app/
  * > java -jar properties-0.0.1-SNAPSHOT.jar --spring.config.name=mycfg --spring.config.location=classpath:app/
  * > SPRING_CONFIG_NAME=mycfg SPRING_CONFIG_LOCATION=classpath:app/ java -jar properties-0.0.1-SNAPSHOT.jar
+ *
  */
 @SpringBootApplication
 public class PropertiesDemo {

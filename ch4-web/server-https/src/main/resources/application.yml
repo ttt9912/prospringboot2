@@ -1,0 +1,15 @@
+#Server
+server:
+  port: 8078
+
+  # SSL
+  ssl:
+    key-store: classpath:keystore.p12 # path to the keystore containing the certificate
+    key-store-password: secret # password used to generate the certificate
+    key-password: secret
+    key-store-type: PKCS12 # optional - JKS or PKCS12
+    key-alias: tomcat # optional
+
+# If Spring Security is used: tell to require requests over HTTPS
+# security:
+#   require-ssl: true
