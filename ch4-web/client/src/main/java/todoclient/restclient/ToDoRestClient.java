@@ -14,6 +14,11 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.HashMap;
 
+/*
+ * RestTemplate - synchronous client side http access
+ * - exchange RequestEntity, ResponseEntity
+ * - provide request params in a map
+ */
 @Service
 public class ToDoRestClient {
     private final RestTemplate restTemplate;
@@ -30,8 +35,8 @@ public class ToDoRestClient {
      * - ResponseEntity = RestTemplate.exchange(RequestEntity)
      */
     public Iterable<ToDo> findAll() throws URISyntaxException {
-        RequestEntity<Iterable<ToDo>> requestEntity =
-                new RequestEntity<>(HttpMethod.GET, new URI(properties.getUrl() + properties.getBasePath()));
+        RequestEntity<Iterable<ToDo>> requestEntity = new RequestEntity<>(
+                HttpMethod.GET, new URI(properties.getUrl() + properties.getBasePath()));
 
         ResponseEntity<Iterable<ToDo>> response = restTemplate.exchange(requestEntity,
                 new ParameterizedTypeReference<Iterable<ToDo>>() {
@@ -45,12 +50,50 @@ public class ToDoRestClient {
 
     /*
      * - create a param Map
-     * - RestTemplate.getForObject(url, params)
+     * - Entity = RestTemplate.getForObject(url, params)
      */
     public ToDo findById(String id) {
         HashMap<String, String> params = new HashMap<>();
         params.put("id", id);
-        return restTemplate.getForObject(properties.getUrl() + properties.getBasePath() + "/{id}", ToDo.class,
-                params);
+        return restTemplate.getForObject(
+                properties.getUrl() + properties.getBasePath() + "/{id}", ToDo.class, params);
+    }
+
+    /*
+     * POST
+     */
+    public ToDo upsert(ToDo toDo) throws URISyntaxException {
+        RequestEntity<?> requestEntity = new RequestEntity<>(
+                toDo, HttpMethod.POST, new URI(properties.getUrl() + properties.getBasePath()));
+
+        ResponseEntity<Iterable<ToDo>> response = restTemplate.exchange(requestEntity,
+                new ParameterizedTypeReference<Iterable<ToDo>>() {
+                });
+
+        if (response.getStatusCode() == HttpStatus.CREATED) {
+            return restTemplate.getForObject(response.getHeaders().getLocation(), ToDo.class);
+        }
+        return null;
+    }
+
+    /*
+     * PUT
+     * - method=patch
+     */
+    public ToDo setCompleted(String id) throws URISyntaxException {
+        HashMap<String, String> params = new HashMap<>();
+        params.put("id", id);
+
+        restTemplate.postForObject(properties.getUrl() + properties.getBasePath()
+                + "/{id}?_method=patch", null, ResponseEntity.class, params);
+
+        return findById(id);
+    }
+
+    public void delete(String id) {
+        HashMap<String, String> params = new HashMap<>();
+        params.put("id", id);
+
+        restTemplate.delete(properties.getUrl() + properties.getBasePath() + "/{id}", params);
     }
 }
