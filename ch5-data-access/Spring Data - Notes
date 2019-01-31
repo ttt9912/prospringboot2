@@ -1,0 +1,15 @@
+-----------------------------------------------------------------------------
+Spring Data
+-----------------------------------------------------------------------------
+- handles connections (open, close, pooling), transactions, etc.
+- uses DataSource
+- template design pattern: easy way to interact with the frameworks
+
+# Spring Data JDBC
+
+# Spring Data JPA
+
+
+
+
+

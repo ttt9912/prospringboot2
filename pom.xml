@@ -6,6 +6,7 @@
     <modules>
         <module>ch3-springboot-features</module>
         <module>ch4-web</module>
+        <module>ch5-data-access</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,18 +24,15 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+
     <!--
         dependency management - most dependency versions are managed in
         spring-boot-starter-parent pom
     -->
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
