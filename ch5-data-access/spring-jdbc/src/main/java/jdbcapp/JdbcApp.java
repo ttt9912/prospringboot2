@@ -1,7 +1,12 @@
 package jdbcapp;
 
+import jdbcapp.data.ToDoRepository;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import javax.sql.DataSource;
 
 /*
  * ---------------------------------------------------------------------------------
@@ -30,12 +35,33 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * ---------------------------------------------------------------------------------
  * schema.sql, data.sql are executed automatically if present on the classpath
  *
+ * ---------------------------------------------------------------------------------
+ * H2 Console
+ * ---------------------------------------------------------------------------------
+ * - spring.h2.console.enabled=true
+ *
+ * - http://localhost:8080/h2-console
+ *      -> URL = jdbc:h2:mem:testdb (important)
+ *
+ * ---------------------------------------------------------------------------------
+ * Log JDBC SQL
+ * ---------------------------------------------------------------------------------
+ * logging.level.org.springframework.data=INFO
+ * logging.level.org.springframework.jdbc.core.JdbcTemplate=DEBUG
  */
 @SpringBootApplication
 public class JdbcApp {
     public static void main(String[] args) {
-        SpringApplication.run(JdbcApp.class, args)
-                .close();
+        SpringApplication.run(JdbcApp.class, args);
     }
 
+    @Bean
+    CommandLineRunner getInfo(DataSource dataSource) {
+        return args -> System.out.println("# Datasource info: " + dataSource.getConnection());
+    }
+
+    @Bean
+    CommandLineRunner getData(ToDoRepository repository) {
+        return args -> System.out.println("# ToDos: " + repository.findAll());
+    }
 }

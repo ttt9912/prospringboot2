@@ -1,23 +1,31 @@
 package jdbcapp.data;
 
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import java.sql.ResultSet;
 import java.time.LocalDateTime;
-import java.util.Collection;
-import java.util.Comparator;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /*
  * -------------------------------------------------------------------------------
  * Spring JDBC Data Access
  * -------------------------------------------------------------------------------
- * # JdbcTemplate - query, queryForObject, update, execute
+ * # JdbcTemplate
+ *      - query
+ *      - queryForObject
+ *      - update
+ *      - execute
+ *
  * # NamedParameterJdbcTemplate - ':param'
+ *
  * # SimpleJdbcCall - call stored procedures
+ *
  * # RowMapper - mappinf rows of the ResultSet
  */
 @Repository
@@ -42,39 +50,59 @@ public class ToDoRepository {
     /*
      * RowMapper implementation - map ResultSet to Entity
      */
-    private RowMapper<ToDo> rowMapper = null;
+    private RowMapper<ToDo> toDoRowMapper = (ResultSet rs, int row) -> new ToDo(
+            rs.getString("id"),
+            rs.getString("description"),
+            rs.getTimestamp("created").toLocalDateTime(),
+            rs.getTimestamp("modified").toLocalDateTime(),
+            rs.getBoolean("completed")
+    );
 
-    public Collection<ToDo> findAll() {
-        return toDoCache.entrySet().stream()
-                .map(Map.Entry::getValue)
-                .sorted(Comparator.comparing(ToDo::getCreated))
-                .collect(Collectors.toList());
-    }
-
-    public ToDo findById(final String id) {
-        return toDoCache.get(id);
-    }
-
-    // create or update
-    public ToDo save(final ToDo toDo) {
-        final ToDo existing = toDoCache.get(toDo.getId());
-        if (existing == null) {
-            toDoCache.put(toDo.getId(), toDo);
-            return toDo;
+    /*
+     * queryForObject - with RowMapper argument
+     */
+    public ToDo findById(String id) {
+        try {
+            Map<String, String> namedParameters = Collections.singletonMap("id", id);
+            return this.namedParameterJdbcTemplate.queryForObject(SQL_FIND_BY_ID,
+                    namedParameters, toDoRowMapper);
+        } catch (EmptyResultDataAccessException ex) {
+            return null;
         }
-        existing.setDescription(toDo.getDescription());
-        existing.setModified(LocalDateTime.now());
-        existing.setCompleted(toDo.getCompleted());
-        return existing;
     }
 
-    public Collection<ToDo> saveAll(final Collection<ToDo> toDos) {
-        toDos.forEach(this::save);
-        return findAll();
+    public Iterable<ToDo> findAll() {
+        return this.jdbcTemplate.query(SQL_FIND_ALL, toDoRowMapper);
     }
 
-    public void delete(ToDo toDo) {
-        toDoCache.remove(toDo);
+    public void delete(final ToDo domain) {
+        Map<String, String> namedParameters = Collections.
+                singletonMap("id", domain.getId());
+        this.jdbcTemplate.update(SQL_DELETE, namedParameters);
     }
 
+    public ToDo save(final ToDo toDo) {
+        ToDo result = findById(toDo.getId());
+        if (result != null) {
+            result.setDescription(toDo.getDescription());
+            result.setCompleted(toDo.getCompleted());
+            result.setModified(LocalDateTime.now());
+            return upsert(result, SQL_UPDATE);
+        }
+        return upsert(toDo, SQL_INSERT);
+    }
+
+    /*
+     * NamedParameterJdbcTemplate - update
+     */
+    private ToDo upsert(final ToDo toDo, final String sql) {
+        Map<String, Object> namedParameters = new HashMap<>();
+        namedParameters.put("id", toDo.getId());
+        namedParameters.put("description", toDo.getDescription());
+        namedParameters.put("created", java.sql.Timestamp.valueOf(toDo.getCreated()));
+        namedParameters.put("modified", java.sql.Timestamp.valueOf(toDo.getModified()));
+        namedParameters.put("completed", toDo.getCompleted());
+        this.namedParameterJdbcTemplate.update(sql, namedParameters);
+        return findById(toDo.getId());
+    }
 }
