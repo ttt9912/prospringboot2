@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------
+Non-Relational Data Models
+---------------------------------------------------------------------------------
+- Column (Cassandra, HBase, etc.)
+- Document (CouchDB, MongoDB, etc.)
+- Key-Value (Redis, Riak, etc.)
+- Graph (Neo4j, Virtuoso, etc.)
+- Multimodel (OrientDB, ArangoDB, etc.)
