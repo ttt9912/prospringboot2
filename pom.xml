@@ -7,6 +7,7 @@
         <module>ch3-springboot-features</module>
         <module>ch4-web</module>
         <module>ch5-data-access</module>
+        <module>ch6-webflux</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
