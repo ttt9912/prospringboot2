@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------
+Reactive Streams
+---------------------------------------------------------------------------------
+- flexible, loosely coupled, scalable, deal with failure and avoid disaster
+
+Publisher<T>, Subscriber<T>, Subscription, Processor
+
+# Implementations
+RxJava, Akka, Reactor, JDK9
+
+# Reactive Programming
+alternative of async code in the JDK (callbacks, APIs, Future<V>)
+
+---------------------------------------------------------------------------------
+Project Reactor
+---------------------------------------------------------------------------------
+- supports reactive streams back pressure
+- has a transitive dependency on reactive-streams
