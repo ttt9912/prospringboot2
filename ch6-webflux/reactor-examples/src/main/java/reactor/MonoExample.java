@@ -9,13 +9,14 @@ import reactor.data.ToDo;
 import java.time.Duration;
 
 /*
- * MonoProcessor - processor is both publisher and subscriber
- * one can subscribe to a processor but also inject items
- *
- * Mono<T> - is a specialized Publisher<T>
+ * Mono<T> - is a Publisher<T>
  * - emits one item
  * - can apply operations to manipulate the item
  * - terminates with onComplete() or onError()
+ *
+ * MonoProcessor - processor is both publisher and subscriber
+ * one can subscribe to a processor but also inject items
+ * - onNext() emits an item
  *
  * Scheduler - subscribeOn(Scheduler) - subscribes to the mono
  * and requests unbounded demand on a Scheduler worker
@@ -35,7 +36,7 @@ public class MonoExample {
                 .doOnError(throwable -> System.out.printf("Error >> %s", throwable.getMessage()))
                 .subscribeOn(Schedulers.single());
 
-        promise.onNext(new ToDo("feed dog"));
+        promise.onNext(new ToDo("feed dog", false));
 
         result.block(Duration.ofMillis(1000));
     }

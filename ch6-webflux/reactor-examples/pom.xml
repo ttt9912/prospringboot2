@@ -12,7 +12,6 @@
     <groupId>ch.ttt</groupId>
     <artifactId>reactor-examples</artifactId>
 
-    <!--  -->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -30,6 +29,7 @@
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-core</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>

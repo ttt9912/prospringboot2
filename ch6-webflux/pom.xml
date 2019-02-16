@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>webflux</module>
-        <module>reactive-data</module>
         <module>reactor-examples</module>
+        <module>data-mongodb</module>
     </modules>
 </project>
