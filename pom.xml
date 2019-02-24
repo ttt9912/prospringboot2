@@ -8,7 +8,7 @@
         <module>ch4-web</module>
         <module>ch5-data-access</module>
         <module>ch6-webflux</module>
-        <module>ch7-testing</module>
+        <module>ch7-tests</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

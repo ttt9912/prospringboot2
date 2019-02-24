@@ -1,0 +1,23 @@
+-----------------------------------------------------------------------------
+Turn on Spring Boot Debug Logging
+-----------------------------------------------------------------------------
+- logging.level.org.springframework: DEBUG
+- mvn spring-boot:run -Dspring-boot.run.arguments=--debug
+
+-----------------------------------------------------------------------------
+Set log level (application.properties)
+-----------------------------------------------------------------------------
+logging.level.root=WARN
+logging.level.org.springframework.web=DEBUG
+logging.level.org.hibernate=ERROR
+
+-----------------------------------------------------------------------------
+Set log level (application.properties)
+-----------------------------------------------------------------------------
+Stanard Tests ignore application.properties
+
+Solutions:
+(a) create 'src/test/resources/application.properties'
+    and define log level there
+or
+(b) use @SpringBootTest

@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------------
+Spring Testing Framework
+---------------------------------------------------------------------------------
+
+# Unit Testing
+spring provides several mock objects to help testing in isolation
+- Environment, PropertySource, JNDI, Servlet
+- Reactive: ServerHttpRequest, ServerHttpResponse
+
+# Integration Testing
+spring provides
+- managing Spring Ioc container - DI of test instances
+- transaction management
+- base classes
+
+---------------------------------------------------------------------------------
+spring-boot-starter-test
+---------------------------------------------------------------------------------
+provides several testing frameworks
+- JUnit, Hamcrest
+- AssertJ
+- Mockito
+- JsonPath, JsonAssert

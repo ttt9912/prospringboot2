@@ -1,5 +1,0 @@
------------------------------------------------------------------------------
-# Turn on Spring Boot Debug Logging
------------------------------------------------------------------------------
-- logging.level.org.springframework: DEBUG
-- mvn spring-boot:run -Dspring-boot.run.arguments=--debug
