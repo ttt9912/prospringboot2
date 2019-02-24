@@ -25,7 +25,7 @@ public class MockBeanTest {
     @MockBean
     private ToDoRepository repository;
 
-    private List<ToDo> mockData = Collections.singletonList(new ToDo("wash car"));
+    private List<ToDo> mockData = Collections.singletonList(new ToDo("id1", "read book", null, null, false));
 
     @Test
     public void getToDos() {
