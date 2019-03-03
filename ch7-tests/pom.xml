@@ -14,5 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>web-endpoint-tests</module>
+        <module>webflux-tests</module>
+        <module>data-jpa-tests</module>
     </modules>
 </project>

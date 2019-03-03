@@ -1,7 +1,7 @@
 package ch.webapp;
 
 import ch.webapp.data.ToDo;
-import org.assertj.core.util.Files;
+import ch.webapp.util.FileAsStringReader;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,9 +10,7 @@ import org.springframework.boot.test.json.JacksonTester;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.charset.Charset;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -43,8 +41,7 @@ public class JsonTestTest {
 
     @Test
     public void deserializeTodos() throws IOException {
-        File file = new ClassPathResource("read-book.json").getFile();
-        String content = Files.contentOf(file, Charset.defaultCharset());
+        String content = FileAsStringReader.readFile("read-book.json");
 
         assertThat(json.parse(content))
                 .isEqualTo(new ToDo("id1", "read book", null, null, false));

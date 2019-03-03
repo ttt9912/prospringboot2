@@ -14,7 +14,7 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 /*
  * Functional endpoint
  *
- * Alternative: use annotated controllers like spring web
+ * Alternative: use annotated controllers like spring web (--> see 'webflux-tests' module)
  */
 @Configuration
 public class ToDoRoutingConfig {

@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------
+Get File content as String (Tests)
+---------------------------------------------------------------------------------
+File file = new ClassPathResource("read-book.json").getFile();
+String content = Files.contentOf(file, Charset.defaultCharset());
+
