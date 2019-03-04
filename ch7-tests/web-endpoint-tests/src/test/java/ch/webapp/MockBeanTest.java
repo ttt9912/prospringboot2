@@ -33,6 +33,6 @@ public class MockBeanTest {
 
         assertThat(repository.findAll()).hasSize(1);
         assertThat(repository.findAll().get(0))
-                .extracting(ToDo::getDescription).isEqualTo("wash car");
+                .extracting(ToDo::getDescription).isEqualTo("read book");
     }
 }
