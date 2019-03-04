@@ -1,4 +1,4 @@
-package ch.webapp;
+package jdbcapp;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -10,12 +10,10 @@ import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-public class TodoApp {
-
+public class JdbcApp {
     public static void main(String[] args) {
-        SpringApplication.run(TodoApp.class, args);
+        SpringApplication.run(JdbcApp.class, args);
     }
-
 
     @Bean
     CommandLineRunner showBeans(ApplicationContext context) {

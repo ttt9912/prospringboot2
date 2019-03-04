@@ -1,7 +1,7 @@
 package ch.webapp;
 
 import ch.webapp.data.ToDo;
-import ch.webapp.data.ToDoRepository;
+import ch.webapp.data.ToDoService;
 import ch.webapp.service.TodoController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -34,7 +34,7 @@ public class WebMvcTestTest {
     private MockMvc mockMvc;
 
     @MockBean
-    private ToDoRepository repository;
+    private ToDoService repository;
 
 
     @Test

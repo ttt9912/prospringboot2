@@ -16,5 +16,8 @@
         <module>web-endpoint-tests</module>
         <module>webflux-tests</module>
         <module>data-jpa-tests</module>
+        <module>data-jdbc-tests</module>
+        <module>data-mongo-test</module>
+        <module>rest-client-test</module>
     </modules>
 </project>

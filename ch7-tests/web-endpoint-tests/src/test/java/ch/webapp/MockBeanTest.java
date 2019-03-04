@@ -1,7 +1,7 @@
 package ch.webapp;
 
 import ch.webapp.data.ToDo;
-import ch.webapp.data.ToDoRepository;
+import ch.webapp.data.ToDoService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,7 +23,7 @@ import static org.mockito.BDDMockito.given;
 public class MockBeanTest {
 
     @MockBean
-    private ToDoRepository repository;
+    private ToDoService repository;
 
     private List<ToDo> mockData = Collections.singletonList(new ToDo("id1", "read book", null, null, false));
 

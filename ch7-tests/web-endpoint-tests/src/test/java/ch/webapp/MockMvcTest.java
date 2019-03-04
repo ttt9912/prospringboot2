@@ -33,6 +33,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest // default WebEnvironment = MOCK
 @AutoConfigureMockMvc
 public class MockMvcTest {
+
     @Autowired
     private MockMvc mockMvc;
 
