@@ -18,8 +18,6 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @JdbcTest
  * - auto-configures in-memory database
  * - JdbcTemplate
- *
- *
  */
 @RunWith(SpringRunner.class)
 @JdbcTest

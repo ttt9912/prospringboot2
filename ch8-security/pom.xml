@@ -11,6 +11,10 @@
 
     <groupId>ch.ttt</groupId>
     <artifactId>ch8-security</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>basic-security</module>
+    </modules>
 
 
 </project>
