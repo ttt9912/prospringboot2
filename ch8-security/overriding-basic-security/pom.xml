@@ -11,6 +11,9 @@
 
     <groupId>ch.ttt</groupId>
     <artifactId>overriding-basic-security</artifactId>
-
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>with-properties</module>
+        <module>with-configuration</module>
+    </modules>
 </project>
