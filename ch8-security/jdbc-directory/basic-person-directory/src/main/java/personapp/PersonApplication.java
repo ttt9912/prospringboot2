@@ -1,30 +1,28 @@
-package todoapp;
+package personapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*
- * override simple security programmatically by extending WebSecurityConfigureAdapter
+ * - all REST endpoints (/**) are secured
+ * - users, passwords, roles are defined as Person objects and converted to Spring Users
  *
  * ---------------------------------------------------------------------------------
  * Browser
  * ---------------------------------------------------------------------------------
- * Secured URLs
- * - localhost:8080
- * - localhost:8080/api/toDos
- * are redirected to localhost:8080/login
+ * - http://localhost:8080/persons
+ * - http://localhost:8080/persons/search/findByEmailIgnoreCase?email=mark@example.com
+ * - use any of the Person objects access data
  *
  * ---------------------------------------------------------------------------------
  * curl
  * ---------------------------------------------------------------------------------
- * Problem: -i flag tells that we are redirected to /login
- * Solution: add .httpBasic() to ToDoSecurityConfig to be able to bypass login page
+ * curl localhost:8080/persons -i -u admin@example.com:admin
  *
- * curl localhost:8080/api/toDos -i -u apress:springboot2
  */
 @SpringBootApplication
-public class TodoApp {
+public class PersonApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TodoApp.class, args);
+        SpringApplication.run(PersonApplication.class, args);
     }
 }

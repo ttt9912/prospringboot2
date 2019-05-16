@@ -17,6 +17,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Allows hooking into the handling of REST requests by handling Spring
  * ApplicationEvents
  *
+ * Creates Endpoints for
+ * - Entities (http://localhost:8080/persons)
+ * - Repository Methods (http://localhost:8080/persons/search/findByEmailIgnoreCase?email=mark@example.com)
+ *      -> see ch8-security/.../PersonRepository
+ *
  * ---------------------------------------------------------------------------------
  *  Spring Boot Auto Configuration
  * ---------------------------------------------------------------------------------
