@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>basic-person-directory</artifactId>
+    <artifactId>todoapp-with-users</artifactId>
 
     <dependencies>
         <dependency>
@@ -40,4 +40,5 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
     </dependencies>
+
 </project>

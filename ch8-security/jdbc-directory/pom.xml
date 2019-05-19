@@ -13,8 +13,8 @@
     <artifactId>jdbc-directory</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>basic-person-directory</module>
-        <module>todo-app-with-directory</module>
+        <module>person-directory</module>
+        <module>todoapp-with-users</module>
     </modules>
 
 

@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*
  * override simple security with 'spring.security.*' properties
+ *
+ *
  */
 @SpringBootApplication
 public class TodoApp {
