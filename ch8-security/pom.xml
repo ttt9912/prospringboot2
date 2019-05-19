@@ -16,6 +16,7 @@
         <module>basic-security</module>
         <module>overriding-basic-security</module>
         <module>jdbc-directory</module>
+        <module>oauth2-github</module>
     </modules>
 
 

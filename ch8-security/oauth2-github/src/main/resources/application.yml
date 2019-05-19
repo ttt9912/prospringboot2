@@ -1,0 +1,27 @@
+spring:
+
+  # JPA
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+  # H2-Console: http://localhost:8080/h2-console
+  # jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+
+  # OAuth2
+  security:
+    oauth2:
+      client:
+        registration:
+          todo:
+            client-id: 00079f142a10e3e34424
+            client-secret: 57c58904b624ddfd462ae18e65cf03fd86bcf569
+            client-name: ToDo App withGitHub Authentication
+            provider: github
+            scope: user
+            redirect-uri-template: http://localhost:8080/login/oauth2/code/github

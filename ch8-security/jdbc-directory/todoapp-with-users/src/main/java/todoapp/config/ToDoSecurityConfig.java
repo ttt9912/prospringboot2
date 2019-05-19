@@ -16,6 +16,10 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import todoapp.directory.integration.Person;
 import todoapp.directory.integration.PersonDirectoryService;
 
+/*
+ * AuthenticationManager is configured to provide a UserDetails instance by
+ * calling the directory app using RestTemplate (PersonDirectoryService).
+ */
 @Slf4j
 @Configuration
 public class ToDoSecurityConfig extends WebSecurityConfigurerAdapter {

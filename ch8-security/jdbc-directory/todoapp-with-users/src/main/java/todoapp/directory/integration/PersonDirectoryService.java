@@ -13,6 +13,8 @@ import java.net.URI;
 
 /*
  * connect to person-directory and load username
+ *
+ * Directory app responds with a HAL+JSON protocol
  */
 @Slf4j
 @Service
