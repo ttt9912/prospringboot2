@@ -10,15 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>ch8-security</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>basic-security</module>
-        <module>overriding-basic-security</module>
-        <module>jdbc-directory</module>
-        <module>oauth2-github</module>
-        <module>oauth2-facebook</module>
-    </modules>
+    <artifactId>ch9-messaging</artifactId>
 
 
 </project>

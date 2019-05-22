@@ -10,6 +10,7 @@
         <module>ch6-webflux</module>
         <module>ch7-tests</module>
         <module>ch8-security</module>
+        <module>ch9-messaging</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

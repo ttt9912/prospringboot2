@@ -12,6 +12,28 @@ Spring Security
 - UserDetailService
 
 ---------------------------------------------------------------------------------
+Auto Configuration
+---------------------------------------------------------------------------------
+security-starter-dependency: includes SecurityAutoConfiguration which sets up
+basic Authentication for the Application with username and generated password
+
+# Override
+    spring.security.user.name
+    spring.security.user.password
+
+# Disable
+    @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
+  or
+    spring.autoconfigure.exclude=
+        org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration
+
+---------------------------------------------------------------------------------
+@EnableWebSecurity
+---------------------------------------------------------------------------------
+@EnableWebSecurity - is needed if we disable the default security configuration
+otherwise it's not needed
+
+---------------------------------------------------------------------------------
 Identity provider systems
 ---------------------------------------------------------------------------------
 OAuth, LDAP, Active Directory, Kerberos, PAM
