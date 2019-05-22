@@ -17,7 +17,7 @@
         <module>overriding-basic-security</module>
         <module>jdbc-directory</module>
         <module>oauth2-github</module>
-        <module>oauth2-facebook</module>
+        <module>oauth2-facebook-sso</module>
     </modules>
 
 
