@@ -1,0 +1,21 @@
+https://spring.io/guides/tutorials/spring-boot-oauth2/
+
+---------------------------------------------------------------------------------
+Authorization Server = Facebook
+---------------------------------------------------------------------------------
+SocialApplicationSimple uses the authorization code grant (https://tools.ietf.org/html/rfc6749#section-4)
+to obtain an access token from Facebook.
+
+---------------------------------------------------------------------------------
+Resource Server = Facebook
+---------------------------------------------------------------------------------
+After authorization, the App uses the access token to ask Facebook for some
+personal details (only what you permitted it to do), including your login ID and
+your name. In this phase facebook is acting as a Resource Server.
+
+---------------------------------------------------------------------------------
+SSO
+---------------------------------------------------------------------------------
+If you stay logged into Facebook, you won’t have to re-authenticate
+with this local app, even if you open it in a fresh browser with no cookies
+and no cached data.

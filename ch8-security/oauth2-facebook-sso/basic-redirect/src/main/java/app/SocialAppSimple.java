@@ -7,12 +7,6 @@ import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth
 /*
  * https://spring.io/guides/tutorials/spring-boot-oauth2/#_social_login_simple
  *
- * Facebook as Authentication Provider
- *
- * SSO: If you stay logged into Facebook, you won’t have to re-authenticate
- *  with this local app, even if you open it in a fresh browser with no cookies
- *  and no cached data.
- *
  * ---------------------------------------------------------------------------------
  * Register app on Facebook
  * ---------------------------------------------------------------------------------
@@ -24,15 +18,15 @@ import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth
  * run
  * ---------------------------------------------------------------------------------
  * 1. go to localhost:8080
- * 2. will be redirected to Facebook to login with Facebook account
+ * 2. will directly redirect to Facebook to login with Facebook account
  * 3. after login, redirected to localhost:8080
  *
  */
 @SpringBootApplication
 @EnableOAuth2Sso // make the link to Facebook, delegate login to Facebook (OAuth2)
-public class SocialApplicationSimple {
+public class SocialAppSimple {
     public static void main(String[] args) {
-        SpringApplication.run(SocialApplicationSimple.class, args);
+        SpringApplication.run(SocialAppSimple.class, args);
     }
 
 }
