@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>oauth2-facebook-sso</artifactId>
+        <artifactId>hosting-the-authorization-server</artifactId>
         <groupId>ch.ttt</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>basic-redirect</artifactId>
+    <artifactId>oauth-client</artifactId>
 
     <dependencies>
         <dependency>
@@ -18,7 +18,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Security -->
+        <!-- security -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
@@ -29,7 +29,7 @@
             <version>2.1.5.RELEASE</version>
         </dependency>
 
-        <!-- Frontend -->
+        <!-- frontend -->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
@@ -40,9 +40,6 @@
             <artifactId>bootstrap</artifactId>
             <version>3.2.0</version>
         </dependency>
-        <!--
-            used by Spring to locate static assets in webjars
-            without needing to know the exact versions -->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>webjars-locator-core</artifactId>

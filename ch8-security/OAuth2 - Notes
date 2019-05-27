@@ -1,0 +1,31 @@
+---------------------------------------------------------------------------------
+Roles
+---------------------------------------------------------------------------------
+1. Resource Owner - yourself
+2. Resource Server - hosting protected data (e.g. profile & personal information)
+3. Client - application requesting access to a resource server
+4. Authorization Server - issuing access token to the client, this token will be
+    used for the client to request the resource server
+
+Authorization Server & Resource Server can be the same application
+(often the case)
+
+---------------------------------------------------------------------------------
+Grant Types
+---------------------------------------------------------------------------------
+# Authorization Code
+- signing into an application using Facebook or Google account
+- authorization server returns an authorization code which is exchanged for an
+  access token
+
+# Password
+- intended to be used for user-agent-based clients (e.g. single page web apps)
+- authorization server returns an access token
+
+# Client credentials
+
+# Implicit (flow)
+- simplified authorization code flow optimized for clients implemented in a
+  browser using a scripting language such as JavaScript
+- instead of issuing the client an authorization code, the client is issued an
+  access token directly

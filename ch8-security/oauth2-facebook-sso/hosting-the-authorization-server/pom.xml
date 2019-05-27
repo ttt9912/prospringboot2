@@ -3,19 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ch8-security</artifactId>
+        <artifactId>oauth2-facebook-sso</artifactId>
         <groupId>ch.ttt</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>oauth2-facebook-sso</artifactId>
+    <artifactId>hosting-the-authorization-server</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>basic-redirect</module>
-        <module>basic-welcome-logout-pages</module>
-        <module>manual-oauth2-client-config</module>
-        <module>hosting-the-authorization-server</module>
+        <module>authorization-server</module>
+        <module>oauth-client</module>
     </modules>
+
 </project>

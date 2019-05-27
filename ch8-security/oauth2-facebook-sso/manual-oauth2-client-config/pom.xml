@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>basic-redirect</artifactId>
+    <artifactId>manual-oauth2-client-config</artifactId>
 
     <dependencies>
         <dependency>
@@ -41,12 +41,17 @@
             <version>3.2.0</version>
         </dependency>
         <!--
-            used by Spring to locate static assets in webjars
+            used by Spring to locate public assets in webjars
             without needing to know the exact versions -->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>webjars-locator-core</artifactId>
         </dependency>
+        <!-- CSRF with jQuery -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>js-cookie</artifactId>
+            <version>2.1.0</version>
+        </dependency>
     </dependencies>
-
 </project>
