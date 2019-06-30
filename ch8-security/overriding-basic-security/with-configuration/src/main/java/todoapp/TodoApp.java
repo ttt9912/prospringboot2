@@ -1,7 +1,9 @@
 package todoapp;
 
+import common.todo.data.rest.CommonTodoDataRestConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
 
 /*
  * override simple security programmatically by extending WebSecurityConfigureAdapter
@@ -11,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * ---------------------------------------------------------------------------------
  * Secured URLs
  * - localhost:8080
- * - localhost:8080/api/toDos
+ * - localhost:8080/api/todos
  * are redirected to localhost:8080/login
  *
  * ---------------------------------------------------------------------------------
@@ -20,9 +22,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Problem: -i flag tells that we are redirected to /login
  * Solution: add .httpBasic() to ToDoSecurityConfig to be able to bypass login page
  *
- * curl localhost:8080/api/toDos -i -u apress:springboot2
+ * curl localhost:8080/api/todos -i -u apress:springboot2
  */
 @SpringBootApplication
+@Import(CommonTodoDataRestConfig.class)
 public class TodoApp {
     public static void main(String[] args) {
         SpringApplication.run(TodoApp.class, args);

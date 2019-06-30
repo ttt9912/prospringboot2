@@ -1,16 +1,19 @@
 package ch.datajpaapp;
 
+import common.todo.data.jpa.CommonTodoDataJpaConfig;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Import;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
+@Import(CommonTodoDataJpaConfig.class)
 public class DataJpaApp {
     public static void main(String[] args) {
         SpringApplication.run(DataJpaApp.class, args);

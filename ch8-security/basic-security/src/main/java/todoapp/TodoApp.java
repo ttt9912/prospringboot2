@@ -1,7 +1,9 @@
 package todoapp;
 
+import common.todo.data.rest.CommonTodoDataRestConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
 
 /*
  * spring-boot-starter-security
@@ -19,10 +21,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * ---------------------------------------------------------------------------------
  * curl
  * ---------------------------------------------------------------------------------
- * curl localhost:8080/api/toDos -u user:<password>
+ * curl localhost:8080/api/todos -u user:<password>
  *
  */
 @SpringBootApplication
+@Import(CommonTodoDataRestConfig.class)
 public class TodoApp {
     public static void main(String[] args) {
         SpringApplication.run(TodoApp.class, args);

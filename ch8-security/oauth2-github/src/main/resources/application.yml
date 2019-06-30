@@ -1,18 +1,4 @@
 spring:
-
-  # JPA
-  jpa:
-    generate-ddl: true
-    show-sql: true
-    hibernate:
-      ddl-auto: create-drop
-
-  # H2-Console: http://localhost:8080/h2-console
-  # jdbc:h2:mem:testdb
-  h2:
-    console:
-      enabled: true
-
   # OAuth2
   security:
     oauth2:

@@ -10,11 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>ch9-messaging</artifactId>
+    <artifactId>common-todo</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>jms-activemq</module>
+        <module>common-todo-data-jpa</module>
+        <module>common-todo-data-rest</module>
     </modules>
-
-
 </project>

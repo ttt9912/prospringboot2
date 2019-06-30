@@ -1,8 +1,8 @@
 package ch.datajpaapp;
 
-import ch.datajpaapp.data.RepositoryUtil;
-import ch.datajpaapp.data.ToDo;
-import ch.datajpaapp.data.ToDoRepository;
+import common.todo.data.jpa.todo.Todo;
+import common.todo.data.jpa.todo.TodoRepository;
+import common.todo.data.jpa.util.RepositoryUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,6 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -30,14 +29,14 @@ public class DataJpaTestTest {
     private TestEntityManager em;
 
     @Autowired
-    private ToDoRepository repository;
+    private TodoRepository repository;
 
     @Test
     public void dataJpaTest() {
-        em.merge(new ToDo("1a", "drink water", LocalDateTime.now(), LocalDateTime.now(), false));
+        em.merge(new Todo("drink water"));
 
-        List<ToDo> toDos = RepositoryUtil.toList(repository.findAll());
+        List<Todo> todos = RepositoryUtil.toList(repository.findAll());
 
-        assertThat(toDos.get(0)).extracting(ToDo::getDescription).isEqualTo("drink water");
+        assertThat(todos).extracting(Todo::getDescription).contains("drink water");
     }
 }
