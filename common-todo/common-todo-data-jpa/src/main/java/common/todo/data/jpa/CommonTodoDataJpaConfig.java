@@ -26,7 +26,7 @@ import org.springframework.context.annotation.PropertySource;
 public class CommonTodoDataJpaConfig {
 
     @Bean
-    CommandLineRunner run(TodoRepository toDoRepository) {
+    CommandLineRunner logInsertedTodos(TodoRepository toDoRepository) {
         return args -> {
             log.info("inserted ToDos {}", toDoRepository.findAll());
             log.info("Todos containing 'Buy': {}", toDoRepository.findByDescriptionContaining("Buy"));

@@ -1,4 +1,6 @@
 package common.todo.data.jpa.todo;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
@@ -11,6 +13,7 @@ import java.time.LocalDateTime;
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class Todo {
 
     @Id
@@ -29,10 +32,7 @@ public class Todo {
 
     public Todo(final String description) {
         this.description = description;
-    }
-
-    @PrePersist
-    void onCreate() {
+        this.setCompleted(false);
         this.setCreated(LocalDateTime.now());
         this.setModified(LocalDateTime.now());
     }
