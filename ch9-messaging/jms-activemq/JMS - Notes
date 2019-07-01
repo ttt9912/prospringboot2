@@ -1,13 +1,16 @@
 ---------------------------------------------------------------------------------
-Messaging
+MQ Server
 ---------------------------------------------------------------------------------
-- enables distributed communication
-- must be loosely coupled
+- Message oriented Middleware
 
 ---------------------------------------------------------------------------------
-Technologies / Implementations
+Point to Point pattern
 ---------------------------------------------------------------------------------
-- JMS / ActiveMQ, HornetQ
-- AMQP / RabbitMQ
-- Pub Sub / Redis
-- STOMP / Websockets
+- Queue
+- delivers to exactly one consumer
+
+---------------------------------------------------------------------------------
+Pub/Sub pattern
+---------------------------------------------------------------------------------
+- Topic
+- delivers to all subscribers

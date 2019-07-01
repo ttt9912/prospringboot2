@@ -16,6 +16,7 @@
         <module>springboot-in-memory-activemq</module>
         <module>jms-point-to-point</module>
         <module>jms-pub-sub</module>
+        <module>remote-activemq</module>
     </modules>
 
 
