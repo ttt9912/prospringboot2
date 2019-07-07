@@ -15,6 +15,6 @@
     <modules>
         <module>webflux</module>
         <module>reactor-examples</module>
-        <module>data-mongodb</module>
+        <module>reactive-data-mongodb</module>
     </modules>
 </project>
