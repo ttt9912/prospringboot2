@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>amqp-default-exchange</artifactId>
+    <artifactId>amqp-direct-exchange</artifactId>
 
     <dependencies>
         <dependency>

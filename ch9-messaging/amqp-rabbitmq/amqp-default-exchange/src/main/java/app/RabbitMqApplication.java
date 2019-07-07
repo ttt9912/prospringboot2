@@ -1,6 +1,6 @@
 package app;
 
-import app.producer.TodoProducer;
+import app.producer.TodoRabbitProducer;
 import common.todo.data.jpa.todo.TodoRepository;
 import common.todo.data.rest.CommonTodoDataRestConfig;
 import org.springframework.beans.factory.annotation.Value;
@@ -45,7 +45,7 @@ public class RabbitMqApplication {
     }
 
     @Bean
-    public CommandLineRunner sendTodos(@Value("${todo.amqp.queue}") String destination, TodoProducer producer, TodoRepository repository) {
+    public CommandLineRunner sendTodos(@Value("${todo.amqp.queue}") String destination, TodoRabbitProducer producer, TodoRepository repository) {
         return args -> repository.findAll().forEach(
                 todo -> producer.sendTo(destination, todo));
     }

@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 
 @Slf4j
 @Component
-public class TodoProducer {
+public class TodoRabbitProducer {
 
     private final RabbitTemplate rabbitTemplate;
 
-    public TodoProducer(final RabbitTemplate rabbitTemplate) {
+    public TodoRabbitProducer(final RabbitTemplate rabbitTemplate) {
         this.rabbitTemplate = rabbitTemplate;
     }
 
