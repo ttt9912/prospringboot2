@@ -7,7 +7,7 @@ Messaging
 ---------------------------------------------------------------------------------
 Technologies / Implementations
 ---------------------------------------------------------------------------------
-- JMS / ActiveMQ, HornetQ
+- JMS / ActiveMQ
 - AMQP / RabbitMQ
 - Pub Sub / Redis
 - STOMP / Websockets

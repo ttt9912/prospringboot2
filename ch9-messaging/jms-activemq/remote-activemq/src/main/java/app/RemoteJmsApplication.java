@@ -24,8 +24,8 @@ import org.springframework.context.annotation.Import;
  * ---------------------------------------------------------------------------------
  * Admin Console
  * ---------------------------------------------------------------------------------
- * Browser -> localhost:8161/admin/
- * username: admin and password: admin
+ * localhost:8161/admin/
+ * login: admin/admin
  *
  */
 @SpringBootApplication

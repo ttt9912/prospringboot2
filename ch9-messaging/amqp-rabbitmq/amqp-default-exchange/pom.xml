@@ -3,20 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ch9-messaging</artifactId>
+        <artifactId>amqp-rabbitmq</artifactId>
         <groupId>ch.ttt</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>jms-activemq</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>jms-point-to-point</module>
-        <module>jms-pub-sub</module>
-        <module>remote-activemq</module>
-    </modules>
+    <artifactId>amqp-default-exchange</artifactId>
 
 
 </project>

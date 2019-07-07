@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------------
+AMQP (Advance Message Queuing Protocol)
+---------------------------------------------------------------------------------
+- open standard application layer for MOM
+- this protocol can be used with any technology or programming language
+
+-----------------------------------------------------------------------------
+AMQP Definitions
+-----------------------------------------------------------------------------
+# Exchanges
+- clients always publish a message to an AMQP exchange
+- takes a message and routes it to zero or more queues
+- based on exchange type and binding (queue name)
+
+# Queues
+- bind to exchange using the binding key
+
+# Binding
+- bind a queue to an exchange
+
+# Messages
+- are sent to message broker/exchange with a routing key.
+
+---------------------------------------------------------------------------------
+Exchange Types (image)
+---------------------------------------------------------------------------------
+- Default Exchange: bound automatically to every queue created
+- Direct Exchange: one-to-one binding, bound to a queue by a routing key
+- Topic Exchange: similar to the direct exchange, with wildcard in routing key
+- Headers Exchange: similar to the topic exchange, but binding is based on the
+                    message headers
+- Fanout Exchange: broadcast, copy the message to all the bound queues
