@@ -14,11 +14,11 @@ public class TodoRabbitConsumer {
 
     @RabbitListener(queues = "${todo.amqp.queue}")
     public void processTodo(Todo todo) {
-        log.info("TodoConsumer > received Todo {}", todo);
+        log.info("Consumer Queue[todo.amqp.queue] > received Todo {}", todo);
     }
 
     @RabbitListener(queues = "${todo.amqp.queue}")
     public void processTodo2(Todo todo) {
-        log.info("TodoConsumer2 > received Todo {}", todo);
+        log.info("Consumer2 Queue[todo.amqp.queue] > received Todo {}", todo);
     }
 }

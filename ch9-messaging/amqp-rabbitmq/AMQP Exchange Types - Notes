@@ -3,6 +3,7 @@ Default Exchange
 ---------------------------------------------------------------------------------
 - bound automatically to every queue created
 - binding key equals queue name
+
 - producer: sends to routing-key (=queue name)
 - consumer: listens to queue
 
@@ -12,8 +13,9 @@ Default Exchange
 ---------------------------------------------------------------------------------
 Direct Exchange
 ---------------------------------------------------------------------------------
-- one-to-one binding, bound to a queue by a routing key
-- binding key binds queue to exchange
+- one-to-one binding: binding key binds exactly one queue to exchange
+- message is sent to one queue (by routing-key)
+
 - producer: sends to exchange/routing-key
 - consumer: listens to queue
 
@@ -23,7 +25,14 @@ Direct Exchange
 ---------------------------------------------------------------------------------
 Topic Exchange
 ---------------------------------------------------------------------------------
-similar to the direct exchange, with wildcard in routing key
+- similar to the direct exchange, with wildcard in routing key
+- message can be sent to multiple queues (according to wildcard routing keys)
+
+- producer: sends to exchange/routing-key which writes to n queues
+- consumer: listens to queue
+
+- only one Listener receives a message
+- message is deleted from Queue after consumption
 
 ---------------------------------------------------------------------------------
 Headers Exchange

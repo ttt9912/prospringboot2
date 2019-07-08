@@ -15,6 +15,7 @@ import java.time.LocalDate;
  *
  * Direct Exchange:
  * - Define named Exchange, Queues, and bind queues to an exchange
+ * - One-to-One: routing key binds to one exactly one queue, message is sent to exactly one queue
  *
  *
  */
