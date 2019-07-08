@@ -2,13 +2,23 @@
 Default Exchange
 ---------------------------------------------------------------------------------
 - bound automatically to every queue created
+- binding key equals queue name
+- producer: sends to routing-key (=queue name)
+- consumer: listens to queue
+
 - only one Listener receives a message
 - message is deleted from Queue after consumption
 
 ---------------------------------------------------------------------------------
 Direct Exchange
 ---------------------------------------------------------------------------------
-one-to-one binding, bound to a queue by a routing key
+- one-to-one binding, bound to a queue by a routing key
+- binding key binds queue to exchange
+- producer: sends to exchange/routing-key
+- consumer: listens to queue
+
+- only one Listener receives a message
+- message is deleted from Queue after consumption
 
 ---------------------------------------------------------------------------------
 Topic Exchange

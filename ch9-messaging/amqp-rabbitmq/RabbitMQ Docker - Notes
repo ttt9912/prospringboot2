@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------------
+build container
+---------------------------------------------------------------------------------
+docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+NOTE: RabbitMQ stores data based on what it calls the "Node Name", which defaults
+to the hostname. Specify --hostname explicitly for each daemon so that we don't
+get a random hostname and can keep track of our data.
+
+---------------------------------------------------------------------------------
+rerun
+---------------------------------------------------------------------------------
+docker start some-rabbit
+
+---------------------------------------------------------------------------------
+Admin Console
+---------------------------------------------------------------------------------
+localhost:15672
+login: guest/guest
