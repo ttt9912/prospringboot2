@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Configuration;
 public class MarketRabbitConsumerConfig {
 
     @Bean
-    public SimpleRabbitListenerContainerFactory rabbitListenerContainerFactory(ConnectionFactory connectionFactory, MessageConverter jackson2JsonMessageConverter) {
+    public SimpleRabbitListenerContainerFactory rabbitListenerContainerFactory(ConnectionFactory connectionFactory, MessageConverter simpleMessageConverter) {
         SimpleRabbitListenerContainerFactory factory = new SimpleRabbitListenerContainerFactory();
         factory.setConnectionFactory(connectionFactory);
-        factory.setMessageConverter(jackson2JsonMessageConverter);
+        factory.setMessageConverter(simpleMessageConverter);
         return factory;
     }
 }

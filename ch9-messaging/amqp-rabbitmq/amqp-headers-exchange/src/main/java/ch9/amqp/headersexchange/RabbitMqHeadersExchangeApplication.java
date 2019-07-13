@@ -15,6 +15,7 @@ import org.springframework.context.annotation.Bean;
  * Headers Exchange:
  * - Define named Exchange, Queues, and bind queues to an exchange
  *
+ * - no routing key
  * - routes message based on header values instead of routing keys
  * - x-match argument {all, any} in headers binding
  *      all: all the values must match (default)

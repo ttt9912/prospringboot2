@@ -1,4 +1,4 @@
-package ch9.amqp.topicexchange.consumer;
+package ch9.amqp.fanoutexchange.consumer;
 
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class MarketRabbitConsumerConfig {
+public class OrdersRabbitConsumerConfig {
 
     @Bean
     public SimpleRabbitListenerContainerFactory rabbitListenerContainerFactory(ConnectionFactory connectionFactory, MessageConverter simpleMessageConverter) {

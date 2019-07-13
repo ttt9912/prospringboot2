@@ -20,3 +20,9 @@ AMQP Definitions
 
 # Messages
 - are sent to message broker/exchange with a routing key.
+
+-----------------------------------------------------------------------------
+Queues vs. Kafka
+-----------------------------------------------------------------------------
+- Message is removed from Queue after read once
+- only one Consumer receives a message from a queue

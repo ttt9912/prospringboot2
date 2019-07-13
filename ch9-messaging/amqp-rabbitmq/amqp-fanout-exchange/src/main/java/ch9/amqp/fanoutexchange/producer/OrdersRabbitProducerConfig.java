@@ -1,4 +1,4 @@
-package ch9.amqp.topicexchange.producer;
+package ch9.amqp.fanoutexchange.producer;
 
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class MarketRabbitProducerConfig {
+public class OrdersRabbitProducerConfig {
 
     @Bean
     public RabbitTemplate rabbitTemplate(ConnectionFactory connectionFactory, MessageConverter simpleMessageConverter) {

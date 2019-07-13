@@ -40,8 +40,7 @@ Headers Exchange
 - similar to the topic exchange
 - routes message based on header values instead of routing keys
 
-
 ---------------------------------------------------------------------------------
 Fanout Exchange
 ---------------------------------------------------------------------------------
-broadcast, copy the message to all the bound queues
+- broadcast, copy the message to all the bound queues

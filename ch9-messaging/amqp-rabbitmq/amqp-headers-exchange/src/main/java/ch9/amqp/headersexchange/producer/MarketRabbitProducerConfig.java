@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 public class MarketRabbitProducerConfig {
 
     @Bean
-    public RabbitTemplate rabbitTemplate(ConnectionFactory connectionFactory, MessageConverter jackson2JsonMessageConverter) {
+    public RabbitTemplate rabbitTemplate(ConnectionFactory connectionFactory, MessageConverter simpleMessageConverter) {
         RabbitTemplate rabbitTemplate = new RabbitTemplate(connectionFactory);
-        rabbitTemplate.setMessageConverter(jackson2JsonMessageConverter);
+        rabbitTemplate.setMessageConverter(simpleMessageConverter);
         return rabbitTemplate;
     }
 }
