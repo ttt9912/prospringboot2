@@ -1,36 +1,44 @@
-package ch9.amqp.topicexchange;
+package ch9.amqp.headersexchange;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
+import org.springframework.amqp.core.HeadersExchange;
 import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.core.TopicExchange;
 import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.amqp.support.converter.SimpleMessageConverter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/*
+ * - No Routing Key
+ * - Binding: define, what header keys of a message must match so that the message will
+ *   be sent to a queue (whereAll() vs. whereAny())
+ */
 @Configuration
 public class Config {
 
     @Bean
-    public TopicExchange marketExchange(@Value("${market.exchange}") String exchange) {
-        return new TopicExchange(exchange);
+    public HeadersExchange marketExchange(@Value("${market.exchange}") String exchange) {
+        return new HeadersExchange(exchange);
     }
 
     @Bean
-    public Binding usBinding(Queue usQueue, TopicExchange marketExchange, @Value("${market.us.routingkey}") String routingKey) {
-        return BindingBuilder.bind(usQueue).to(marketExchange).with(routingKey);
+    public Binding usBinding(Queue usQueue, HeadersExchange marketExchange) {
+        return BindingBuilder.bind(usQueue).to(marketExchange)
+                .whereAll("market-us").exist();
     }
 
     @Bean
-    public Binding euBinding(Queue euQueue, TopicExchange marketExchange, @Value("${market.eu.routingkey}") String routingKey) {
-        return BindingBuilder.bind(euQueue).to(marketExchange).with(routingKey);
+    public Binding euBinding(Queue euQueue, HeadersExchange marketExchange) {
+        return BindingBuilder.bind(euQueue).to(marketExchange)
+                .whereAll("market-eu").exist();
     }
 
     @Bean
-    public Binding allBinding(Queue allQueue, TopicExchange marketExchange, @Value("${market.all.routingkey}") String routingKey) {
-        return BindingBuilder.bind(allQueue).to(marketExchange).with(routingKey);
+    public Binding allBinding(Queue allQueue, HeadersExchange marketExchange) {
+        return BindingBuilder.bind(allQueue).to(marketExchange)
+                .whereAny("market-us", "market-eu").exist();
     }
 
     @Bean

@@ -37,7 +37,9 @@ Topic Exchange
 ---------------------------------------------------------------------------------
 Headers Exchange
 ---------------------------------------------------------------------------------
-similar to the topic exchange, but binding is based on the message headers
+- similar to the topic exchange
+- routes message based on header values instead of routing keys
+
 
 ---------------------------------------------------------------------------------
 Fanout Exchange

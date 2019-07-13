@@ -16,6 +16,7 @@
         <module>amqp-default-exchange</module>
         <module>amqp-direct-exchange</module>
         <module>amqp-topic-exchange</module>
+        <module>amqp-headers-exchange</module>
     </modules>
 
 </project>

@@ -11,3 +11,11 @@ Technologies / Implementations
 - AMQP / RabbitMQ
 - Pub Sub / Redis
 - STOMP / Websockets
+
+---------------------------------------------------------------------------------
+Spring Serialization
+---------------------------------------------------------------------------------
+- provide a MessageConverter implementation
+
+- Messages are Objects -> use Jackson2JsonMessageConverter
+- Messages are Strings -> use SimpleMessageConverter
