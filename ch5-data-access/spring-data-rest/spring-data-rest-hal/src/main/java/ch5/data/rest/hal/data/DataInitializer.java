@@ -1,4 +1,4 @@
-package ch5.data.rest.data;
+package ch5.data.rest.hal.data;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

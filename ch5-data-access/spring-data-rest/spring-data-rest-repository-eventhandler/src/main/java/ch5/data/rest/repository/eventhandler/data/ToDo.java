@@ -1,4 +1,4 @@
-package ch5.data.rest.data;
+package ch5.data.rest.repository.eventhandler.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package ch5.data.rest;
+package ch5.data.rest.hal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,8 +18,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * ApplicationEvents
  *
  * Creates Endpoints for
- * - Entities (http://localhost:8080/persons)
- * - Repository Methods (http://localhost:8080/persons/search/findByEmailIgnoreCase?email=mark@example.com)
+ * - Entities (http://localhost:8080/api/persons)
+ * - Repository Methods (http://localhost:8080/api/persons/search/findByEmailIgnoreCase?email=mark@example.com)
  *      -> see ch8-security/.../PersonRepository
  *
  * ---------------------------------------------------------------------------------
@@ -32,15 +32,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Testing the endpoints
  * ---------------------------------------------------------------------------------
  * # as usual
- * curl http://localhost:8080/toDos
- * curl -i -X POST -H "Content-Type: application/json" -d '{"description":"Read the Pro Spring Boot 2nd Edition Book"}' http://localhost:8080/toDos
+ * curl http://localhost:8080/api/toDos
+ * curl -i -X POST -H "Content-Type: application/json" -d '{"description":"Read the Pro Spring Boot 2nd Edition Book"}' http://localhost:8080/api/toDos
  *
  * # HAL Browser
  * add maven dependency and go to http://localhost:8080
  */
 @SpringBootApplication
-public class DataRestApp {
+public class DataRestHalApp {
     public static void main(String[] args) {
-        SpringApplication.run(DataRestApp.class, args);
+        SpringApplication.run(DataRestHalApp.class, args);
     }
 }

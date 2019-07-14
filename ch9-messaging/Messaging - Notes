@@ -10,7 +10,7 @@ Technologies / Implementations / Patterns
 - JMS       / ActiveMQ      / Point-to-Point, Pub-Sub
 - AMQP      / RabbitMQ      / Pub-Sub
 - Pub Sub   / Redis         / Pub-Sub
-- STOMP     / Websockets    /
+- STOMP     / Websockets    / Push technology
 
 ---------------------------------------------------------------------------------
 Spring Serialization
