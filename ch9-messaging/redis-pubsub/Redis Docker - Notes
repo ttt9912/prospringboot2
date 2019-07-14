@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------------
+build container
+---------------------------------------------------------------------------------
+docker run --name redis -e ALLOW_EMPTY_PASSWORD=yes -p 6379:6379 bitnami/redis:latest
+
+NOTE: Set a password by passing the REDIS_PASSWORD environment variable when
+running the image for the first time.
+Set spring.redis.password in application.properties
+
+---------------------------------------------------------------------------------
+rerun
+---------------------------------------------------------------------------------
+docker start redis
+
+---------------------------------------------------------------------------------
+CLI
+---------------------------------------------------------------------------------
+docker network create app-tier --driver bridge
+docker run --name redis -e ALLOW_EMPTY_PASSWORD=yes --network app-tier -p 6379:6379 bitnami/redis:latest
+docker run -it --rm --network app-tier bitnami/redis:latest redis-cli -h redis
+
+NOTE:
+- stop redis
+- create network
+- rerun redis with --network
+- start cli with --network
+
+---------------------------------------------------------------------------------
+CLI Functions
+---------------------------------------------------------------------------------
+# Topic Consumer
+redis:6379> SUBSCRIBE todos

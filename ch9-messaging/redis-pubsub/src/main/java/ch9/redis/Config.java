@@ -1,35 +1,25 @@
-package ch9.amqp.defaultexchange;
+package ch9.redis;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
-import org.springframework.amqp.support.converter.MessageConverter;
-import org.springframework.beans.factory.annotation.Value;
+import common.todo.data.jpa.todo.Todo;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 
 @Configuration
 public class Config {
 
     /*
-     * Create Queue programmatically
-     * - by default, all queues are bound to the default exchange
-     */
-    @Bean
-    public Queue todoQueue(@Value("${todo.amqp.queue}") String name) {
-        return new Queue(name, true, false, false);
-    }
-
-
-    /*
-     * spring MessageConverter for jms
+     * spring Serializer for Redis
      * (Used by producer and Consumer)
      */
     @Bean
-    public MessageConverter jackson2JsonMessageConverter() {
-        return new Jackson2JsonMessageConverter(objectMapper());
+    public Jackson2JsonRedisSerializer todoSerializer() {
+        Jackson2JsonRedisSerializer<Todo> serializer = new Jackson2JsonRedisSerializer<>(Todo.class);
+        serializer.setObjectMapper(objectMapper());
+        return serializer;
     }
 
     /*

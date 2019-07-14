@@ -5,12 +5,12 @@ Messaging
 - must be loosely coupled
 
 ---------------------------------------------------------------------------------
-Technologies / Implementations
+Technologies / Implementations / Patterns
 ---------------------------------------------------------------------------------
-- JMS / ActiveMQ
-- AMQP / RabbitMQ
-- Pub Sub / Redis
-- STOMP / Websockets
+- JMS       / ActiveMQ      / Point-to-Point, Pub-Sub
+- AMQP      / RabbitMQ      / Pub-Sub
+- Pub Sub   / Redis         / Pub-Sub
+- STOMP     / Websockets    /
 
 ---------------------------------------------------------------------------------
 Spring Serialization

@@ -15,6 +15,7 @@
     <modules>
         <module>jms-activemq</module>
         <module>amqp-rabbitmq</module>
+        <module>redis-pubsub</module>
     </modules>
 
 

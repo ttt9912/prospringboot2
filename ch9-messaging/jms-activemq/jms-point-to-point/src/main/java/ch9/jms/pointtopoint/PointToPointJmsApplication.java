@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 
 /*
- * Point-to-Point pattern: only one @JmsListener will receive the message
+ * Point-to-Point pattern: message is sent to exactly one Consumer
  *
  * In Memory ActiveMQ Broker
  *
