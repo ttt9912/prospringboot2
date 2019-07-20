@@ -12,6 +12,8 @@
         <module>ch8-security</module>
         <module>ch9-messaging</module>
         <module>common-todo</module>
+        <module>ch10-actuator</module>
+        <module>ch99-random</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
