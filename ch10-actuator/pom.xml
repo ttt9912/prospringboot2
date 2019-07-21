@@ -17,6 +17,7 @@
         <module>actuator-custom-config</module>
         <module>actuator-custom-endpoints</module>
         <module>actuator-health</module>
+        <module>actuator-metrics</module>
     </modules>
 
 
