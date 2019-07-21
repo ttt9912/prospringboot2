@@ -1,14 +1,12 @@
 package aus.weather;
 
 import aus.weather.business.WeatherService;
-import com.forecasts.CommonForecastConfig;
 import com.forecasts.CommonForecastService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Import;
 
 /*
  * Scans the entire classpath on aus.weather
@@ -19,8 +17,8 @@ import org.springframework.context.annotation.Import;
  * - @Import
  * - scanBasePackages
  */
-@SpringBootApplication // (scanBasePackages = {"aus.weather, com.forecasts"})
-@Import(CommonForecastConfig.class)
+@SpringBootApplication//(scanBasePackages = {"aus.weather", "com.forecasts"})
+// @Import(CommonForecastConfig.class)
 public class WeatherApplication {
 
     public static void main(String[] args) {
