@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------------
+JMX Endpoints
+---------------------------------------------------------------------------------
+- by default all endpoints are exposed
+- not all are enabled (i.e. /shutdown)
+
+---------------------------------------------------------------------------------
+Enable/Disable enpoints
+---------------------------------------------------------------------------------
+management.endpoints.jmx.exposure.include=*
+management.endpoints.jmx.exposure.exclude=*
+
+---------------------------------------------------------------------------------
+Try It!
+---------------------------------------------------------------------------------
+JConsole comes with Java!
+
+- start app (ActuatorCustomEndpointsApplication)
+- open terminal and run: jconsole
+- select app (ActuatorCustomEndpointsApplication)
+
+- select MBeans tab
+- Expand the org.springframework.boot package and the Endpoint
+- all endpoints, including custom ones are there
+- Expand Todostats>Operations
+- execute commands

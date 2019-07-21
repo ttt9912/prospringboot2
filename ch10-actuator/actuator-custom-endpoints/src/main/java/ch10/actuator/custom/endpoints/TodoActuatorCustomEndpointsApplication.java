@@ -1,4 +1,4 @@
-package ch10.actuator.basics;
+package ch10.actuator.custom.endpoints;
 
 import common.todo.data.rest.CommonTodoDataRestConfig;
 import org.springframework.boot.SpringApplication;
@@ -7,32 +7,33 @@ import org.springframework.context.annotation.Import;
 
 /*
  * ---------------------------------------------------------------------------------
- * Web default exposed endpoints
+ * Create custom endpoint
  * ---------------------------------------------------------------------------------
- * - http://localhost:8080/actuator/health
- * - http://localhost:8080/actuator/info
+ * - mark class as @Endpoint
+ * - mark methods with  @ReadOperation, @WriteOperation or @DeleteOperation *
  *
  * ---------------------------------------------------------------------------------
- * Expose all web endpoints
+ * Expose
  * ---------------------------------------------------------------------------------
- * management.endpoints.web.exposure.include=*
+ * - by default, the endpoint is exposed over JMX
+ * - expose via HTTP with management.endpoints.web.exposure.include=*
  *
  * ---------------------------------------------------------------------------------
- * Enable/disable specific endpoint
+ * Expose endpoint specifically over JMX or Web only
  * ---------------------------------------------------------------------------------
- * management.endpoint.<ENDPOINT-NAME>.enabled
- * -> management.endpoint.shutdown.enabled=true
+ * - add @JmxEndpoint or @WebEndpoint
  *
  * ---------------------------------------------------------------------------------
- * Show exposed Enpoints
+ * Browser
  * ---------------------------------------------------------------------------------
- * http://localhost:8080/actuator
+ * - http://localhost:8080/actuator/todostats
+ *
  */
 @SpringBootApplication
 @Import(CommonTodoDataRestConfig.class)
-public class TodoActuatorApplication {
+public class TodoActuatorCustomEndpointsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TodoActuatorApplication.class, args);
+        SpringApplication.run(TodoActuatorCustomEndpointsApplication.class, args);
     }
 }

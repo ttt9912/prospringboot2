@@ -8,4 +8,6 @@ import java.util.List;
 @Repository
 public interface TodoRepository extends CrudRepository<Todo, String> {
     List<Todo> findByDescriptionContaining(String param);
+
+    long countByCompleted(boolean completed);
 }

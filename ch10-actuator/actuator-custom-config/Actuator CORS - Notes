@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------
+CORS
+---------------------------------------------------------------------------------
+- specify which cross domains are authorized to use the actuator’s endpoints
+- allows interapplications connect to the endpoints
+
+- management.endpoints.web.cors.allowed-origins=http://localhost:9090
+- management.endpoints.web.cors.allowed-methods=GET, POST
+
+- similar to using the @CrossOrigin(origins = "http://localhost:9000")

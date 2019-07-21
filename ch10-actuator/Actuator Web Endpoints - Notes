@@ -1,0 +1,76 @@
+---------------------------------------------------------------------------------
+/actuator
+---------------------------------------------------------------------------------
+- shows all exposed endpoints
+
+---------------------------------------------------------------------------------
+/actuator/health
+---------------------------------------------------------------------------------
+- status: UP
+- include other systems (DB etc.) via
+  management.endpoint.health.show-details=always
+
+---------------------------------------------------------------------------------
+/actuator/metrics
+---------------------------------------------------------------------------------
+- available metrics
+- access a metric via actuator/metrics/{name}
+
+# metric tags
+- access a tag by appending ?tag=KEY:VALUE
+- http://localhost:8080/actuator/metrics/jvm.memory.max?tag=area:heap
+
+---------------------------------------------------------------------------------
+/actuator/shutdown
+---------------------------------------------------------------------------------
+- gracefully shut down the app
+- must be enabled via management.endpoint.shutdown.enabled=true
+- POST request!
+- curl -X POST localhost:8080/actuator/shutdown
+
+# Security
+- should be used with security by adding spring-boot-security dependency
+- curl -i -X POST http://localhost:8080/shutdown -u user:2875411a-e609-4890-9a...
+
+---------------------------------------------------------------------------------
+Simple endpoints
+---------------------------------------------------------------------------------
+/actuator/info
+    - public app info
+
+/actuator/conditions
+    - auto-configuration report
+    - positiveMatches, negativeMatches
+
+/actuator/beans
+    - all beans
+
+/actuator/mappings
+    - all @RequestMapping paths in the app
+
+/actuator/httptrace
+    - trace information
+    - normally the last few HTTP requests
+
+/actuator/configprops
+    - all properties that are defined by @ConfigurationProperties beans
+
+/actuator/threaddump
+    - shows all the threads running and their stack trace of the
+      JVM that is running your app
+
+/actuator/env
+    - all the properties from Spring’s ConfigurableEnvironment
+    - active profiles
+    - system environment variables
+    - spring boot properties
+
+/actuator/loggers
+    - all the loggers available in the app
+    - /actuator/loggers/{name}
+
+
+
+
+
+

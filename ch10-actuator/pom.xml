@@ -14,6 +14,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>actuator-basics</module>
+        <module>actuator-custom-config</module>
+        <module>actuator-custom-endpoints</module>
+        <module>actuator-health</module>
     </modules>
 
 

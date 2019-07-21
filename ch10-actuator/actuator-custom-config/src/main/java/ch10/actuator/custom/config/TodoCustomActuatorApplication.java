@@ -1,4 +1,4 @@
-package ch10.actuator.basics;
+package ch10.actuator.custom.config;
 
 import common.todo.data.rest.CommonTodoDataRestConfig;
 import org.springframework.boot.SpringApplication;
@@ -7,32 +7,35 @@ import org.springframework.context.annotation.Import;
 
 /*
  * ---------------------------------------------------------------------------------
- * Web default exposed endpoints
+ * change management context path
  * ---------------------------------------------------------------------------------
- * - http://localhost:8080/actuator/health
- * - http://localhost:8080/actuator/info
+ * management.endpoints.web.base-path=/monitor
  *
  * ---------------------------------------------------------------------------------
- * Expose all web endpoints
+ * change endpoint name
  * ---------------------------------------------------------------------------------
- * management.endpoints.web.exposure.include=*
+ * management.endpoints.web.path-mapping.<endpoint-name>=<new-name>
  *
  * ---------------------------------------------------------------------------------
- * Enable/disable specific endpoint
+ * other management.server.* properties
  * ---------------------------------------------------------------------------------
- * management.endpoint.<ENDPOINT-NAME>.enabled
- * -> management.endpoint.shutdown.enabled=true
+ * - change server address
+ * - add ssl
+ * - use particular IP
+ * - change port
  *
  * ---------------------------------------------------------------------------------
- * Show exposed Enpoints
+ * Browser
  * ---------------------------------------------------------------------------------
- * http://localhost:8080/actuator
+ * /actuator is now running under:
+ * http://127.0.0.1:8081/admin/monitor
+ *
  */
 @SpringBootApplication
 @Import(CommonTodoDataRestConfig.class)
-public class TodoActuatorApplication {
+public class TodoCustomActuatorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TodoActuatorApplication.class, args);
+        SpringApplication.run(TodoCustomActuatorApplication.class, args);
     }
 }

@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------
+Actuator Module
+---------------------------------------------------------------------------------
+- introduces production ready non-functional requirements
+- provides monitoring, metrics and auditing
+- data is exposed via HTTP or JMX
+
+---------------------------------------------------------------------------------
+Micrometer framework
+---------------------------------------------------------------------------------
+- Monitoring
+- write metrics code once
+- use any engine (Prometheus, Atlas, CloudWatch, etc.)
+
+management.endpoints.jmx.exposure.include=*
+management.endpoints.jmx.exposure.include=*
