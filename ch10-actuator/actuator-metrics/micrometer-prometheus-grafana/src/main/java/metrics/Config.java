@@ -1,7 +1,7 @@
-package ch10.actuator.metrics;
+package metrics;
 
-import ch10.actuator.metrics.intercept.TodoMetricHandlerInterceptor;
 import io.micrometer.core.instrument.MeterRegistry;
+import metrics.intercept.TodoMetricHandlerInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.handler.MappedInterceptor;

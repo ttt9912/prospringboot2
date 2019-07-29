@@ -1,4 +1,4 @@
-package ch10.actuator.metrics;
+package metrics;
 
 import common.todo.data.rest.CommonTodoDataRestConfig;
 import org.springframework.boot.SpringApplication;
@@ -22,7 +22,7 @@ import org.springframework.context.annotation.Import;
  * Auto Configuration for export to Monitoring Systems
  * ---------------------------------------------------------------------------------
  * - Spring Boot Actuator auto-configures and registers every Micrometer registry
- * - based on this dependencies: JMX and Prometheus
+ *   based on dependencies (JMX and Prometheus)
  *
  * - for Prometheus, the actuator configures the /actuator/prometheus endpoint
  *
@@ -32,6 +32,8 @@ import org.springframework.context.annotation.Import;
  * - docker-compose up
  * - management.endpoints.web.exposure.include=*
  * - start app
+ * - Prometheus setup, connect to actuator (prometheus.yml)
+ * - Grafana Setup (connect to Prometheus)
  *
  * - Prometheus: http://localhost:9090/targets
  * - Grafana: http://localhost:3000

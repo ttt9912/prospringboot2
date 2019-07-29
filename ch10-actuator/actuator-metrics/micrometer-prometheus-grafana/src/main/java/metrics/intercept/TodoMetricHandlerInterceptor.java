@@ -1,4 +1,4 @@
-package ch10.actuator.metrics.intercept;
+package metrics.intercept;
 
 import io.micrometer.core.instrument.MeterRegistry;
 import lombok.extern.slf4j.Slf4j;
@@ -14,6 +14,21 @@ import javax.servlet.http.HttpServletResponse;
  * MeterRegistry - add metrics to micrometer
  *
  * NOTE: HandlerInterceptor has nothing to do with Metrics
+ *
+ * ---------------------------------------------------------------------------------
+ * What does MeterRegistry expose?
+ * ---------------------------------------------------------------------------------
+ * - a counter for each rest endpoint under /actuator/prometheus
+ * - also includes /actuator calls
+ *
+ * - api_get_api_todos_total
+ * - api_get_actuator_total
+ * - api_get_actuator_prometheus_total
+ * - api_get_actuator__total
+ * - ...
+ *
+ * NOTE: metrics for endpoints are listed after the endpoint was called for the
+ * first time
  *
  */
 @Slf4j
