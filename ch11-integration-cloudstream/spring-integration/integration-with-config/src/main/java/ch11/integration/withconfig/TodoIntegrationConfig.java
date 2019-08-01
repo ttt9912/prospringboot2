@@ -21,7 +21,7 @@ import org.springframework.integration.dsl.MessageChannels;
  */
 @EnableIntegration
 @Configuration
-public class TodoIntegration {
+public class TodoIntegrationConfig {
 
     @Bean
     public DirectChannel input() {
