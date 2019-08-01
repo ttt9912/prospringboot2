@@ -1,0 +1,35 @@
+---------------------------------------------------------------------------------
+Spring Message interface
+---------------------------------------------------------------------------------
+- generic wrapper for any Java object
+- consists of headers and a payload
+
+---------------------------------------------------------------------------------
+Message channel
+---------------------------------------------------------------------------------
+- Pipes and filters architecture
+- Producer --msg--> Message Channel --msg--> Consumer
+
+Spring Integration channel types:
+- pollable channels (buffering messages in a queue)
+- subscribable channels for consumers
+
+---------------------------------------------------------------------------------
+Message endpoint
+---------------------------------------------------------------------------------
+Stream like operations to process a Message from Input Channel and
+pass it to Output Channel
+
+- Filter (like in streams)
+- Transformer (like map in streams)
+- Router (where to send a message)
+- Splitter (receives one message and returns multiple messages)
+- Service activator (processes a message and can end the flow,
+                     return the message or return a new message)
+- Aggregator (receives multiple messages, returns a new single message)
+- Channel adapters (connect a message channel to other systems)
+    - inbound adapters
+    - outbound adapters
+    - gateway adapter (when a response is required)
+
+

@@ -19,3 +19,9 @@ Spring Serialization
 
 - Messages are Objects -> use Jackson2JsonMessageConverter
 - Messages are Strings -> use SimpleMessageConverter
+
+---------------------------------------------------------------------------------
+Spring Message interface
+---------------------------------------------------------------------------------
+- generic wrapper for any Java object
+- consists of headers and a payload

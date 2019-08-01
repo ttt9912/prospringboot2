@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------------
+Spring Integration
+---------------------------------------------------------------------------------
+Facilitates the implementation of integration solutions in applications that are
+- scalable
+- asynchronous
+- event driven
+- microservices
+- loosely coupled components
+- separation of concerns
+- shared systems
+
+---------------------------------------------------------------------------------
+Asynchronous Messaging
+---------------------------------------------------------------------------------
+- generic wrapper for any Java object
+- consists of headers and a payload
+need to deal with concurrency, multithreading, speed, latency,
+high availability, fault tolerance, etc.
