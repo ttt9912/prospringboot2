@@ -1,11 +1,12 @@
 ---------------------------------------------------------------------------------
-Spring Message interface
+Messages
 ---------------------------------------------------------------------------------
+Spring Message interface
 - generic wrapper for any Java object
 - consists of headers and a payload
 
 ---------------------------------------------------------------------------------
-Message channel
+Message channels
 ---------------------------------------------------------------------------------
 - Pipes and filters architecture
 - Producer --msg--> Message Channel --msg--> Consumer
@@ -15,7 +16,7 @@ Spring Integration channel types:
 - subscribable channels for consumers
 
 ---------------------------------------------------------------------------------
-Message endpoint
+Message endpoints
 ---------------------------------------------------------------------------------
 Stream like operations to process a Message from Input Channel and
 pass it to Output Channel
@@ -27,9 +28,20 @@ pass it to Output Channel
 - Service activator (processes a message and can end the flow,
                      return the message or return a new message)
 - Aggregator (receives multiple messages, returns a new single message)
+
 - Channel adapters (connect a message channel to other systems)
     - inbound adapters
     - outbound adapters
     - gateway adapter (when a response is required)
 
+---------------------------------------------------------------------------------
+Channel Adapter
+---------------------------------------------------------------------------------
+- Message Endpoint that enables connecting a single sender or receiver to a
+  Message Channel
+- out of the box support for e.g. JMS, File, HTTP, Web Services, and Mail
 
+---------------------------------------------------------------------------------
+Integration Flow
+---------------------------------------------------------------------------------
+- chains MessageChannels and MessageEndpoints stream-like

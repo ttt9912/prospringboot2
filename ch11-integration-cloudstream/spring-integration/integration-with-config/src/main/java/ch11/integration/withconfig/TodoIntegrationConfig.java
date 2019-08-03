@@ -18,6 +18,12 @@ import org.springframework.integration.dsl.MessageChannels;
  *  - chains MessageEndpoints stream-like
  *  - IntegrationFlows offers a fluent api to create an IntegrationFlow bean
  *  - registers all components like message channels, endpoints etc.
+ *
+ * ---------------------------------------------------------------------------------
+ * Integration DSL
+ * ---------------------------------------------------------------------------------
+ * - simple way to build Spring Integration Message Flows by using the fluent
+ *   Builder pattern
  */
 @EnableIntegration
 @Configuration

@@ -1,6 +1,9 @@
 ---------------------------------------------------------------------------------
 Spring Integration
 ---------------------------------------------------------------------------------
+- enables lightweight messaging within Spring-based applications
+- supports integration with external systems via declarative adapters
+
 Facilitates the implementation of integration solutions in applications that are
 - scalable
 - asynchronous
@@ -13,7 +16,5 @@ Facilitates the implementation of integration solutions in applications that are
 ---------------------------------------------------------------------------------
 Asynchronous Messaging
 ---------------------------------------------------------------------------------
-- generic wrapper for any Java object
-- consists of headers and a payload
 need to deal with concurrency, multithreading, speed, latency,
 high availability, fault tolerance, etc.
