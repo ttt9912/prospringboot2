@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------------
+Spring Cloud Stream
+---------------------------------------------------------------------------------
+- lightweight messaging-driven microservices framework
+- based on Spring Integration and Spring Boot
+- provides a declarative model for sending and receiving messages using
+  RabbitMQ or Kafka
+
+---------------------------------------------------------------------------------
+Spring Cloud Stream features
+---------------------------------------------------------------------------------
+- decoupling of messaging between producers and consumers by creating bindings
+  that can be used out of the box
+- no need to write any broker specific code
+- add the required binding dependencies to your application, and Spring Cloud
+  Stream takes care of the messaging connectivity and communication
+
+---------------------------------------------------------------------------------
+Spring Cloud Stream Concepts
+---------------------------------------------------------------------------------
+# Application Model - application communicates using input/output channels
+
+# Binder abstraction - provides at the Kafka and RabbitMQ binder implementations
+
+# Persistent Publish/Subscribe
+
+# Consumer Groups - concept for scalability
+
+# Partitioning support - performance and consistency,
+    ensure that common data is processed by the same consumer instances
+
+# Binder API

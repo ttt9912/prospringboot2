@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------
+common patterns in distributed systems
+---------------------------------------------------------------------------------
+- configuration management
+- service discovery
+- circuit breakers
+- smart routing
+- micro-proxy
+- control bus
+- global locks
+- distributed sessions
+- service-to-service calls
+- distributed messaging
+- etc.
+
+---------------------------------------------------------------------------------
+Spring Cloud Projects
+---------------------------------------------------------------------------------
+Spring Cloud Config, Spring Cloud Netflix, Spring Cloud Bus,
+Spring Cloud for Cloud Foundry, Spring Cloud Cluster, Spring Cloud Stream,
+and Spring Cloud Stream App Starters
+
+Dependency Convention: spring-cloud-starter-<technology to use>
+

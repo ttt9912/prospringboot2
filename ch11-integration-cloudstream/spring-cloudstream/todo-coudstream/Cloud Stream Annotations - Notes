@@ -1,0 +1,28 @@
+@EnableBinding
+- convert the app to a Spring Cloud Stream
+
+@Input
+- identify consumers
+- normally used on a SubscribableChannel class
+
+@Output
+- identify producers
+- used on a MessageChannel class
+
+---------------------------------------------------------------------------------
+
+Source
+- ingesting data from an external system
+- Queue, REST, File System, DB, etc.
+-> @InboundChannelAdapter
+
+Processor
+- listening for new incoming messages
+- transforming
+- send a new message to the output channel
+-> @StreamListener & @SendTo
+
+Sink
+- listening for a new incoming message from the input channel
+- do processing
+- end the flow
