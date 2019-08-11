@@ -1,0 +1,47 @@
+---------------------------------------------------------------------------------
+Pivotal Web Services PWS
+---------------------------------------------------------------------------------
+# Create account
+https://run.pivotal.io
+- credentials (chrome)
+
+# Organization & Space
+- Org: ttt-org
+- by default, it creates the space (named development) where you will work
+
+
+# Tutorial:
+https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry
+
+---------------------------------------------------------------------------------
+Cloud Foundry CLI
+---------------------------------------------------------------------------------
+# Install
+    $ brew update
+    $ brew tap cloudfoundry/tap
+    $ brew install cf-cli
+
+    $ cf --version
+
+# Login to PWS/PAS
+    $ cf login -a api.run.pivotal.io
+
+---------------------------------------------------------------------------------
+Deploy todoapp to PAS
+---------------------------------------------------------------------------------
+$ cf push <name-of-the-app> -p <location of jar> -n <unique subdomain>
+
+Example:
+$ cf push TodoApp -p /Users/ttt/dev/workspaces/prospringboot2/ch12-spring-cloud/todo-cloud-microservice/target/todo-cloud-microservice-0.0.1-SNAPSHOT.jar -n ttt-todo-app
+
+---------------------------------------------------------------------------------
+View Logs
+---------------------------------------------------------------------------------
+- Logs Tab
+or
+- $ cf logs TodoApp
+
+---------------------------------------------------------------------------------
+Test the app
+---------------------------------------------------------------------------------
+$ curl -XPOST -d '{"description":"Learn to play Guitar"}' -H "Content-Type: application/json" https://ttt-todo-app.cfapps.io/api/todos

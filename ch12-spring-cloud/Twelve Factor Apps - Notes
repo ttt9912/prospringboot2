@@ -1,0 +1,56 @@
+---------------------------------------------------------------------------------
+Twelve factor apps
+---------------------------------------------------------------------------------
+- https://12factor.net
+
+shows how an application (a single unit) needs to focus on
+declarative configuration, being stateless and deployment independent
+
+I. Codebase
+- One app has a single code base  tracked in revision control, many deploys
+
+II. Dependencies
+- Explicitly declare and isolate dependencies
+- Packaging dependencies (JARs, gems, shared libraries, etc.)
+- Never rely on everything in your final environment.
+
+III. Config
+- Store config in the environment
+- Use the environment variables or a configuration server
+
+IV. Backing services
+- Treat backing services as attached resources
+- Connect to services via URL or configuration.
+
+V. Build, release, run
+- Strictly separate build and run stages (CI/CD)
+
+VI. Processes
+- Execute the app as one or more stateless processes
+- Processes should not store internal states
+- Share nothing
+- Any necessary state should be considered a backing service
+
+VII. Port binding
+- Export services via port binding
+- Application is self-contained, and these apps are exposed via port binding
+
+VIII. Concurrency
+- Scale out via the process model
+- Scale by adding more application instances
+- Individual processes are free to multithread
+
+IX. Disposability
+- Maximize robustness with fast startup and graceful shutdown
+- Processes should be disposable (remember, they are stateless). Fault tolerant.
+
+X. Environment parity
+- Keep development and production as similar as possible
+- This ensures continuous delivery
+
+XI. Logs
+- Treat logs as time ordered event streams
+
+XII. Admin processes
+- Run admin/management tasks as one-off processes on the platform
+- DB migrations, one time scripts, and so forth

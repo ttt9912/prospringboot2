@@ -2,6 +2,7 @@ package common.todo.data.rest;
 
 import common.todo.data.jpa.CommonTodoDataJpaConfig;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.PropertySource;
@@ -22,6 +23,7 @@ import org.springframework.context.annotation.PropertySource;
  *
  */
 @Configuration
+@ComponentScan
 @EnableAutoConfiguration
 @Import(CommonTodoDataJpaConfig.class)
 @PropertySource("classpath:common-todo-data-rest.properties")

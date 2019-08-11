@@ -1,0 +1,35 @@
+---------------------------------------------------------------------------------
+Cloud Native Architecture
+---------------------------------------------------------------------------------
+- Patterns to provide scalability, speed, safety
+
+---------------------------------------------------------------------------------
+Scalability
+---------------------------------------------------------------------------------
+- horizontal (preferred): scale infrastructure, more servers
+- vertical: scale resources, more cpu, diskspace, memory
+
+---------------------------------------------------------------------------------
+Virtualization
+---------------------------------------------------------------------------------
+- tool to create resource elasticity
+- increase number of virtual boxes, memory processors, etc. for a deployed app
+
+---------------------------------------------------------------------------------
+Visibility
+---------------------------------------------------------------------------------
+- monitor, alerts, dasboards
+
+---------------------------------------------------------------------------------
+Fault isolation and tolerance
+---------------------------------------------------------------------------------
+- Context bounded applications: applications shouldn’t have any dependencies
+  between each other
+
+---------------------------------------------------------------------------------
+Failover & Recovery
+---------------------------------------------------------------------------------
+- continuously deploying an application shouldn’t affect the entire system
+- think about auto-recovery,
+- the entire system is capable of identifying the failure and recover
+

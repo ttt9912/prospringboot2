@@ -1,0 +1,42 @@
+---------------------------------------------------------------------------------
+Pivotal Cloud Foundry (PCF)
+---------------------------------------------------------------------------------
+- open source PaaS
+- brings Pivotal Application Service and Pivotal Container Service
+
+Iaas agnostic!
+- Cloud Foundry can be installed on AWS, OpenStack, Google Cloud, Azure, vSphere
+
+---------------------------------------------------------------------------------
+Pivotal Application Service (PAS) Features
+---------------------------------------------------------------------------------
+- Router - routes incoming traffic to the appropriate component
+- Authentication - OAuth2, identity management
+- Cloud controller - managing the life cycle of applications
+- Monitoring, Logging and statistics
+- Garden/Diego Cells - manages application instances
+- Blob store - Resources, application code, build packs, and droplets
+- Service brokers - providing service instances
+- Message bus - NATS: publish-subscribe and distributed queueing messaging system
+
+DevOps
+- Fully automated deployment, updates
+- one-click horizontal and vertical scaling
+- Web console
+
+Built in services
+- load balancing
+- DNS
+- automated health management
+
+Automatic Application binding and service provisioning for Pivotal services
+- RabbitMQ
+- Redis
+- Cloud Cache (based on GemFire)
+- MySQL
+
+
+---------------------------------------------------------------------------------
+Pivotal Container Service (PKS)
+---------------------------------------------------------------------------------
+- based on Kubernetes

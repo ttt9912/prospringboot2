@@ -10,6 +10,11 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
+/*
+ * NOTE
+ * - spring-data-jpa: will use lifecycle annotations like @PreUpdate
+ * - spring-data-rest: will always use @AllArgsConstructor and ignore lifecycle annotations like @PreUpdate
+ */
 @Entity
 @Data
 @NoArgsConstructor
@@ -30,6 +35,7 @@ public class Todo {
     private LocalDateTime modified;
     private Boolean completed;
 
+    // not used when using spring-data-rest
     public Todo(final String description) {
         this.description = description;
         this.setCompleted(false);

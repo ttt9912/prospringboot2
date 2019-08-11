@@ -1,0 +1,55 @@
+---------------------------------------------------------------------------------
+PWS services
+---------------------------------------------------------------------------------
+- App uses H2 because there is no external Mysql specified
+- Pivotal offers numerous managed services that can be created for use
+- twelve-factor principle: use services as attached resources
+
+- no need to change any code
+- Cloud Foundry uses buildpacks that inspect your app and know which programming
+  language you are trying to run. It recognizes that you are using a Spring Boot
+  app. It also sees that you have a bounded service (mysql), so it checks if you
+  have the right drivers (MySQL driver embedded in the fat JAR)
+- CloudFoundry and Java buildpack auto-configure the datasource
+
+# See all managed PWS services
+    $ cf marketplace
+
+
+NOTE: steps below can also be done in browser
+
+---------------------------------------------------------------------------------
+Create cleardb mysql service
+---------------------------------------------------------------------------------
+$ cf create-service <provider> <plan> <service-name>
+
+$ cf create-service cleardb spark mysql
+
+- spark plan: free plan
+- ClearDB: managed service that has a Mysql service
+
+---------------------------------------------------------------------------------
+View services
+---------------------------------------------------------------------------------
+$ cf services
+
+---------------------------------------------------------------------------------
+Bind TodoApp to mysql
+---------------------------------------------------------------------------------
+$ cf bind-service TodoApp mysql
+
+Behind the scenes, the container in which the TodoApp is running creates an
+environment variable with all the credentials, VCAP_SERVICES
+
+# Restart app
+    $ cf restart TodoApp
+
+---------------------------------------------------------------------------------
+See Environment Variables (see VCAP_SERVICES)
+---------------------------------------------------------------------------------
+$ cf env TodoApp
+
+VCAP_SERVICES variable has the hostname, username, password, and the jdbcUrl
+properties
+
+-> connect to it using DBeaver

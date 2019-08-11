@@ -1,0 +1,18 @@
+-----------------------------------------------------------------------------
+Spring Boot Maven Plugin
+-----------------------------------------------------------------------------
+- package an executable jar into the /target folder
+- only works in modules with a main class
+- https://www.baeldung.com/executable-jar-with-maven
+
+-----------------------------------------------------------------------------
+Maven Resources Plugin
+-----------------------------------------------------------------------------
+- copies files from input resource directories to an output directory
+- https://www.baeldung.com/maven-resources-plugin
+
+-----------------------------------------------------------------------------
+Maven Compiler Plugin
+-----------------------------------------------------------------------------
+- compile the source code of a Maven project
+- https://www.baeldung.com/maven-compiler-plugin

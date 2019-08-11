@@ -15,6 +15,7 @@
         <module>ch10-actuator</module>
         <module>ch99-random</module>
         <module>ch11-integration-cloudstream</module>
+        <module>ch12-spring-cloud</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
