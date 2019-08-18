@@ -14,11 +14,11 @@ import org.springframework.messaging.support.MessageBuilder;
  * - convert the app to a Spring Cloud Stream
  *
  * Source
- * - ingesting data from an external system (Queue, REST, File System, DB, etc)
+ * - ingesting dto from an external system (Queue, REST, File System, DB, etc)
  * - creates the necessary channels (output channel here)
  *
  * Instead of @InboundChannelAdapter, a spring-integration IntegrationFlow
- * could be used aswell to produce data
+ * could be used aswell to produce dto
  */
 @Slf4j
 @EnableBinding(Source.class)

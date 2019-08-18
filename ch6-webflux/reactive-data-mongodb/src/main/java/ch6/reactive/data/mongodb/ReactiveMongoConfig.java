@@ -18,7 +18,7 @@ import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRep
  * AbstractReactiveMongoConfiguration - setup embedded mongo Mongo
  */
 @Configuration
-@EnableReactiveMongoRepositories(basePackages = "reactivedata.data")
+@EnableReactiveMongoRepositories(basePackages = "reactivedata.dto")
 public class ReactiveMongoConfig extends AbstractReactiveMongoConfiguration {
     private final Environment environment;
 

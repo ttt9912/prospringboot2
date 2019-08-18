@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * ---------------------------------------------------------------------------------
  * - http://localhost:8181/persons
  * - http://localhost:8181/persons/search/findByEmailIgnoreCase?email=mark@example.com
- * - use any of the Person objects access data
+ * - use any of the Person objects access dto
  *
  * ---------------------------------------------------------------------------------
  * curl

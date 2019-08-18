@@ -16,6 +16,7 @@
         <module>ch99-random</module>
         <module>ch11-integration-cloudstream</module>
         <module>ch12-spring-cloud</module>
+        <module>ch13-extending-spring-boot</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -54,6 +55,11 @@
             <dependency>
                 <groupId>ch.ttt</groupId>
                 <artifactId>common-todo-data-jpa</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>todo-client-spring-boot-starter</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>

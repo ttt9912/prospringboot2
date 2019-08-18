@@ -33,10 +33,10 @@ import org.springframework.context.annotation.Bean;
  *
  * remote server can be configured spring.mongodb.* properties
  *
- *  spring.data.mongodb.host,
- *  spring.data.mongodb.port,
- *  spring.data.mongodb.username,
- *  spring.data.mongodb.password
+ *  spring.dto.mongodb.host,
+ *  spring.dto.mongodb.port,
+ *  spring.dto.mongodb.username,
+ *  spring.dto.mongodb.password
  *
  * ---------------------------------------------------------------------------------
  * MongoDB embedded server

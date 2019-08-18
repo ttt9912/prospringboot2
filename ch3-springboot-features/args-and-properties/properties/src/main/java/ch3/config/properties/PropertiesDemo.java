@@ -15,18 +15,18 @@ import org.springframework.core.env.Environment;
  * # Provide Spring Boot Configuration Properties (with precedence, non complete list)
  * ---------------------------------------------------------------------------------------------------
  * # via Command Line Arguments
- * - Program Arguments: --data.server=remote:4040
- * > mvn spring-boot:run -Dspring-boot.run.arguments="--data.server=remote:4040"
+ * - Program Arguments: --dto.server=remote:4040
+ * > mvn spring-boot:run -Dspring-boot.run.arguments="--dto.server=remote:4040"
  * > mvn spring-boot:run -Ddata.server=remote:4040
- * > java -jar app-properties-0.0.1-SNAPSHOT.jar --data.server=remote:4040
+ * > java -jar app-properties-0.0.1-SNAPSHOT.jar --dto.server=remote:4040
  *
  *
  * # via environment variable
  * > DATA_SERVER=5050 java -jar app-properties-0.0.1-SNAPSHOT.jar
- * > SPRING_APPLICATION_JSON='{"data":{"server":"5050"}}' java -jar app-properties-0.0.1-SNAPSHOT.jar
+ * > SPRING_APPLICATION_JSON='{"dto":{"server":"5050"}}' java -jar app-properties-0.0.1-SNAPSHOT.jar
  *
  * # application.properties, application.yml
- * - data.server=remoteserver:3030
+ * - dto.server=remoteserver:3030
  * ---------------------------------------------------------------------------------------------------
  * # Common application properties
  *   https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
@@ -54,12 +54,12 @@ public class PropertiesDemo {
     /*
      * Accessing Properties via @Value
      */
-    @Value("${data.server}")
+    @Value("${dto.server}")
     private String server;
 
     @Bean
     CommandLineRunner runner() {
-        return args -> log.info("# @Value('${data.server}') = {}", server);
+        return args -> log.info("# @Value('${dto.server}') = {}", server);
     }
 
     /*
@@ -71,6 +71,6 @@ public class PropertiesDemo {
     @Bean
     CommandLineRunner runner2() {
         return args -> log.info("# Environment property = {}",
-                environment.getProperty("data.server"));
+                environment.getProperty("dto.server"));
     }
 }

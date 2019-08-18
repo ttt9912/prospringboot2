@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------
+Creating a spring-boot-starter
+---------------------------------------------------------------------------------
+# create 2 modules
+<name-of-starter>-spring-boot-autoconfigure
+<name-of-starter>-spring-boot-starter
+
+---------------------------------------------------------------------------------
+autoconfigure
+---------------------------------------------------------------------------------
+has all the code and dependencies that the starter needs
+
+# dependencyManagement
+- if the pom does not have spring-boot-starter-parent as parent,
+  add spring-boot-dependencies do dependencyManagement section
+- spring-boot-dependencies provides the Spring Boot jars and all its dependencies
+
+# create spring.factories file
+- src/main/resources/META-INF/spring.factories
+
+---------------------------------------------------------------------------------
+starter
+---------------------------------------------------------------------------------
+has a dependency to autoconfigure
+

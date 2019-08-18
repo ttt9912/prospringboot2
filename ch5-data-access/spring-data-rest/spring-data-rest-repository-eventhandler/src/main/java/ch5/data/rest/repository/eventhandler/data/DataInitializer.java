@@ -13,7 +13,7 @@ public class DataInitializer {
 
     @Bean
     CommandLineRunner data(final ToDoRepository repository) {
-        log.info("initializing Todo data...");
+        log.info("initializing Todo dto...");
         ToDo toDo1 = new ToDo();
         toDo1.setDescription("feed dog");
         ToDo toDo2 = new ToDo();

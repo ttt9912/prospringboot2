@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Import;
  * - http://localhost:8080/api/todos
  *
  * logins:
- * - see person-directory/data.sql
+ * - see person-directory/dto.sql
  * - Z.B. name=matt@example.com pw=secret
  *
  * ---------------------------------------------------------------------------------

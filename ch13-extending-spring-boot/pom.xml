@@ -10,11 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>common-todo</artifactId>
+    <artifactId>ch13-extending-spring-boot</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>common-todo-data-jpa</module>
-        <module>common-todo-data-rest</module>
-        <module>common-todo-webapp</module>
+        <module>todo-client-spring-boot-autoconfigure</module>
+        <module>todo-client-spring-boot-starter</module>
+        <module>todo-testapp</module>
+        <module>todo-data-rest-webapp</module>
     </modules>
+
 </project>
