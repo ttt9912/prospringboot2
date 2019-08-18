@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 
 /*
- * spring-dto-rest ignores JPA lifecycle annotations like @PreUpdate
+ * spring-data-rest ignores JPA lifecycle annotations like @PreUpdate
  */
 @Slf4j
 @Component

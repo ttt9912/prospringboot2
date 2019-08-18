@@ -26,6 +26,6 @@ import org.springframework.context.annotation.PropertySource;
 @ComponentScan
 @EnableAutoConfiguration
 @Import(CommonTodoDataJpaConfig.class)
-@PropertySource("classpath:common-todo-dto-rest.properties")
+@PropertySource("classpath:common-todo-data-rest.properties")
 public class CommonTodoDataRestConfig {
 }

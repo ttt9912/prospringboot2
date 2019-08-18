@@ -12,8 +12,8 @@ import java.time.LocalDateTime;
 
 /*
  * NOTE
- * - spring-dto-jpa: will use lifecycle annotations like @PreUpdate
- * - spring-dto-rest: will always use @AllArgsConstructor and ignore lifecycle annotations like @PreUpdate
+ * - spring-data-jpa: will use lifecycle annotations like @PreUpdate
+ * - spring-data-rest: will always use @AllArgsConstructor and ignore lifecycle annotations like @PreUpdate
  */
 @Entity
 @Data
@@ -35,7 +35,7 @@ public class Todo {
     private LocalDateTime modified;
     private Boolean completed;
 
-    // not used when using spring-dto-rest
+    // not used when using spring-data-rest
     public Todo(final String description) {
         this.description = description;
         this.setCompleted(false);

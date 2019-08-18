@@ -33,7 +33,7 @@ import javax.sql.DataSource;
  * ---------------------------------------------------------------------------------
  * DB initialization
  * ---------------------------------------------------------------------------------
- * schema.sql, dto.sql are executed automatically if present on the classpath
+ * schema.sql, data.sql are executed automatically if present on the classpath
  *
  * ---------------------------------------------------------------------------------
  * H2 Console
@@ -46,7 +46,7 @@ import javax.sql.DataSource;
  * ---------------------------------------------------------------------------------
  * Log JDBC SQL
  * ---------------------------------------------------------------------------------
- * logging.level.org.springframework.dto=INFO
+ * logging.level.org.springframework.data=INFO
  * logging.level.org.springframework.jdbc.core.JdbcTemplate=DEBUG
  */
 @SpringBootApplication

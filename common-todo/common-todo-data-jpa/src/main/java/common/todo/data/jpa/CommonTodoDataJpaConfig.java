@@ -21,7 +21,7 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
-@PropertySource("classpath:common-todo-dto-jpa.properties")
+@PropertySource("classpath:common-todo-data-jpa.properties")
 @Slf4j
 public class CommonTodoDataJpaConfig {
 

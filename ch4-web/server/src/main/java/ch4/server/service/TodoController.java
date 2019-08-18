@@ -62,7 +62,7 @@ public class TodoController {
 
     /*
      * Use same method to handle HTTP POST & PUT
-     * @Valid - Validates incoming dto, triggers validator
+     * @Valid - Validates incoming data, triggers validator
      */
     @RequestMapping(value = "/todos", method = {RequestMethod.POST, RequestMethod.PUT})
     public ResponseEntity<?> create(@Valid @RequestBody ToDo toDo, Errors validationErrors) {
