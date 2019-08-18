@@ -1,7 +1,7 @@
 package ch4.client.restclient;
 
 import ch4.client.ClientProperties;
-import ch4.client.data.ToDo;
+import ch4.client.dto.ToDoDto;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
@@ -34,12 +34,12 @@ public class ToDoRestClient {
      * - create RequestEntity
      * - ResponseEntity = RestTemplate.exchange(RequestEntity)
      */
-    public Iterable<ToDo> findAll() throws URISyntaxException {
-        RequestEntity<Iterable<ToDo>> requestEntity = new RequestEntity<>(
+    public Iterable<ToDoDto> findAll() throws URISyntaxException {
+        RequestEntity<Iterable<ToDoDto>> requestEntity = new RequestEntity<>(
                 HttpMethod.GET, new URI(properties.getUrl() + properties.getBasePath()));
 
-        ResponseEntity<Iterable<ToDo>> response = restTemplate.exchange(requestEntity,
-                new ParameterizedTypeReference<Iterable<ToDo>>() {
+        ResponseEntity<Iterable<ToDoDto>> response = restTemplate.exchange(requestEntity,
+                new ParameterizedTypeReference<Iterable<ToDoDto>>() {
                 });
 
         if (response.getStatusCode() == HttpStatus.OK) {
@@ -52,26 +52,26 @@ public class ToDoRestClient {
      * - create a param Map
      * - Entity = RestTemplate.getForObject(url, params)
      */
-    public ToDo findById(String id) {
+    public ToDoDto findById(String id) {
         HashMap<String, String> params = new HashMap<>();
         params.put("id", id);
         return restTemplate.getForObject(
-                properties.getUrl() + properties.getBasePath() + "/{id}", ToDo.class, params);
+                properties.getUrl() + properties.getBasePath() + "/{id}", ToDoDto.class, params);
     }
 
     /*
      * POST
      */
-    public ToDo upsert(ToDo toDo) throws URISyntaxException {
+    public ToDoDto upsert(ToDoDto todoDto) throws URISyntaxException {
         RequestEntity<?> requestEntity = new RequestEntity<>(
-                toDo, HttpMethod.POST, new URI(properties.getUrl() + properties.getBasePath()));
+                todoDto, HttpMethod.POST, new URI(properties.getUrl() + properties.getBasePath()));
 
-        ResponseEntity<Iterable<ToDo>> response = restTemplate.exchange(requestEntity,
-                new ParameterizedTypeReference<Iterable<ToDo>>() {
+        ResponseEntity<Iterable<ToDoDto>> response = restTemplate.exchange(requestEntity,
+                new ParameterizedTypeReference<Iterable<ToDoDto>>() {
                 });
 
         if (response.getStatusCode() == HttpStatus.CREATED) {
-            return restTemplate.getForObject(response.getHeaders().getLocation(), ToDo.class);
+            return restTemplate.getForObject(response.getHeaders().getLocation(), ToDoDto.class);
         }
         return null;
     }
@@ -80,7 +80,7 @@ public class ToDoRestClient {
      * PUT
      * - method=patch
      */
-    public ToDo setCompleted(String id) throws URISyntaxException {
+    public ToDoDto setCompleted(String id) throws URISyntaxException {
         HashMap<String, String> params = new HashMap<>();
         params.put("id", id);
 

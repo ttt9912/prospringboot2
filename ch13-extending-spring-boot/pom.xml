@@ -16,7 +16,6 @@
         <module>todo-client-spring-boot-autoconfigure</module>
         <module>todo-client-spring-boot-starter</module>
         <module>todo-testapp</module>
-        <module>todo-data-rest-webapp</module>
     </modules>
 
 </project>

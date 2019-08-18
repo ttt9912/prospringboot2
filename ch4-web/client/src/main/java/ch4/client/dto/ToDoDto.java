@@ -1,4 +1,4 @@
-package ch4.client.data;
+package ch4.client.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,14 +13,14 @@ import java.util.UUID;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ToDo {
+public class ToDoDto {
     private String id;
     private String description;
     private LocalDateTime created;
     private LocalDateTime modified;
     private Boolean completed;
 
-    public ToDo(final String description) {
+    public ToDoDto(final String description) {
         this.description = description;
         this.id = UUID.randomUUID().toString();
         final LocalDateTime now = LocalDateTime.now();
