@@ -1,3 +1,14 @@
+---------------------------------------------------------------------------------
+classpath
+---------------------------------------------------------------------------------
+- Spring Boot auto-configures everything based on the classpath
+
+---------------------------------------------------------------------------------
+spring.factories
+---------------------------------------------------------------------------------
+when the app starts, the Spring Boot auto-configuration loads all the classes
+from the META-INF/spring.factories files to do each auto-configuration class
+
 -----------------------------------------------------------------------------
 Auto Configuration
 -----------------------------------------------------------------------------

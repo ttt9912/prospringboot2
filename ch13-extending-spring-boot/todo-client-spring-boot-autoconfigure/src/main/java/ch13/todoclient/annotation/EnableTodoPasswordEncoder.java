@@ -1,6 +1,6 @@
 package ch13.todoclient.annotation;
 
-import ch13.todoclient.security.PasswordEncoderImportSelector;
+import ch13.todoclient.security.TodoPasswordEncoderImportSelector;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.ElementType;
@@ -16,7 +16,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@Import(PasswordEncoderImportSelector.class)
-public @interface EnablePasswordEncoder {
+@Import(TodoPasswordEncoderImportSelector.class)
+public @interface EnableTodoPasswordEncoder {
     Algorithm algorithm() default Algorithm.BCRYPT;
 }
