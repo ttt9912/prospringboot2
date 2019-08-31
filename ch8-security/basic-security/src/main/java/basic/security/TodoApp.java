@@ -22,6 +22,8 @@ import org.springframework.context.annotation.Import;
  * curl
  * ---------------------------------------------------------------------------------
  * curl localhost:8080/api/todos -u user:<password>
+ * or
+ * curl http://user:425a38a5-fdc5-40e9-9068-b0f0bda95128@localhost:8080/api/todos
  *
  */
 @SpringBootApplication
