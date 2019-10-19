@@ -51,6 +51,7 @@ public class TodoIntegrationConfig {
 
     @MessageEndpoint
     class TodoFilter {
+
         @Filter(inputChannel = "input", outputChannel = "toTransform")
         public boolean process(Todo todo) {
             return todo.isCompleted();
@@ -59,6 +60,7 @@ public class TodoIntegrationConfig {
 
     @MessageEndpoint
     class TodoTransformer {
+
         @Transformer(inputChannel = "toTransform", outputChannel = "toLog")
         public String process(Todo message) {
             return message.getDescription().toUpperCase();
@@ -67,6 +69,7 @@ public class TodoIntegrationConfig {
 
     @MessageEndpoint
     class TodoServiceActivator {
+
         @ServiceActivator(inputChannel = "toLog")
         public void process(String message) {
             log.info(message);

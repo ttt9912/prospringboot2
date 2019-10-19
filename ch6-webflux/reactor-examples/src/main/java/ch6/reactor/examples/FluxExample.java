@@ -21,7 +21,7 @@ import java.util.List;
 public class FluxExample {
 
     @Test
-    void fluxExample() {
+    void fluxToMonoList() {
         final EmitterProcessor<ToDo> stream = EmitterProcessor.create();
 
         Mono<List<ToDo>> promise = stream
@@ -33,8 +33,8 @@ public class FluxExample {
         stream.onNext(new ToDo("feed dog", true));
         stream.onNext(new ToDo("go walk", false));
         stream.onNext(new ToDo("read book", false));
-
         stream.onComplete();
+
         promise.block();
     }
 }

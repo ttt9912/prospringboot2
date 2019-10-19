@@ -37,6 +37,7 @@ import org.springframework.context.annotation.Import;
  *
  * - Prometheus: http://localhost:9090/targets
  * - Grafana: http://localhost:3000
+ *      (admin/admin)
  *
  */
 @SpringBootApplication
