@@ -43,7 +43,7 @@ public class WebMvcTestTest {
                 Collections.singletonList(new ToDo("id1", "read book", null, null, false)));
 
         mockMvc.perform(get("/api/todos")
-                .accept(MediaType.APPLICATION_JSON_UTF8))
+                .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(content().string("[{\"id\":\"id1\",\"description\":\"read book\",\"created\":null,\"modified\":null,\"completed\":false}]"));
     }

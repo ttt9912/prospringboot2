@@ -1,0 +1,13 @@
+parent
+- define Versions in dependencyManagement
+- core dependencies
+    - lombok
+
+concrete module
+- define dependencies
+
+commontodo
+- ready to use appconfigs
+
+
+no dependencyManagement or dependencies in 'middle' modules

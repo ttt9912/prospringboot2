@@ -17,11 +17,14 @@
         <module>ch11-integration-cloudstream</module>
         <module>ch12-spring-cloud</module>
         <module>ch13-extending-spring-boot</module>
+        <module>ch101-reactor</module>
+        <module>ch102-jasypt</module>
+        <module>edurion</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.1.RELEASE</version>
+        <version>2.2.0.RELEASE</version>
         <relativePath/>
     </parent>
     <groupId>ch.ttt</groupId>
@@ -31,7 +34,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>
@@ -41,12 +44,25 @@
         </dependency>
     </dependencies>
 
+    <!-- used for spring-cloud-dependencies, TODO remove when available from maven central -->
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <!--
         dependency management - most dependency versions are managed in
         spring-boot-starter-parent pom
     -->
     <dependencyManagement>
         <dependencies>
+            <!-- commontodo -->
             <dependency>
                 <groupId>ch.ttt</groupId>
                 <artifactId>common-todo-data-rest</artifactId>
@@ -61,6 +77,76 @@
                 <groupId>ch.ttt</groupId>
                 <artifactId>todo-client-spring-boot-starter</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <!-- edurion -->
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>edurion-business</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>edurion-data-jpa</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>edurion-data-rest</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>edurion-ui-thymeleaf</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <!-- edurion starters-->
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>edurion-data-rest-spring-boot-autoconfigure</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>edurion-data-rest-spring-boot-starter</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <!-- spring cloud -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.RC1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- reactor -->
+            <dependency>
+                <groupId>io.projectreactor</groupId>
+                <artifactId>reactor-bom</artifactId>
+                <version>Dysprosium-SR1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- non spring managed -->
+            <dependency>
+                <groupId>com.github.ulisesbocchio</groupId>
+                <artifactId>jasypt-spring-boot-starter</artifactId>
+                <version>2.1.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.keycloak</groupId>
+                <artifactId>keycloak-spring-boot-starter</artifactId>
+                <version>7.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.keycloak.bom</groupId>
+                <artifactId>keycloak-adapter-bom</artifactId>
+                <version>7.0.1</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -13,7 +13,7 @@ import org.springframework.test.web.client.MockRestServiceServer;
 import java.io.IOException;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.springframework.http.MediaType.APPLICATION_JSON_UTF8;
+import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
 
@@ -44,7 +44,7 @@ public class RestClientTestTest {
         final String content = FileAsStringReader.readFile("read-book.json");
 
         server.expect(requestTo("http://localhost:8080/api/todos/my-id"))
-                .andRespond(withSuccess(content, APPLICATION_JSON_UTF8));
+                .andRespond(withSuccess(content, APPLICATION_JSON));
 
         ToDo result = toDoRestClient.findById("my-id");
 

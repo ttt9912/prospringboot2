@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  keycloak:
+    image: jboss/keycloak
+    container_name: keycloack
+    environment:
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: admin
+    ports:
+      - 8180:8080 # map 8080 to localhost:8180

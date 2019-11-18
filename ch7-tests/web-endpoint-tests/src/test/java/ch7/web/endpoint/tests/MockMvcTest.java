@@ -43,7 +43,7 @@ public class MockMvcTest {
         this.mockMvc
                 .perform(get("/api/todos"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8));
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON));
     }
 
     // andDo() demo - do something with the result
@@ -61,6 +61,6 @@ public class MockMvcTest {
                 .perform(get("/api/todos"))
                 .andReturn();
 
-        assertEquals(MediaType.APPLICATION_JSON_UTF8.toString(), mvcResult.getResponse().getContentType());
+        assertEquals(MediaType.APPLICATION_JSON.toString(), mvcResult.getResponse().getContentType());
     }
 }

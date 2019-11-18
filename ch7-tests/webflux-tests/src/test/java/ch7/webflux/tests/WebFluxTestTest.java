@@ -46,7 +46,7 @@ public class WebFluxTestTest {
                         new ToDo("2", "go walk", null, null, false),
                         new ToDo("3", "read book", null, null, true))));
 
-        webTestClient.get().uri("/todos").accept(MediaType.APPLICATION_JSON_UTF8)
+        webTestClient.get().uri("/todos").accept(MediaType.APPLICATION_JSON)
                 .exchange()
                 .expectStatus().isOk()
                 .expectBody(List.class);

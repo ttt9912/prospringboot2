@@ -11,6 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.time.LocalDateTime;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertNotNull;
 
 /*
  * @DataMongoTest
@@ -25,10 +26,13 @@ public class DataMongoTestTest {
 
     @Test
     public void dataMongoTest() {
-        ToDo todo = new ToDo("1a", "feed dog", LocalDateTime.now(), LocalDateTime.now(), false);
+        final ToDo todo = new ToDo("1a", "feed dog", LocalDateTime.now(), LocalDateTime.now(), false);
         mongoTemplate.save(todo);
 
-        assertThat(mongoTemplate.findById(todo.getId(), ToDo.class)).isEqualTo(todo);
+        final ToDo retrieved = mongoTemplate.findById(todo.getId(), ToDo.class);
+
+        assertNotNull(retrieved);
+        assertThat(retrieved.getDescription()).isEqualTo(todo.getDescription());
     }
 
 }

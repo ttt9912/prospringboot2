@@ -15,6 +15,5 @@
     <modules>
         <module>common-todo-data-jpa</module>
         <module>common-todo-data-rest</module>
-        <module>common-todo-webapp</module>
     </modules>
 </project>
