@@ -4,8 +4,11 @@ import edurion.business.edutask.Edutask;
 import edurion.business.edutask.EdutaskService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
+import javax.validation.Valid;
 import java.util.List;
 
 /*
@@ -13,7 +16,6 @@ import java.util.List;
  *
  * @Controller - 'return String' -> returns view name
  */
-// TODO: use DTO
 @Controller
 public class EdutaskController {
     private final EdutaskService edutaskService;
@@ -22,10 +24,29 @@ public class EdutaskController {
         this.edutaskService = edutaskService;
     }
 
-    @GetMapping("/edutasks")
+    @GetMapping("/list")
     public String listAll(Model model) {
         final List<Edutask> edutasks = edutaskService.findAll();
-        model.addAttribute("edutasks", edutasks);
+        model.addAttribute("edutasks", EdutaskDtoFactory.createEdutaskDtos(edutasks));
         return "edutask-list";
     }
+
+    // Parameter EdutaskDto is bound to the edutask-add.html page
+    @GetMapping("/add")
+    public String add(EdutaskDto edutaskDto) {
+        return "edutask-add";
+    }
+
+    @PostMapping("/save")
+    public String save(@Valid EdutaskDto edutaskDto, BindingResult result, Model model) {
+        if (result.hasErrors()) {
+            return "edutask-add";
+        }
+        edutaskService.create(edutaskDto.getTitle(), edutaskDto.getCompleted());
+        final List<Edutask> edutasks = edutaskService.findAll();
+        model.addAttribute("edutasks", EdutaskDtoFactory.createEdutaskDtos(edutasks));
+        return "edutask-list";
+    }
+
+
 }

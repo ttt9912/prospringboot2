@@ -17,8 +17,8 @@ public class EdutaskService {
         return eduTaskRepository.findByKey(key);
     }
 
-    public void create(Edutask eduTask) {
-        eduTaskRepository.save(eduTask);
+    public void create(String title, Boolean completed) {
+        eduTaskRepository.save(EdutaskFactory.createEdutask(title, completed));
     }
 
     public void complete(Edutask eduTask) {

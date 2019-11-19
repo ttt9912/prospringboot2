@@ -2,9 +2,9 @@ package edurion.datajpa.edutask;
 
 import edurion.business.edutask.Edutask;
 import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
-@AllArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 final class EdutaskFactory {
 
     static Edutask createEdutask(final EdutaskEntity edutaskEntity) {

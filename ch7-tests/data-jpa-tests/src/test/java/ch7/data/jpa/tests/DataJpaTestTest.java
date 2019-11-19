@@ -17,7 +17,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 /*
  * @DataJpaTest
  * - auto-configures in-memory db
- * - scans @Entity, ignores @Component
+ * - scans @Entity & Repository implementations
+ * - ignores @Component
  * - provides TestEntityManager
  */
 @RunWith(SpringRunner.class)

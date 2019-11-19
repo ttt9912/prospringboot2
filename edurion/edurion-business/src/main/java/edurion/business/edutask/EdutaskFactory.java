@@ -1,13 +1,19 @@
 package edurion.business.edutask;
 
-import java.time.LocalDateTime;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.UUID;
 
 // TODO: abstract factory?
-public class EdutaskFactory {
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
+final class EdutaskFactory {
 
     public static Edutask createEdutask(String title) {
-        return new Edutask(UUID.randomUUID().toString(), title,
-                LocalDateTime.now(), LocalDateTime.now(), false);
+        return createEdutask(title, false);
+    }
+
+    static Edutask createEdutask(String title, Boolean completed) {
+        return new Edutask(UUID.randomUUID().toString(), title, null, null, true);
     }
 }
