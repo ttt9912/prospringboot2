@@ -110,6 +110,11 @@
                 <artifactId>edurion-ui-angular</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>edurion-ui-fetchapi</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
             <!-- edurion starters-->
             <dependency>
                 <groupId>ch.ttt</groupId>
@@ -168,6 +173,11 @@
                     <groupId>com.github.eirslett</groupId>
                     <artifactId>frontend-maven-plugin</artifactId>
                     <version>1.8.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>cz.habarta.typescript-generator</groupId>
+                    <artifactId>typescript-generator-maven-plugin</artifactId>
+                    <version>1.10.212</version>
                 </plugin>
             </plugins>
         </pluginManagement>

@@ -12,9 +12,6 @@
     <groupId>ch.ttt</groupId>
     <artifactId>keycloak-sso</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>keycloak-sso-plain</module>
-    </modules>
 
     <dependencies>
         <dependency>

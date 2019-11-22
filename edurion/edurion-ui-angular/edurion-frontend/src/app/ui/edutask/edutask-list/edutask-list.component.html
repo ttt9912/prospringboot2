@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let edutask of edutasks">
+    <a routerLink="/detail/{{edutask.key}}">
+      {{edutask.title}}
+    </a>
+  </li>
+</ul>

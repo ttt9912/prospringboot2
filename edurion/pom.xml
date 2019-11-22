@@ -21,6 +21,7 @@
         <module>edurion-spring-boot-starters</module>
         <module>edurion-service</module>
         <module>edurion-ui-angular</module>
+        <module>edurion-ui-fetchapi</module>
     </modules>
 
 
