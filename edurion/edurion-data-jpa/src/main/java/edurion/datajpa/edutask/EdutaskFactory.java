@@ -15,8 +15,8 @@ final class EdutaskFactory {
         return new Edutask(
                 edutaskEntity.getId(),
                 edutaskEntity.getTitle(),
-                edutaskEntity.getCreated(),
-                edutaskEntity.getModified(),
-                edutaskEntity.getCompleted());
+                edutaskEntity.getCompleted(), edutaskEntity.getCreated(),
+                edutaskEntity.getModified()
+        );
     }
 }

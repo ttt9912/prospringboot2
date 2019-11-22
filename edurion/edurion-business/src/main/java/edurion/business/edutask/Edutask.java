@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class Edutask {
     private String key; // todo: dont bind too much meaning to field name 'key'
     private String title;
+    private Boolean completed;
     private LocalDateTime created; // TODO: to superclass
     private LocalDateTime modified; // TODO: to superclass
-    private Boolean completed;
 }

@@ -37,6 +37,17 @@ public class EdutaskRepositoryImpl implements EdutaskRepository {
 
     @Override
     public void update(final Edutask edutask) {
+        final Edutask existing = findByKey(edutask.getKey());
+
+        if (existing == null) {
+            throw new RuntimeException("Edutask with key=" + edutask.getKey() + " does not exist");
+        }
+
         crudRepository.save(EdutaskEntityFactory.createEdutaskEntity(edutask));
+    }
+
+    @Override
+    public void delete(final String key) {
+        crudRepository.deleteById(key);
     }
 }

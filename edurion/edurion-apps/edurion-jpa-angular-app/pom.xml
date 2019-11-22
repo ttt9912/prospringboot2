@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>edurion-apps</artifactId>
+        <groupId>ch.ttt</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ch.ttt</groupId>
+    <artifactId>edurion-jpa-angular-app</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>ch.ttt</groupId>
+            <artifactId>edurion-business</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.ttt</groupId>
+            <artifactId>edurion-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.ttt</groupId>
+            <artifactId>edurion-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.ttt</groupId>
+            <artifactId>edurion-ui-angular</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-resources</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/classes/resources/</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>
+                                        ${project.parent.parent.basedir}/edurion-ui-angular/edurion-frontend/dist/edurion-frontend/
+                                    </directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -14,6 +14,14 @@ final class EdutaskFactory {
     }
 
     static Edutask createEdutask(String title, Boolean completed) {
-        return new Edutask(UUID.randomUUID().toString(), title, null, null, true);
+        return new Edutask(generateKey(), title, completed, null, null);
+    }
+
+    static Edutask createEdutask(String key, String title, Boolean completed) {
+        return new Edutask(key, title, completed, null, null);
+    }
+
+    private static String generateKey() {
+        return UUID.randomUUID().toString();
     }
 }

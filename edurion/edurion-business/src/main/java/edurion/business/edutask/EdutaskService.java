@@ -21,8 +21,11 @@ public class EdutaskService {
         eduTaskRepository.save(EdutaskFactory.createEdutask(title, completed));
     }
 
-    public void complete(Edutask eduTask) {
-        eduTask.setCompleted(true);
-        eduTaskRepository.update(eduTask);
+    public void update(String key, String title, Boolean completed) {
+        eduTaskRepository.update(EdutaskFactory.createEdutask(key, title, completed));
+    }
+
+    public void delete(final String key) {
+        eduTaskRepository.delete(key);
     }
 }

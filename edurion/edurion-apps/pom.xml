@@ -16,6 +16,7 @@
         <module>edurion-data-jpa-app</module>
         <module>edurion-data-rest-app</module>
         <module>edurion-jpa-thymeleaf-app</module>
+        <module>edurion-jpa-angular-app</module>
     </modules>
 
 

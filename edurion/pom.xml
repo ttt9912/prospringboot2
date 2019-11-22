@@ -19,6 +19,8 @@
         <module>edurion-ui-thymeleaf</module>
         <module>edurion-apps</module>
         <module>edurion-spring-boot-starters</module>
+        <module>edurion-service</module>
+        <module>edurion-ui-angular</module>
     </modules>
 
 
