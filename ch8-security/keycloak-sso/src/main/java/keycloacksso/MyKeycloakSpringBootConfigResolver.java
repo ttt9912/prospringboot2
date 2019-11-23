@@ -1,7 +1,5 @@
 package keycloacksso;
 
-import org.keycloak.adapters.springboot.KeycloakSpringBootConfigResolver;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /*
@@ -13,10 +11,12 @@ import org.springframework.context.annotation.Configuration;
 // public class MyKeycloakSpringBootConfigResolver extends KeycloakWebSecurityConfigurerAdapter {
 public class MyKeycloakSpringBootConfigResolver {
 
+    /*
     @Bean
     public KeycloakSpringBootConfigResolver KeycloakConfigResolver() {
         return new KeycloakSpringBootConfigResolver();
     }
+    */
 
     /*
     @Override

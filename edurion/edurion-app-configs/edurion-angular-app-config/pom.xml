@@ -3,24 +3,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ch13-extending-spring-boot</artifactId>
+        <artifactId>edurion-app-configs</artifactId>
         <groupId>ch.ttt</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>todo-testapp</artifactId>
+    <artifactId>edurion-angular-app-config</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>ch.ttt</groupId>
-            <artifactId>common-todo-data-rest</artifactId>
+            <artifactId>edurion-data-jpa</artifactId>
         </dependency>
         <dependency>
             <groupId>ch.ttt</groupId>
-            <artifactId>todo-client-spring-boot-starter</artifactId>
+            <artifactId>edurion-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.ttt</groupId>
+            <artifactId>edurion-ui-angular</artifactId>
         </dependency>
     </dependencies>
-
 </project>

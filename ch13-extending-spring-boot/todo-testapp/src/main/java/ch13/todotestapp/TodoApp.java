@@ -3,11 +3,13 @@ package ch13.todotestapp;
 import ch13.todoclient.annotation.EnableTodoPasswordEncoder;
 import ch13.todoclient.client.TodoRestClient;
 import ch13.todoclient.dto.TodoDto;
+import common.todo.data.rest.CommonTodoDataRestConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Import;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /*
@@ -20,6 +22,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  */
 @Slf4j
 @SpringBootApplication
+@Import(CommonTodoDataRestConfig.class)
 @EnableTodoPasswordEncoder
 public class TodoApp {
 
