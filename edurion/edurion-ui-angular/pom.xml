@@ -58,6 +58,29 @@
                 </executions>
             </plugin>
 
+            <!-- create a webjar -->
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-resources</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/classes/resources/</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/edurion-frontend/dist/edurion-frontend/</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
             <!-- typescript generator
             <plugin>
                 <groupId>cz.habarta.typescript-generator</groupId>

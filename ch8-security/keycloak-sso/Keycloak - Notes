@@ -1,67 +1,35 @@
 ---------------------------------------------------------------------------------
-Features
----------------------------------------------------------------------------------
-- Single-Sign-On (SSO)
-- Identity Brokering and Social Login
-- User Federation
-- Client Adapters
-- Admin Console
-- Account Management Console
-
----------------------------------------------------------------------------------
-Realm
----------------------------------------------------------------------------------
-- Domain
-
-# Master Realm
-- default
-- parent of all others
-- admin user (set in docker compose)
-
----------------------------------------------------------------------------------
-Bearer
----------------------------------------------------------------------------------
-TODO
-
----------------------------------------------------------------------------------
-Users & Roles
----------------------------------------------------------------------------------
-- Keycloak uses the Role-Based Access
-- Therefore, each user must have a role
-
----------------------------------------------------------------------------------
 How To
 ---------------------------------------------------------------------------------
 1.) create Realm
-    - Name: SpringBootKeycloak
+    - Name: Edurion
 
 2.) create a Client
-    - Client ID: todoapp
+    - Client ID: edurionapp-local
     -> save
-    - Valid Redirect URIs: http://localhost:15000/*
+    - Valid Redirect URIs: http://localhost:8080/*
 
 3.) create a Role
     - Role Name: user
 
 4.) create a User
-    - Username: user1
+    - Username: thomas
     -> save
 
     -> Credentials Tab
     - New Password: pass1
 
     -> Role Mappings
-    - add Role 'user'
+    - add Role 'userrole'
 
     -> Details Tab
     - Required User Actions: must be empty, remove 'Update Password' if set
+      (otherwise, call with curl is difficult)
 ---------------------------------------------------------------------------------
 Tokens
 ---------------------------------------------------------------------------------
 - Keycloak provides a REST API for generating and refreshing access tokens
 - use this API to create a login page
-
-POST http://localhost:8180/auth/realms/master/protocol/openid-connect/token
 
 Body
 {
@@ -74,10 +42,10 @@ Body
 Response
 - contains an access_token and a refresh_token
 
-curl -X POST http://localhost:8180/auth/realms/SpringBootKeycloak/protocol/openid-connect/token \
+curl -X POST http://localhost:8180/auth/realms/Edurion/protocol/openid-connect/token \
 -H "Content-Type:application/x-www-form-urlencoded" \
--d "client_id=todoapp" \
--d "username=user1" \
+-d "client_id=edurionapp-local" \
+-d "username=thomas" \
 -d "password=pass1" \
 -d "grant_type=password"
 
@@ -90,6 +58,10 @@ access_token
 headers: {
     'Authorization': 'Bearer' + access_token
 }
+
+curl -i -X GET http://localhost:8080/api/edutasks \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <TOKEN>"
 
 ---------------------------------------------------------------------------------
 refresh_token
@@ -108,4 +80,3 @@ Body
 
 Response
 - contains new access_token and refresh_token
-

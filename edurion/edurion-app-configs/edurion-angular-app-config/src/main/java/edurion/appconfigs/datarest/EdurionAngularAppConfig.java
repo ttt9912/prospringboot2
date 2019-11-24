@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Configuration
+//@EnableAutoConfiguration
 @Import({EdurionDataJpaConfig.class, EdurionServiceConfig.class})
 public class EdurionAngularAppConfig {
 

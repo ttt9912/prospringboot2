@@ -1,0 +1,31 @@
+---------------------------------------------------------------------------------
+Features
+---------------------------------------------------------------------------------
+- Single-Sign-On (SSO)
+- Identity Brokering and Social Login
+- User Federation
+- Client Adapters
+- Admin Console
+- Account Management Console
+
+---------------------------------------------------------------------------------
+Realm
+---------------------------------------------------------------------------------
+- Domain
+
+# Master Realm
+- default
+- parent of all others
+- admin user (set in docker compose)
+
+---------------------------------------------------------------------------------
+Bearer
+---------------------------------------------------------------------------------
+is a token type
+https://stackoverflow.com/questions/5925954/what-are-bearer-tokens-and-token-type-in-oauth-2
+
+---------------------------------------------------------------------------------
+Users & Roles
+---------------------------------------------------------------------------------
+- Keycloak uses the Role-Based Access
+- Therefore, each user must have a role
