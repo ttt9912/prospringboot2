@@ -1,4 +1,4 @@
-package keycloacksso.plain;
+package keycloaksso.springsecurity;
 
 import edurion.appconfigs.datarest.EdurionAngularAppConfig;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
 /*
  *
  * Realm    : Edurion
- * Client   : edurionapp-local
+ * Client   : edurionapp1-local
  *
  * --------------------------------------------------------
  * Keycloack Admin Console
@@ -18,10 +18,10 @@ import org.springframework.context.annotation.Import;
  */
 @SpringBootApplication
 @Import(EdurionAngularAppConfig.class)
-public class KeycloackSSOApp {
+public class KeycloakSecurityApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(KeycloackSSOApp.class, args);
+        SpringApplication.run(KeycloakSecurityApp.class, args);
     }
 
 }

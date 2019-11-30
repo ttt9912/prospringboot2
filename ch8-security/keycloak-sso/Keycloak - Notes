@@ -31,6 +31,11 @@ How To
     -> Details Tab
     - Required User Actions: must be empty, remove 'Update Password' if set
       (otherwise, call with curl is difficult)
+
+Add more Client apps to Realm
+1.) create Client edurionapp1-local
+2.) User, Role are on Realm level, no need to create new
+    There might be a possibility to add Roles on Client level
 ---------------------------------------------------------------------------------
 Tokens
 ---------------------------------------------------------------------------------
