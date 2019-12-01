@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------------
+Admin
+---------------------------------------------------------------------------------
+overview (endpoints, public key)
+- http://localhost:8180/auth/realms/master/
+
+admin console
+- http://localhost:8180/auth/
+- admin/admin
+
+---------------------------------------------------------------------------------
+Realm (Edurion)
+---------------------------------------------------------------------------------
+overview (endpoints, public key)
+- http://localhost:8180/auth/realms/Edurion/
+
+user login
+- http://localhost:8180/auth/realms/Edurion/protocol/openid-connect/auth?client_id=account&redirect_uri=http%3A%2F%2Flocalhost%3A8180%2Fauth%2Frealms%2FEdurion%2Faccount%2Flogin-redirect&state=0%2F7ce772db-8c64-4562-bd92-c6d9f472ce76&response_type=code&scope=openid
+- thomas/pass1

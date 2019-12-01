@@ -6,7 +6,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 /*
+ * - no spring security
+ * - secured paths are defined in application.properties
  *
+ * --------------------------------------------------------
+ * Edurion Angular Webjar
+ * --------------------------------------------------------
+ * - clean install edurion-ui-angular first
+ * - localhost:8080
+ *
+ * --------------------------------------------------------
+ * Keycloack
+ * --------------------------------------------------------
  * Realm    : Edurion
  * Client   : edurionapp-local
  *

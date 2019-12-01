@@ -6,7 +6,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 /*
+ * --------------------------------------------------------
+ * Edurion Angular Webjar
+ * --------------------------------------------------------
+ * - clean install edurion-ui-angular first
+ * - localhost:8080
  *
+ * --------------------------------------------------------
+ * Keycloack
+ * --------------------------------------------------------
  * Realm    : Edurion
  * Client   : edurionapp1-local
  *

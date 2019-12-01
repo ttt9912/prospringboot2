@@ -14,7 +14,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>keycloak-sso-plain</module>
-        <module>keycloak-security-oauth2</module>
         <module>keycloak-spring-security</module>
     </modules>
 </project>

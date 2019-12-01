@@ -1,4 +1,4 @@
-package keycloacksso.plain;
+package keycloaksso.springsecurity;
 
 import org.keycloak.adapters.springboot.KeycloakSpringBootConfigResolver;
 import org.springframework.context.annotation.Bean;
