@@ -6,19 +6,11 @@
         <artifactId>prospringboot2</artifactId>
         <groupId>ch.ttt</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ch.ttt</groupId>
-    <artifactId>ch9-messaging</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>jms-activemq</module>
-        <module>amqp-rabbitmq</module>
-        <module>redis-pubsub</module>
-        <module>stomp-websocket</module>
-        <module>stomp-websocket-bidir</module>
-    </modules>
+    <artifactId>stomp-websocket-bidir</artifactId>
 
 
 </project>

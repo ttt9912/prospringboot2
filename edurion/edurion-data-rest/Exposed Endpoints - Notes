@@ -1,7 +1,0 @@
- # Show exposed Endpoints
- - http://localhost:8080/api              (entity endpoints)
-
- - http://localhost:8080/api/edutaskEntities    (GET/PUT/POST/DELETE)
- - http://localhost:8080/api/todos/search (EdutaskCrudRepository methods)
-
- Optional: HAL Browser (additional dependency)
