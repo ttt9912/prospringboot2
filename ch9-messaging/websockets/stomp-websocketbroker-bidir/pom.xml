@@ -3,22 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>prospringboot2</artifactId>
+        <artifactId>websockets</artifactId>
         <groupId>ch.ttt</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ch.ttt</groupId>
-    <artifactId>ch9-messaging</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>jms-activemq</module>
-        <module>amqp-rabbitmq</module>
-        <module>redis-pubsub</module>
-        <module>stomp-websocket-bidir</module>
-        <module>websockets</module>
-    </modules>
+    <artifactId>stomp-websocketbroker-bidir</artifactId>
 
 
 </project>

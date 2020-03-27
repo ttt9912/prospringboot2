@@ -1,15 +1,5 @@
 package ch9.websocket.persistence.eventhandler;
 
-import ch9.websocket.TodoWsProperties;
-import common.todo.data.jpa.todo.Todo;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.data.rest.core.annotation.HandleAfterCreate;
-import org.springframework.data.rest.core.annotation.HandleAfterSave;
-import org.springframework.data.rest.core.annotation.HandleBeforeSave;
-import org.springframework.data.rest.core.annotation.RepositoryEventHandler;
-import org.springframework.messaging.simp.SimpMessagingTemplate;
-import org.springframework.stereotype.Component;
-
 /*
  *
  *
