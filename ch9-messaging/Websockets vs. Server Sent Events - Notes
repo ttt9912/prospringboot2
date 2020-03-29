@@ -1,0 +1,14 @@
+---------------------------------
+WebSockets
+---------------------------------
+- offer full-duplex (bi-directional) communication
+  between the server and the client
+- isn't an HTTP protocol
+- doesn't offer error-handling standards
+
+---------------------------------
+Server Sent Events
+---------------------------------
+- uses uni-directional communication
+- good with Webflux (error handling etc.)
+- available in WebMvc

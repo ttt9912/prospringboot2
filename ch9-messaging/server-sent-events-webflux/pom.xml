@@ -3,23 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>prospringboot2</artifactId>
+        <artifactId>ch9-messaging</artifactId>
         <groupId>ch.ttt</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ch.ttt</groupId>
-    <artifactId>ch9-messaging</artifactId>
+    <artifactId>server-sent-events-webflux</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>jms-activemq</module>
-        <module>amqp-rabbitmq</module>
-        <module>redis-pubsub</module>
-        <module>websockets</module>
-        <module>server-sent-events-webflux</module>
-        <module>server-sent-events-webmvc</module>
+        <module>sse-webflux-server</module>
+        <module>sse-webflux-client</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

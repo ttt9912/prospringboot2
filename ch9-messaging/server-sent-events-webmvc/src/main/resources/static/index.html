@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="ajax-client.js"></script>
+</head>
+<body>
+
+
+<!-----------------------------
+    ResponseBodyEmitter
+------------------------------>
+<h1>ResponseBodyEmitter</h1>
+<h3>blocking
+    <button id="btn-subscribe-rbe">Subscribe</button>
+</h3>
+<div id="output-rbe"></div>
+<script type="text/javascript">
+    document.getElementById('btn-subscribe-rbe').onclick = function () {
+        xhr('http://localhost:8080/responsebody-emitter/rbe').then(function (result) {
+            document.getElementById('output-rbe').append(result);
+        });
+    };
+</script>
+
+<!-----------------------------
+    SseEmitter
+------------------------------>
+<h1>SseEmitter</h1>
+<h3>non-blocking
+    <button id="btn-subscribe-sse">Subscribe</button>
+</h3>
+<div id="output-sse"></div>
+<script type="text/javascript">
+    document.getElementById('btn-subscribe-sse').onclick = function () {
+        var sse = new EventSource('http://localhost:8080/sse-emitter/stream-sse-mvc');
+
+        sse.onopen = function (event) {
+            console.log('EventSource is open');
+            console.log(event);
+        };
+
+        sse.onmessage = function (event) {
+            console.log(event);
+            document.getElementById('output-sse').appendChild(document.createTextNode(event.data));
+            document.getElementById('output-sse').appendChild(document.createElement('br'));
+        };
+
+        sse.onerror = function (error) {
+            console.log('Error');
+            console.log(error);
+            // By default, if the connection between the client and server closes,
+            // the connection is restarted.
+            // The connection is terminated with the .close() method.
+            sse.close();
+        }
+    };
+</script>
+
+
+<!-----------------------------
+    StreamingResponseBody
+------------------------------>
+<h1>StreamingResponseBody</h1>
+<h3>blocking
+    <button id="btn-subscribe-srb">Subscribe</button>
+</h3>
+<div id="output-srb"></div>
+<script type="text/javascript">
+    document.getElementById('btn-subscribe-srb').onclick = function () {
+        xhr('http://localhost:8080/streaming-responsebody/srb').then(function (result) {
+            document.getElementById('output-srb').append(result);
+        });
+    }
+</script>
+
+</body>
+</html>
