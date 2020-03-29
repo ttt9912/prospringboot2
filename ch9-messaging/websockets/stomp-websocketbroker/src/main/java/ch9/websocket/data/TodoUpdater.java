@@ -27,8 +27,8 @@ public class TodoUpdater {
         existing.setDescription(existing.getDescription() + " edited");
         todoRepository.save(existing);
 
+        log.info("sending message to ws:/{}/new - {}", todoWsProperties.getBroker(), existing);
         simpMessagingTemplate.convertAndSend(todoWsProperties.getBroker() + "/new", existing);
-        log.info("sending message to ws://todo/new - {}", existing);
     }
 
     private Todo findRandomTodo() {

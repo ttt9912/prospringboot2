@@ -7,6 +7,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "todo.ws")
 public class TodoWsProperties {
     private String app = "/todo-api-ws";
-    private String broker = "/todos";
+    private String broker = "/todo";
     private String endpoint = "/stomp";
 }

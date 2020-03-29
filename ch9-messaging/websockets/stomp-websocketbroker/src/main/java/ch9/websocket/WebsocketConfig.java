@@ -22,7 +22,7 @@ public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
 
     /*
      * - registers the STOMP protocol
-     * - registers the / stomp endpoint
+     * - registers the /stomp endpoint
      * - uses the JavaScript library SockJS
      */
     @Override

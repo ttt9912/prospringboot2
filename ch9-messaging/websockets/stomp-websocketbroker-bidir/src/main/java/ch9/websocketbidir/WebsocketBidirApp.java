@@ -9,14 +9,9 @@ import org.springframework.scheduling.annotation.Scheduled;
  * go to localhost:8080
  */
 @SpringBootApplication
-@EnableScheduling
-public class App {
+public class WebsocketBidirApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args);
-    }
-
-    @Scheduled(fixedRate = 5 * 1000)
-    public void sendMessage() {
+        SpringApplication.run(WebsocketBidirApp.class, args);
     }
 }
