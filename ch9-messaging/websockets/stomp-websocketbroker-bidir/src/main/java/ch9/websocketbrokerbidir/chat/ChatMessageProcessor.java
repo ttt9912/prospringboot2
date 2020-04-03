@@ -1,7 +1,7 @@
-package ch9.websocketbidir.chat;
+package ch9.websocketbrokerbidir.chat;
 
-import ch9.websocketbidir.model.IncomingMessage;
-import ch9.websocketbidir.model.OutgoingMessage;
+import ch9.websocketbrokerbidir.model.IncomingMessage;
+import ch9.websocketbrokerbidir.model.OutgoingMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;

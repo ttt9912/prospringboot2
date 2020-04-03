@@ -1,0 +1,17 @@
+https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket
+
+- raw WebSocket interactions
+- WebSocket emulation through SockJS
+- publish-subscribe messaging through STOMP as a sub-protocol
+
+---------------------------------------------------------------------------------
+Handshake
+---------------------------------------------------------------------------------
+HTTP request with Upgrade command to
+use open TCP connection
+
+---------------------------------------------------------------------------------
+When to use
+---------------------------------------------------------------------------------
+It is the combination of low latency, high frequency, and high volume that make
+the best case for the use of WebSocket.

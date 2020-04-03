@@ -1,6 +1,6 @@
-package ch9.websocket.data;
+package ch9.websocketbroker.data;
 
-import ch9.websocket.TodoWsProperties;
+import ch9.websocketbroker.TodoWsProperties;
 import common.todo.data.jpa.todo.Todo;
 import common.todo.data.jpa.todo.TodoRepository;
 import common.todo.data.jpa.util.RepositoryUtil;

@@ -1,6 +1,6 @@
-package ch9.websocket;
+package ch9.websocketbroker;
 
-import ch9.websocket.data.TodoUpdater;
+import ch9.websocketbroker.data.TodoUpdater;
 import common.todo.data.rest.CommonTodoDataRestConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

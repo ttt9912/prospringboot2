@@ -1,4 +1,4 @@
-package ch9.websocketbidir.model;
+package ch9.websocketbrokerbidir.model;
 
 import lombok.Data;
 

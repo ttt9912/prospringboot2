@@ -1,4 +1,4 @@
-package ch9.websocketbidir;
+package ch9.websocketbrokerbidir;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

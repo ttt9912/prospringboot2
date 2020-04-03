@@ -1,9 +1,7 @@
-package ch9.websocketbidir;
+package ch9.websocketbrokerbidir;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.scheduling.annotation.Scheduled;
 
 /*
  * go to localhost:8080

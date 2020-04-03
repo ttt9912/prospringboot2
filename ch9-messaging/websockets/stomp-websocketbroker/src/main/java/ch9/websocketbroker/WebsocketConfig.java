@@ -1,4 +1,4 @@
-package ch9.websocket;
+package ch9.websocketbroker;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

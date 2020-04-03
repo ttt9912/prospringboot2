@@ -1,4 +1,4 @@
-package ch9.websocket;
+package ch9.websocketbroker;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
