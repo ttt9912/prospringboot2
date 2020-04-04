@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------------
+SockJS protocol
+---------------------------------------------------------------------------------
+Fallback if Websocket is not supported
+Websocket is then emulated with HTTP-based techniques
+
+---------------------------------------------------------------------------------
+Causes
+---------------------------------------------------------------------------------
+proxies outside out control:
+- are not configured to pass on the Upgrade header
+- close long-lived connections that appear to be idle
+
+---------------------------------------------------------------------------------
+Precedence
+---------------------------------------------------------------------------------
+1. Websocket
+2. HTTP streaming
+3. HTTP long polling

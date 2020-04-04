@@ -16,16 +16,5 @@ When to use
 It is the combination of low latency, high frequency, and high volume that make
 the best case for the use of WebSocket.
 
----------------------------------------------------------------------------------
-SockJS protocol
----------------------------------------------------------------------------------
-Fallback if Websocket is not supported
-
-# Causes
-proxies outside out control:
-- are not configured to pass on the Upgrade header
-- close long-lived connections that appear to be idle
-
-Websocket is then emulated with HTTP-based techniques
 
 

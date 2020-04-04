@@ -3,6 +3,7 @@ var connection;
 function connect() {
     connection = new WebSocket('ws://localhost:8080/echo');
 
+
     refreshStatus();
 
     connection.onerror = function (error) {
