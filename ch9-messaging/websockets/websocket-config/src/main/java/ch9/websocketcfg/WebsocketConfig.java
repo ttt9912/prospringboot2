@@ -27,7 +27,7 @@ import org.springframework.web.socket.server.standard.ServletServerContainerFact
  */
 @Configuration
 @EnableWebSocket
-public class WebSocketConfig implements WebSocketConfigurer {
+public class WebsocketConfig implements WebSocketConfigurer {
 
     @Autowired
     private TextEchoHandler echoHandler;
