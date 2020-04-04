@@ -1,8 +1,11 @@
 https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket
 
-- raw WebSocket interactions
-- WebSocket emulation through SockJS
-- publish-subscribe messaging through STOMP as a sub-protocol
+---------------------------------------------------------------------------------
+Working with Websocket
+---------------------------------------------------------------------------------
+- raw WebSocket interactions (one connection per endpoint)
+- WebSocket emulation through SockJS (client fallback)
+- publish-subscribe messaging through STOMP as a sub-protocol (message routing)
 
 ---------------------------------------------------------------------------------
 Handshake

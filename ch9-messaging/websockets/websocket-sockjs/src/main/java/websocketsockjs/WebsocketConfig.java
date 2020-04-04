@@ -1,4 +1,4 @@
-package websocketecho;
+package websocketsockjs;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +18,7 @@ public class WebsocketConfig implements WebSocketConfigurer {
 
     @Override
     public void registerWebSocketHandlers(final WebSocketHandlerRegistry registry) {
-        registry.addHandler(echoHandler, "/echo");
+        registry.addHandler(echoHandler, "/echo")
+                .withSockJS();
     }
 }

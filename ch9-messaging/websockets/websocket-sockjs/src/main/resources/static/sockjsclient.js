@@ -1,16 +1,15 @@
-var connection;
+var sockJS;
 
 function connect() {
-    connection = new WebSocket('ws://localhost:8080/echo');
-
+    sockJS = new SockJS('http://localhost:8080/echo');
 
     refreshStatus();
 
-    connection.onerror = function (error) {
+    sockJS.onerror = function (error) {
         console.log('WebSocket Error ' + error);
     };
 
-    connection.onmessage = function (messageEvent) {
+    sockJS.onmessage = function (messageEvent) {
         console.log('Websocket MessageEvent');
         console.log(messageEvent);
         showMessage(messageEvent.data);
@@ -18,19 +17,19 @@ function connect() {
 }
 
 function disconnect() {
-    console.log('closing connection');
-    connection.close();
+    console.log('closing sockJS');
+    sockJS.close();
     refreshStatus();
 }
 
 function refreshStatus() {
-    console.log(connection);
-    $('#status').html(connection.readyState);
+    console.log(sockJS);
+    $('#status').html(sockJS.readyState);
 }
 
 function sendMessage() {
     var text = $('#text').val();
-    connection.send(text);
+    sockJS.send(text);
 }
 
 function showMessage(messageBody) {
