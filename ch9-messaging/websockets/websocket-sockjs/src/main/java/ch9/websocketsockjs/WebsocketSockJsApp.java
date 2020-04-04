@@ -1,4 +1,4 @@
-package websocketsockjs;
+package ch9.websocketsockjs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

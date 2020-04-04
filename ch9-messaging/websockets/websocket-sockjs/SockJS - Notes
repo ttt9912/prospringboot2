@@ -17,3 +17,11 @@ Precedence
 1. Websocket
 2. HTTP streaming
 3. HTTP long polling
+
+---------------------------------------------------------------------------------
+Hearbeats
+---------------------------------------------------------------------------------
+By default, a heartbeat is sent after 25 seconds, assuming no other messages were
+sent on that connection.
+
+heartbeatTime - Spring SockJS property to customize frequency

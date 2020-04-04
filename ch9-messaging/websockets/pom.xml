@@ -17,6 +17,7 @@
         <module>websocketbroker-stomp-bidir</module>
         <module>websocket-config</module>
         <module>websocket-sockjs</module>
+        <module>websocket-sockjs-javaclient</module>
     </modules>
 
 

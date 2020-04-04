@@ -9,6 +9,11 @@ function connect() {
         console.log('WebSocket Error ' + error);
     };
 
+    sockJS.onheartbeat = function (hearbeat) {
+        console.log('Heartbeat');
+        console.log(hearbeat);
+    };
+
     sockJS.onmessage = function (messageEvent) {
         console.log('Websocket MessageEvent');
         console.log(messageEvent);
@@ -23,6 +28,7 @@ function disconnect() {
 }
 
 function refreshStatus() {
+    console.log('sockJS connection');
     console.log(sockJS);
     $('#status').html(sockJS.readyState);
 }

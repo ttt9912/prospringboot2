@@ -1,4 +1,4 @@
-package websocketsockjs;
+package ch9.websocketsockjs;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package websocketsockjs;
+package ch9.websocketsockjs;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
