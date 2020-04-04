@@ -1,4 +1,4 @@
-package ch9.websocket;
+package ch9.websocketecho;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

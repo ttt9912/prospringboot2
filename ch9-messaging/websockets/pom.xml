@@ -12,11 +12,11 @@
     <artifactId>websockets</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>stomp-websocketbroker</module>
-        <module>stomp-websocketbroker-bidir</module>
         <module>websocket-echo</module>
         <module>websocketbroker-stomp</module>
         <module>websocketbroker-stomp-bidir</module>
+        <module>websocket-config</module>
+        <module>websocket-sockjs</module>
     </modules>
 
 
