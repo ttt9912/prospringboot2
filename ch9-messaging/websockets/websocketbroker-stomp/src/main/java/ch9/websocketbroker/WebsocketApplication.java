@@ -30,7 +30,7 @@ public class WebsocketApplication {
     @Autowired
     private TodoUpdater todoUpdater;
 
-    @Scheduled(fixedRate = 5 * 1000)
+    @Scheduled(fixedRate = 2 * 1000)
     public void modifyTodos() {
         todoUpdater.udpateRandomTodo();
     }

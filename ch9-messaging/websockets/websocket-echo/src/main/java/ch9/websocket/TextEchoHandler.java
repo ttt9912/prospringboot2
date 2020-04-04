@@ -7,12 +7,29 @@ import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 /*
- * TextWebSocketHandler - process text messages only
- * for Binary messages use BinaryWebSocketHandler or AbstractWebSocketHandler
+ * --------------------------------------
+ * TextWebSocketHandler
+ * --------------------------------------
+ * process text messages only
+ * for Binary messages use BinaryWebSocketHandler
+ * or AbstractWebSocketHandler
  *
- * TextMessage - implementation of WebsocketMessage<T>
+ * --------------------------------------
+ * TextMessage
+ * --------------------------------------
+ * implementation of WebsocketMessage<T>
+
  * other WebsocketMessage<T> implementations
  * - BinaryMessage, PingMessage, PongMessage
+ *
+ * --------------------------------------
+ * WebSocketSession
+ * --------------------------------------
+ * messages are sent via WebSocketSession
+ *
+ * Get the WebSocketSession
+ * - override handleTextMessage()
+ * - override afterConnectionEstablished()
  *
  */
 @Slf4j
