@@ -1,9 +1,7 @@
 package keycloacksso.plain;
 
-import edurion.appconfigs.datarest.EdurionAngularAppConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Import;
 
 /*
  * - no spring security
@@ -28,7 +26,7 @@ import org.springframework.context.annotation.Import;
  * - admin/admin
  */
 @SpringBootApplication
-@Import(EdurionAngularAppConfig.class)
+// @Import(EdurionAngularAppConfig.class) // TODO: this is broken now
 public class KeycloackSSOApp {
 
     public static void main(String[] args) {

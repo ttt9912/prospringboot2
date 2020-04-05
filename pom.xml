@@ -78,54 +78,6 @@
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
-            <!-- edurion -->
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-business</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-data-jpa</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-data-rest</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-ui-thymeleaf</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-service</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-ui-angular</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <!-- edurion app configs -->
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-angular-app-config</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-data-rest-app-config</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>edurion-thymeleaf-app-config</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-
             <!-- spring cloud -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -161,6 +113,35 @@
                 <version>7.0.1</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- webjars -->
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>jquery</artifactId>
+                <version>3.1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>bootstrap</artifactId>
+                <version>3.3.5</version>
+            </dependency>
+            <!-- TODO: not maintained anymore -->
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>stomp-websocket</artifactId>
+                <version>2.3.3</version>
+            </dependency>
+            <!-- TODO: use this instead -->
+            <dependency>
+                <groupId>org.webjars.npm</groupId>
+                <artifactId>webstomp-client</artifactId>
+                <version>1.2.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>sockjs-client</artifactId>
+                <version>1.1.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

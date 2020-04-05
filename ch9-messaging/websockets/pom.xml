@@ -18,6 +18,7 @@
         <module>websocket-config</module>
         <module>websocket-sockjs</module>
         <module>websocket-sockjs-javaclient</module>
+        <module>websocketbroker-stomp-todo-push</module>
     </modules>
 
 

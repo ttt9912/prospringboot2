@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
 
 @Slf4j
 @Controller
-public class ChatMessageProcessor {
+public class ChatMessageController {
 
     /*
      * - subscribe to   /app/new-message

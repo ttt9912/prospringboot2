@@ -1,4 +1,4 @@
-package ch9.websocketbroker;
+package ch9.stomppush;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

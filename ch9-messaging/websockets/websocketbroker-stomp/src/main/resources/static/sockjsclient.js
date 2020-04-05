@@ -3,6 +3,8 @@ var sockJS;
 function connect() {
     sockJS = new SockJS('http://localhost:8080/echo');
 
+    new SockJS
+
     refreshStatus();
 
     sockJS.onerror = function (error) {

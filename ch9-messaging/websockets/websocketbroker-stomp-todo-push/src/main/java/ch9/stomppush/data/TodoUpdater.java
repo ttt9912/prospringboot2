@@ -1,6 +1,6 @@
-package ch9.websocketbroker.data;
+package ch9.stomppush.data;
 
-import ch9.websocketbroker.TodoWsProperties;
+import ch9.stomppush.TodoWsProperties;
 import common.todo.data.jpa.todo.Todo;
 import common.todo.data.jpa.todo.TodoRepository;
 import common.todo.data.jpa.util.RepositoryUtil;

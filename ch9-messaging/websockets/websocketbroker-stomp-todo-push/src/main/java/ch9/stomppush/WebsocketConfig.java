@@ -1,5 +1,6 @@
-package ch9.websocketbroker;
+package ch9.stomppush;
 
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
 import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
@@ -11,29 +12,32 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
  */
 @Configuration
 @EnableWebSocketMessageBroker
+@EnableConfigurationProperties(TodoWsProperties.class)
 public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
+    private final TodoWsProperties properties;
+
+    public WebsocketConfig(final TodoWsProperties properties) {
+        this.properties = properties;
+    }
 
     /*
-     * /chat is the HTTP URL for the endpoint
-     * to which a WebSocket (or SockJS) client needs to
-     * connect for the WebSocket handshake
+     * - registers the STOMP protocol
+     * - registers the /stomp endpoint
+     * - uses the JavaScript library SockJS
      */
     @Override
     public void registerStompEndpoints(final StompEndpointRegistry registry) {
-        registry.addEndpoint("/chat")
+        registry.addEndpoint(properties.getEndpoint())
+                .setAllowedOrigins("*")
                 .withSockJS();
     }
 
     /*
-     * receive - STOMP messages whose destination header begins with /app are
-     *           routed to @MessageMapping methods in @Controller classes
-     *
-     * send - messages whose destination header begins with /topic or /queue
-     *        are routed to the broker for subscriptions and broadcasting
+     * - enables the broker in the /todos endpoint.
      */
     @Override
     public void configureMessageBroker(final MessageBrokerRegistry registry) {
-        registry.setApplicationDestinationPrefixes("/app"); // receive
-        registry.enableSimpleBroker("/topic", "/queue"); // send
+        registry.enableSimpleBroker(properties.getBroker());
+        registry.setApplicationDestinationPrefixes(properties.getApp());
     }
 }

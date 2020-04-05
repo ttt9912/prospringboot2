@@ -1,9 +1,7 @@
 package keycloaksso.springsecurity;
 
-import edurion.appconfigs.datarest.EdurionAngularAppConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Import;
 
 /*
  * --------------------------------------------------------
@@ -34,7 +32,7 @@ import org.springframework.context.annotation.Import;
  * - admin/admin
  */
 @SpringBootApplication
-@Import(EdurionAngularAppConfig.class)
+// @Import(EdurionAngularAppConfig.class) TODO: this is broken now
 public class KeycloakSecurityApp {
 
     public static void main(String[] args) {
