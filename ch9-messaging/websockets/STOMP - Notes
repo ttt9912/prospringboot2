@@ -1,0 +1,49 @@
+---------------------------------------------------------------------------------
+destinations
+---------------------------------------------------------------------------------
+Clients can use the SEND or SUBSCRIBE commands to send or subscribe for messages,
+along with a 'destination' header that describes what the message is about and
+who should receive it.
+
+This enables a simple publish-subscribe mechanism that you can use to send
+messages through the broker to other connected clients or to send messages to
+the server to request that some work be performed.
+
+---------------------------------------------------------------------------------
+destination Naming Convetions
+---------------------------------------------------------------------------------
+/topic/..   - implies publish-subscribe (one-to-many) message exchanges
+
+/queue/     - implies point-to-point (one-to-one) message exchanges
+
+For the built-in simple broker, the /topic and /queue prefixes do not have any
+special meaning. They are merely a convention to differentiate between pub-sub
+versus point-to-point messaging
+
+---------------------------------------------------------------------------------
+STOMP Commands
+---------------------------------------------------------------------------------
+Client
+- SEND      - message to destination
+- SUBSCRIBE - to destination
+
+Server
+- MESSAGE   - broadcast message to destination
+
+---------------------------------------------------------------------------------
+STOMP brokers
+---------------------------------------------------------------------------------
+to manage subscriptions and broadcast messages
+
+- Spring in-memory
+- RabbitMQ
+- ActiveMQ
+
+---------------------------------------------------------------------------------
+Destination Controllers
+---------------------------------------------------------------------------------
+Messages can be routed to @Controller instances based on the STOMP
+destination header
+
+Versus handling raw WebSocket messages with a single WebSocketHandler for a
+given connection
