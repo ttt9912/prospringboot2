@@ -1,14 +1,12 @@
-package ch9.websocketbroker;
+package ch9.stompecho;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 /*
  * Go to localhost:8080
  */
 @SpringBootApplication
-@EnableScheduling
 public class WebsocketApplication {
 
     public static void main(String[] args) {

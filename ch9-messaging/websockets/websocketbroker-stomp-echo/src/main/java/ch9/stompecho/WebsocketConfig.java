@@ -1,4 +1,4 @@
-package ch9.websocketbroker;
+package ch9.stompecho;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

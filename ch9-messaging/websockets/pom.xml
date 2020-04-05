@@ -13,12 +13,13 @@
     <packaging>pom</packaging>
     <modules>
         <module>websocket-echo</module>
-        <module>websocketbroker-stomp</module>
         <module>websocketbroker-stomp-bidir</module>
         <module>websocket-config</module>
         <module>websocket-sockjs</module>
         <module>websocket-sockjs-javaclient</module>
         <module>websocketbroker-stomp-todo-push</module>
+        <module>websocketbroker-stomp-echo</module>
+        <module>websocketbroker-stomp-push</module>
     </modules>
 
 
