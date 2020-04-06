@@ -1,4 +1,4 @@
-package ch9.stompecho.inbound;
+package ch9.stompecho.data;
 
 import lombok.Value;
 

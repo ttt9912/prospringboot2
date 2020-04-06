@@ -49,3 +49,9 @@ Versus handling raw WebSocket messages with a single WebSocketHandler for a
 given connection
 
 Message handling in @MessageMapping annotated methods
+
+---------------------------------------------------------------------------------
+Sending messages
+---------------------------------------------------------------------------------
+- @SendTo on @Controller methods
+- SimpMessagingTemplate
