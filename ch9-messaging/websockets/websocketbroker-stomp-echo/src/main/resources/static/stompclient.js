@@ -10,7 +10,13 @@ function connect() {
             console.log("Message");
             console.log(message);
             showMessage(JSON.parse(message.body))
-        })
+        });
+
+        // SockJS auto heartbeat
+        sockJS.onheartbeat = function (hearbeat) {
+            console.log('SockJS Heartbeat');
+            console.log(hearbeat);
+        };
     });
 }
 

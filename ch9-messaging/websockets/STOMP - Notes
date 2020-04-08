@@ -55,3 +55,11 @@ Sending messages
 ---------------------------------------------------------------------------------
 - @SendTo on @Controller methods
 - SimpMessagingTemplate
+
+---------------------------------------------------------------------------------
+STOMP Hearbeats
+---------------------------------------------------------------------------------
+Configure Simple Broker with a TaskScheduler
+https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket-stomp-handle-simple-broker
+
+SockJS Hearbeats - are sent anyway if using SockJS

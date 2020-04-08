@@ -1,14 +1,19 @@
 $(function () {
-    var stompClient = null;
-    var socket = new SockJS('http://localhost:8080/greetings');
-    stompClient = Stomp.over(socket);
+    sockJS = new SockJS('http://localhost:8080/greetings');
+    stomp = Stomp.over(sockJS);
 
-    stompClient.connect({}, function (frame) {
+    stomp.connect({}, function (frame) {
         console.log('Connected: ' + frame);
-        stompClient.subscribe('/topic/greeting', function (data) {
+
+        stomp.subscribe('/topic/greeting', function (data) {
             console.log('>>>>> ' + data);
             var result = "<span>" + data.body + "</span><br/>";
             $("#output").append(result);
         });
+
+        sockJS.onheartbeat = function (hearbeat) {
+            console.log('SockJS Heartbeat');
+            console.log(hearbeat);
+        };
     });
 });

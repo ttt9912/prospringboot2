@@ -1,4 +1,4 @@
-package ch9.stomppush;
+package ch9.stompheartbeat;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -21,8 +21,8 @@ public class WebsocketApplication {
         SpringApplication.run(WebsocketApplication.class, args);
     }
 
-    @Scheduled(fixedRate = 2 * 1000)
+    @Scheduled(fixedRate = 30 * 1000)
     public void modifyTodos() {
-        simp.convertAndSend("/topic/greeting", "Hello");
+        // simp.convertAndSend("/topic/greeting", "Hello");
     }
 }

@@ -18,6 +18,7 @@
         <module>websocket-sockjs-javaclient</module>
         <module>websocketbroker-stomp-echo</module>
         <module>websocketbroker-stomp-push</module>
+        <module>websocketbroker-stomp-heartbeat</module>
     </modules>
 
 

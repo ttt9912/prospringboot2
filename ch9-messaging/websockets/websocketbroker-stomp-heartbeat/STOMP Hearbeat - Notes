@@ -1,0 +1,43 @@
+---------------------------------------------------------------------------------
+Implement with TaskScheduler
+---------------------------------------------------------------------------------
+https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket-stomp-handle-simple-broker
+
+---------------------------------------------------------------------------------
+How does it work
+---------------------------------------------------------------------------------
+https://stomp.github.io/stomp-specification-1.2.html#Heart-beating
+
+At the very beginning of the STOMP session, a heart-beat header is added to the
+CONNECT and CONNECTED frames
+
+---------------------------------------------------------------------------------
+heart-beat Header
+---------------------------------------------------------------------------------
+Contains two positive integers. First is server heartbeat interval ms(PING),
+second is client heartbeat interval ms (PONG)
+
+---------------------------------------------------------------------------------
+Example
+---------------------------------------------------------------------------------
+Web Socket Opened...
+
+>>> CONNECT
+accept-version:1.1,1.0
+heart-beat:10000,10000                      // 10s, 10s is default
+
+<<< CONNECTED
+version:1.1
+heart-beat:5000,10000                       // server sets intervals to 5s, 10s
+
+connected to server undefined
+send PING every 10000ms
+check PONG every 10000ms
+stompclient.js:6 Connected: CONNECTED
+heart-beat:5000,10000
+version:1.1
+
+>>> PING                                    // client -> server
+<<< PONG                                    // server -> client
+<<< PONG                                    // server -> client
+>>> PING
