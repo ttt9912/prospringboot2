@@ -1,4 +1,4 @@
-package websocketbroker;
+package ch9.stomppush;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
@@ -14,26 +14,22 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
 
     /*
-     * /chat is the HTTP URL for the endpoint
-     * to which a WebSocket (or SockJS) client needs to
-     * connect for the WebSocket handshake
+     * - registers the STOMP protocol
+     * - registers the /greetings endpoint
+     * - uses the JavaScript library SockJS
      */
     @Override
     public void registerStompEndpoints(final StompEndpointRegistry registry) {
-        registry.addEndpoint("/chat")
+        registry.addEndpoint("/greetings")
+                .setAllowedOrigins("*")
                 .withSockJS();
     }
 
     /*
-     * receive - STOMP messages whose destination header begins with /app are
-     *           routed to @MessageMapping methods in @Controller classes
-     *
-     * send - messages whose destination header begins with /topic or /queue
-     *        are routed to the broker for subscriptions and broadcasting
+     * - client receives message events under    /topic/*
      */
     @Override
     public void configureMessageBroker(final MessageBrokerRegistry registry) {
-        registry.setApplicationDestinationPrefixes("/app"); // receive
-        registry.enableSimpleBroker("/topic", "/queue"); // send
+        registry.enableSimpleBroker("/topic");
     }
 }

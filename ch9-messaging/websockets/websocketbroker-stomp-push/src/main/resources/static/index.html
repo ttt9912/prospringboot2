@@ -1,29 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Chat WebSocket</title>
+    <meta charset="UTF-8">
+    <title>ToDo WebSockets</title>
+    <link href="/webjars/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/webjars/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
     <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
     <script src="/webjars/sockjs-client/1.1.2/sockjs.min.js"></script>
     <script src="/webjars/stomp-websocket/2.3.3/stomp.min.js"></script>
     <script src="stompclient.js"></script>
 </head>
-<div>
-
-    <h3>Connection</h3>
-    <div>
-        <button onclick="connect();">Connect</button>
-        <button onclick="disconnect();">Disconnect</button>
-        <button onclick="refreshStatus();">Refresh Status</button>
+<body>
+<div class="container theme-showcase" role="main">
+    <div class="page-header">
+        <h1>Messages</h1>
     </div>
-    <p>status: <span id="status"></span></p>
-    <small>(0 - CONNECTING, 1 - OPEN, 2 - CLOSING, 3 - CLOSED)</small>
-
-    <h3>Send Message</h3>
-    <div>
-        <input id="text" placeholder="Write a message..." type="text"/>
-        <button id="sendMessage" onclick="sendMessage();">Send</button>
-        <p id="response"></p>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Message:</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="output">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
 </body>
 </html>
