@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------------
+State Pattern
+---------------------------------------------------------------------------------
+"allow the object for changing its behavior without changing its class"
+
+By implementing it, the code should remain cleaner without many if/else
+statements.
+
+- SRP & OCP
+Thanks to the State design pattern, we can encapsulate the logic in dedicated
+classes, apply the Single Responsibility Principle and Open/Closed Principle,
+have cleaner and more maintainable code.
+
+---------------------------------------------------------------------------------
+Downsides
+---------------------------------------------------------------------------------
+- one state knows about the other --> tightly coupled
+- implementing transition between the states makes the state hardcoded
+    --> bad practice in general
+
+---------------------------------------------------------------------------------
+State vs. Strategy Pattern
+---------------------------------------------------------------------------------
+In strategy, the client has to be aware of the possible strategies to use and
+change them explicitly. Whereas in state pattern, each state is linked to another
+and create the flow as in Finite State Machine.

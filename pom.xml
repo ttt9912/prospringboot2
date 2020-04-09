@@ -19,6 +19,7 @@
         <module>ch13-extending-spring-boot</module>
         <module>ch101-reactor</module>
         <module>ch102-jasypt</module>
+        <module>ch103-statemachine</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
