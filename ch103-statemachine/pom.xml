@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>state-pattern</module>
+        <module>spring-statemachine</module>
+        <module>spring-statemachine-advanced</module>
     </modules>
 
 
