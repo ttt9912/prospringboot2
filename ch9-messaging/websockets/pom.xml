@@ -19,6 +19,8 @@
         <module>websocketbroker-stomp-echo</module>
         <module>websocketbroker-stomp-push</module>
         <module>websocketbroker-stomp-heartbeat</module>
+        <module>websocketbroker-stomp-sendtouser</module>
+        <module>websocketbroker-stomp-echo-sendtouser</module>
     </modules>
 
 

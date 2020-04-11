@@ -3,9 +3,18 @@ https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/we
 ---------------------------------------------------------------------------------
 Working with Websocket
 ---------------------------------------------------------------------------------
-- raw WebSocket interactions (one connection per endpoint)
-- WebSocket emulation through SockJS (client fallback)
-- publish-subscribe messaging through STOMP as a sub-protocol (message routing)
+1. raw WebSocket interactions
+    one connection per endpoint
+
+2. SockJS
+    WebSocket emulation through SockJS (client fallback)
+
+3. STOMP
+    publish-subscribe messaging through STOMP as a sub-protocol (message routing)
+
+4. External STOMP Broker
+    clustering
+    RabbitMQ, ActiveMQ
 
 ---------------------------------------------------------------------------------
 Handshake
