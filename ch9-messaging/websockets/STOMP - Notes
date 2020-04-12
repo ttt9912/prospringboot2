@@ -63,3 +63,60 @@ Configure Simple Broker with a TaskScheduler
 https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket-stomp-handle-simple-broker
 
 SockJS Hearbeats - are sent anyway if using SockJS
+
+---------------------------------------------------------------------------------
+Order of messages
+---------------------------------------------------------------------------------
+https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket-stomp-ordered-messages
+
+order is not guaranteed, but can be enabled
+
+Messages from the broker are published to the clientOutboundChannel, from where
+they are written to WebSocket sessions. As the channel is backed by a
+ThreadPoolExecutor, messages are processed in different threads, and the resulting
+sequence received by the client may not match the exact order of publication.
+
+---------------------------------------------------------------------------------
+Application Events
+---------------------------------------------------------------------------------
+https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket-stomp-appplication-context-events
+
+- BrokerAvailabilityEvent
+- SessionConnectEvent
+- SessionConnectedEvent
+- SessionSubscribeEvent
+- SessionUnsubscribeEvent
+- SessionDisconnectEvent
+
+---------------------------------------------------------------------------------
+Performance
+---------------------------------------------------------------------------------
+https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket-stomp-configuration-performance
+
+In a messaging application, messages are passed through channels for asynchronous
+executions that are backed by thread pools.
+
+The obvious place to start is to configure the thread pools that back the
+clientInboundChannel and the clientOutboundChannel.
+By default, both are configured at twice the number of available processors.
+
+configure
+- how long a send is allowed to take
+- how much data can be buffered when sending messages to a client
+- maximum allowed size for incoming STOMP messages
+
+---------------------------------------------------------------------------------
+Monitoring
+---------------------------------------------------------------------------------
+https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket-stomp-stats
+
+@EnableWebSocketMessageBroker automatically gather statistics and collects it in
+a bean of type WebSocketMessageBrokerStats
+
+---------------------------------------------------------------------------------
+Testing
+---------------------------------------------------------------------------------
+https://docs.spring.io/spring-framework/docs/5.2.x/spring-framework-reference/web.html#websocket-stomp-stats
+
+- Controller tests
+- E2E (running server with embedded stomp)

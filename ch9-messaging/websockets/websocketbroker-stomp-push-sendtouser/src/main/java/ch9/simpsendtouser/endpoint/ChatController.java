@@ -10,7 +10,6 @@ import org.springframework.stereotype.Controller;
 import java.security.Principal;
 
 /*
- * TODO
  * -------------------------------------------------
  * /queue
  * -------------------------------------------------
