@@ -20,6 +20,7 @@
         <module>oauth2-facebook-sso</module>
         <module>keycloak-sso</module>
         <module>password-encoders</module>
+        <module>basic-security-overriding-defaults</module>
     </modules>
 
 

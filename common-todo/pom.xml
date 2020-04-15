@@ -15,5 +15,6 @@
     <modules>
         <module>common-todo-data-jpa</module>
         <module>common-todo-data-rest</module>
+        <module>common-todo-rest</module>
     </modules>
 </project>
