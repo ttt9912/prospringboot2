@@ -19,6 +19,7 @@
         <module>oauth2-github</module>
         <module>oauth2-facebook-sso</module>
         <module>keycloak-sso</module>
+        <module>password-encoders</module>
     </modules>
 
 

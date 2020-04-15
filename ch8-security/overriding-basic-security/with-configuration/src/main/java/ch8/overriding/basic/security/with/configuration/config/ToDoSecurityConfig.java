@@ -53,9 +53,7 @@ public class ToDoSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(final HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .requestMatchers(
-                        PathRequest.toStaticResources()
-                                .atCommonLocations()).permitAll() // common locations, such as the static resources (static/* ) where CSS, JS, or any other simple HTML can live and doesn’t need any security.
+                .requestMatchers(PathRequest.toStaticResources().atCommonLocations()).permitAll() // common locations, such as the static resources (static/* ) where CSS, JS, or any other simple HTML can live and doesn’t need any security.
                 .anyRequest().fullyAuthenticated() // /api/* should be fullyAuthenticated
                 .and()
                 .formLogin().loginPage("/login").permitAll()
