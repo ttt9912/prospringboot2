@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------
+Storage mechanisms
+---------------------------------------------------------------------------------
+https://docs.spring.io/spring-security/site/docs/5.3.2.BUILD-SNAPSHOT/reference/html5/#servlet-authentication-unpwd
+
+- Simple Storage with In-Memory Authentication
+- Relational Databases with JDBC Authentication
+- Custom data stores with UserDetailsService
+- LDAP storage with LDAP Authentication

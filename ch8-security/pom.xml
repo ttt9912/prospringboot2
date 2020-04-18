@@ -21,6 +21,7 @@
         <module>keycloak-sso</module>
         <module>password-encoders</module>
         <module>basic-security-overriding-defaults</module>
+        <module>authentication</module>
     </modules>
 
 
