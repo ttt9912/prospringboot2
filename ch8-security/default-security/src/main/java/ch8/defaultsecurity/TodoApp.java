@@ -30,17 +30,13 @@ import org.springframework.context.annotation.Import;
  * ---------------------------------------------------------------------------------
  * Browser (use incognito mode!)
  * ---------------------------------------------------------------------------------
- * login page
+ * localhost:8080/api/todos
  *
  * ---------------------------------------------------------------------------------
  * curl (with HTTP Basic Authorization)
  * ---------------------------------------------------------------------------------
- * Basic Authorization - every request contains Authorization Header
- *      'Authorization: Basic dXNlcjoyMDFkYjgwNy1hNmY5LTRiMDQtYmE4OS1jMmE4MjE5YjgzYjU='
- *
- * - curl localhost:8080/api/todos -v -u user:<password>
- * or
- * - curl -v http://user:<password>@localhost:8080/api/todos
+ * $ curl localhost:8080/api/todos -v -u user:<password>
+ * $ curl -v http://user:<password>@localhost:8080/api/todos
  */
 @SpringBootApplication
 @Import(CommonTodoRestConfig.class)
