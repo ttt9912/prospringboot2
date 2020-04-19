@@ -27,24 +27,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     /*
-     * inMemoryAuthentication() - provides a bean of type InMemoryUserDetailsManager
-     * which implements UserDetailsService
-
-    @Override
-    protected void configure(final AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .withUser("user")
-                .password("{bcrypt}$2a$10$GRLdNijSQMUvl/au9ofL.eDwmoohzzS7.rmNSJZ.0FxO/BTk76klW")
-                .roles("USER")
-                .and()
-                .withUser("admin")
-                .password("{bcrypt}$2a$10$GRLdNijSQMUvl/au9ofL.eDwmoohzzS7.rmNSJZ.0FxO/BTk76klW")
-                .roles("USER", "ADMIN");
-    }
-
-     */
-
-    /*
      * Alternatively override configure(final AuthenticationManagerBuilder auth)
      * and use auth.inMemoryAuthentication() to provide UserDetailsService and
      * PasswordEncoder beans
