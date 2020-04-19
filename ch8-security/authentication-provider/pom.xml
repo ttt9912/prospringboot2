@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>in-memory-authentication</module>
+        <module>jdbc-authentication</module>
     </modules>
 
 

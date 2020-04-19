@@ -1,7 +1,10 @@
 package ch9.echosendtouser;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
 
 /*
  * Convention: send to /queue/ instead of /topic/ for targeting a single user
@@ -18,7 +21,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class WebsocketUserApp {
+
     public static void main(String[] args) {
         SpringApplication.run(WebsocketUserApp.class, args);
+    }
+
+    @Bean
+    public CommandLineRunner ctx(ApplicationContext context) {
+        return args -> {
+            System.out.println(context.getId());
+        };
     }
 }
