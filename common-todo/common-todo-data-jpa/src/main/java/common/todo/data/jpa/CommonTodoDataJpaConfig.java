@@ -28,8 +28,8 @@ public class CommonTodoDataJpaConfig {
     @Bean
     CommandLineRunner logInsertedTodos(TodoRepository toDoRepository) {
         return args -> {
-            log.info("inserted ToDos {}", toDoRepository.findAll());
-            log.info("Todos containing 'Buy': {}", toDoRepository.findByDescriptionContaining("Buy"));
+            log.trace("inserted ToDos {}", toDoRepository.findAll());
+            log.trace("Todos containing 'Buy': {}", toDoRepository.findByDescriptionContaining("Buy"));
         };
     }
 }

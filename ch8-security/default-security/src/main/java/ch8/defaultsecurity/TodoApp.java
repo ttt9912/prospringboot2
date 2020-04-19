@@ -1,11 +1,9 @@
-package ch8.basicsecurity;
+package ch8.defaultsecurity;
 
 import common.todo.rest.CommonTodoRestConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /*
  * ---------------------------------------------------------------------------------
@@ -25,6 +23,10 @@ import org.springframework.web.bind.annotation.RestController;
  * - integrate with Servlet API methods (HttpServletRequest class)
  *   (#getUserPrincipal(), #getRemoteUser(), #login(), #logout(), #isUserInRole())
  *
+ * Form Login and HTTP Basic Authentication are enabled by default. As soon as
+ * a configuration is provided, they must be configured explicitly via
+ * .httpBasic() resp. .formLogin()
+ *
  * ---------------------------------------------------------------------------------
  * Browser (use incognito mode!)
  * ---------------------------------------------------------------------------------
@@ -42,14 +44,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication
 @Import(CommonTodoRestConfig.class)
-@RestController
 public class TodoApp {
     public static void main(String[] args) {
         SpringApplication.run(TodoApp.class, args);
-    }
-
-    @GetMapping("/greeting")
-    public String greeting() {
-        return "Hello";
     }
 }

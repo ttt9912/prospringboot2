@@ -13,15 +13,15 @@
     <artifactId>ch8-security</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>basic-security</module>
         <module>overriding-basic-security</module>
         <module>jdbc-directory</module>
         <module>oauth2-github</module>
         <module>oauth2-facebook-sso</module>
         <module>keycloak-sso</module>
         <module>password-encoders</module>
-        <module>basic-security-overriding-defaults</module>
-        <module>authentication</module>
+        <module>default-security</module>
+        <module>security-context</module>
+        <module>authentication-mechanisms</module>
     </modules>
 
 
