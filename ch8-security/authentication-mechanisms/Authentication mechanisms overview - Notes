@@ -5,9 +5,18 @@ Authentication Mechanisms
 -
 
 ---------------------------------------------------------------------------------
-# Form authentication
+Username and Password
 ---------------------------------------------------------------------------------
+# Form Authentication
 - username and password being provided through an html form
+
+# HTTP Basic
+- Authorization Header
+
+# Digest
+- Deprecated!
+- Passwords must be stored in plaintext, encrypted, or an MD5 format. All of these
+  storage formats are considered insecure.
 
 
 

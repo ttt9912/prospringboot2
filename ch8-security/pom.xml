@@ -22,6 +22,7 @@
         <module>default-security</module>
         <module>security-context</module>
         <module>authentication-mechanisms</module>
+        <module>authentication-provider</module>
     </modules>
 
 
