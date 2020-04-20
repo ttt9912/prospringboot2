@@ -1,4 +1,4 @@
-package ch8.authprovider.jdbc;
+package ch8.authprovider.jdbcdefault;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

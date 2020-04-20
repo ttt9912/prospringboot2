@@ -13,7 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>in-memory-authentication</module>
-        <module>jdbc-authentication</module>
+        <module>jdbc-with-spring-default-schema</module>
+        <module>jdbc-with-repository</module>
     </modules>
 
 

@@ -1,4 +1,4 @@
-package ch8.authprovider.jdbc;
+package ch8.authprovider.jdbcdefault;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,6 +32,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and().formLogin();
     }
 
+    /*
+     * JdbcUserDetailsManager implements JdbcDaoImpl
+     */
     @Bean
     public UserDetailsService users(DataSource dataSource) {
         final UserDetails user = User.builder()
