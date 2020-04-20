@@ -1,4 +1,4 @@
-package ch8.authprovider.jdbcrepo.data;
+package ch8.authprovider.jdbcrepo.useraccount;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

@@ -1,5 +1,6 @@
 package ch8.authprovider.jdbcrepo;
 
+import ch8.authprovider.jdbcrepo.useraccount.UserAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

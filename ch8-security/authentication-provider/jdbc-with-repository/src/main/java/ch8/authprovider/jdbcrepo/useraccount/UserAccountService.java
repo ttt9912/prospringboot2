@@ -1,7 +1,5 @@
-package ch8.authprovider.jdbcrepo;
+package ch8.authprovider.jdbcrepo.useraccount;
 
-import ch8.authprovider.jdbcrepo.data.UserAccount;
-import ch8.authprovider.jdbcrepo.data.UserAccountRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;

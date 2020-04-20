@@ -1,4 +1,4 @@
-package ch8.authprovider.jdbcrepo.data;
+package ch8.authprovider.jdbcrepo.useraccount;
 
 import lombok.Data;
 
