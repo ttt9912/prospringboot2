@@ -32,7 +32,7 @@ public class JdbcRepoApp {
     }
 
     @Bean
-    public CommandLineRunner ctx(UserDetailsService userDetailsService) {
+    public CommandLineRunner userdetails(UserDetailsService userDetailsService) {
         return args -> {
 
             final UserDetails user = userDetailsService.loadUserByUsername("user");

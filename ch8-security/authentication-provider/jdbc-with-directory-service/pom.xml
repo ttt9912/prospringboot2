@@ -3,19 +3,17 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ch8-security</artifactId>
+        <artifactId>authentication-provider</artifactId>
         <groupId>ch.ttt</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>authentication-provider</artifactId>
+    <artifactId>jdbc-with-directory-service</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>in-memory-authentication</module>
-        <module>jdbc-with-spring-default-schema</module>
-        <module>jdbc-with-repository</module>
-        <module>jdbc-with-directory-service</module>
+        <module>person-directory-service</module>
+        <module>todoapp-secured</module>
     </modules>
 
 

@@ -26,7 +26,7 @@ public class InMemoryAuthApp {
     }
 
     @Bean
-    public CommandLineRunner ctx(InMemoryUserDetailsManager userDetailsService) {
+    public CommandLineRunner userDetails(InMemoryUserDetailsManager userDetailsService) {
         return args -> {
             final UserDetails user = userDetailsService.loadUserByUsername("user");
             System.out.println(user.getUsername() + " - " + user.getAuthorities());
@@ -35,5 +35,6 @@ public class InMemoryAuthApp {
             System.out.println(admin.getUsername() + " - " + admin.getAuthorities());
         };
     }
+
 }
 

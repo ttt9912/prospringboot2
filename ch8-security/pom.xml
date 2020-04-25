@@ -14,7 +14,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>overriding-basic-security</module>
-        <module>jdbc-directory</module>
         <module>oauth2-github</module>
         <module>oauth2-facebook-sso</module>
         <module>keycloak-sso</module>
