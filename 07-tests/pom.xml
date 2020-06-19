@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>ch7-tests</artifactId>
+    <artifactId>07-tests</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>web-endpoint-tests</module>

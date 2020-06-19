@@ -1,0 +1,6 @@
+ch5\data\redis\DataRedisApp.class
+ch5\data\redis\EmbeddedRedisConfig.class
+ch5\data\redis\service\ToDoController.class
+ch5\data\redis\data\RepositoryUtil.class
+ch5\data\redis\data\ToDoRepository.class
+ch5\data\redis\data\ToDo.class

@@ -20,7 +20,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Creates Endpoints for
  * - Entities (http://localhost:8080/api/persons)
  * - Repository Methods (http://localhost:8080/api/persons/search/findByEmailIgnoreCase?email=mark@example.com)
- *      -> see ch8-security/.../PersonRepository
+ *      -> see 08-security/.../PersonRepository
  *
  * ---------------------------------------------------------------------------------
  *  Spring Boot Auto Configuration

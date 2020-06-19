@@ -1,0 +1,6 @@
+ch9\amqp\fanoutexchange\Config.class
+ch9\amqp\fanoutexchange\RabbitMqFanoutExchangeApplication.class
+ch9\amqp\fanoutexchange\consumer\OrdersRabbitConsumerConfig.class
+ch9\amqp\fanoutexchange\producer\OrdersRabbitProducerConfig.class
+ch9\amqp\fanoutexchange\consumer\OrdersRabbitConsumer.class
+ch9\amqp\fanoutexchange\producer\OrdersRabbitProducer.class

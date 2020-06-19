@@ -1,0 +1,6 @@
+ch11\file\integration\messageendpoints\TodoHandler.class
+ch11\file\integration\properties\TodoFileProperties.class
+ch11\file\integration\data\Todo.class
+ch11\file\integration\messageendpoints\TodoConverter.class
+ch11\file\integration\TodoFileIntegrationApp.class
+ch11\file\integration\TodoFileIntegrationConfig.class

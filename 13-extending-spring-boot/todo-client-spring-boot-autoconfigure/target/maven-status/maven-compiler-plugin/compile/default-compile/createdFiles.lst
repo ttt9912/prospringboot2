@@ -1,0 +1,10 @@
+ch13\todoclient\annotation\Algorithm.class
+ch13\todoclient\security\TodoPasswordEncoderImportSelector$1.class
+ch13\todoclient\security\BCryptPasswordEncoderConfig.class
+ch13\todoclient\annotation\EnableTodoPasswordEncoder.class
+ch13\todoclient\dto\TodoDto.class
+ch13\todoclient\configuration\TodoClientProperties.class
+ch13\todoclient\security\TodoPasswordEncoderImportSelector.class
+ch13\todoclient\client\TodoRestClient.class
+ch13\todoclient\configuration\TodoClientAutoConfiguration.class
+ch13\todoclient\security\Pbkd2PasswordEncoderConfig.class

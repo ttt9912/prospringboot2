@@ -1,0 +1,8 @@
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-direct-exchange\src\main\java\ch9\amqp\directexchange\consumer\ShoppingRabbitConsumer.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-direct-exchange\src\main\java\ch9\amqp\directexchange\data\Invoice.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-direct-exchange\src\main\java\ch9\amqp\directexchange\producer\ShoppingRabbitProducerConfig.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-direct-exchange\src\main\java\ch9\amqp\directexchange\consumer\ShoppingRabbitConsumerConfig.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-direct-exchange\src\main\java\ch9\amqp\directexchange\RabbitMqDirectExchangeApplication.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-direct-exchange\src\main\java\ch9\amqp\directexchange\Config.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-direct-exchange\src\main\java\ch9\amqp\directexchange\data\Delivery.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-direct-exchange\src\main\java\ch9\amqp\directexchange\producer\ShoppingRabbitProducer.java

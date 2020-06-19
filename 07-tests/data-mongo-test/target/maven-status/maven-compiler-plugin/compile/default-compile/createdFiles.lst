@@ -1,0 +1,5 @@
+ch7\mongo\tests\DataMongoDbApp.class
+ch7\mongo\tests\data\ToDoRepository.class
+ch7\mongo\tests\data\RepositoryUtil.class
+ch7\mongo\tests\data\ToDo.class
+ch7\mongo\tests\service\ToDoController.class

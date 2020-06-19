@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>ch5-data-access</artifactId>
+    <artifactId>05-data-access</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>spring-jdbc</module>

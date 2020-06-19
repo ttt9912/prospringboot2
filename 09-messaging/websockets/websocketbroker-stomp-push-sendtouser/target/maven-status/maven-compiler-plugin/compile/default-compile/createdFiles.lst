@@ -1,0 +1,6 @@
+ch9\simpsendtouser\data\OutgoingChatMessage.class
+ch9\simpsendtouser\data\IncomingChatMessage.class
+ch9\simpsendtouser\endpoint\ChatController.class
+ch9\simpsendtouser\WebsocketConfig.class
+ch9\simpsendtouser\security\SecurityConfig.class
+ch9\simpsendtouser\UserChatApp.class

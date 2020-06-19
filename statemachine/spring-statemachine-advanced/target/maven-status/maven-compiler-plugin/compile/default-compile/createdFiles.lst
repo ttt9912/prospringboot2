@@ -1,0 +1,5 @@
+ch103\springstatemachineadv\App.class
+ch103\springstatemachineadv\statemachine\StatemachineConfig.class
+ch103\springstatemachineadv\listener\GlobalStateMachineListener.class
+ch103\springstatemachineadv\statemachine\EventEnum.class
+ch103\springstatemachineadv\statemachine\StateEnum.class

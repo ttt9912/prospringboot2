@@ -1,0 +1,8 @@
+ch9\amqp\directexchange\RabbitMqDirectExchangeApplication.class
+ch9\amqp\directexchange\Config.class
+ch9\amqp\directexchange\data\Invoice.class
+ch9\amqp\directexchange\data\Delivery.class
+ch9\amqp\directexchange\producer\ShoppingRabbitProducerConfig.class
+ch9\amqp\directexchange\producer\ShoppingRabbitProducer.class
+ch9\amqp\directexchange\consumer\ShoppingRabbitConsumerConfig.class
+ch9\amqp\directexchange\consumer\ShoppingRabbitConsumer.class

@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>ch101-reactor</artifactId>
+    <artifactId>reactor</artifactId>
 
     <dependencies>
         <dependency>

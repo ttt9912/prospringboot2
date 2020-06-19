@@ -1,0 +1,6 @@
+ch9\amqp\topicexchange\consumer\MarketRabbitConsumerConfig.class
+ch9\amqp\topicexchange\producer\MarketRabbitProducerConfig.class
+ch9\amqp\topicexchange\RabbitMqTopicExchangeApplication.class
+ch9\amqp\topicexchange\Config.class
+ch9\amqp\topicexchange\producer\MarketRabbitProducer.class
+ch9\amqp\topicexchange\consumer\MarketRabbitConsumer.class

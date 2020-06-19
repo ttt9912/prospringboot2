@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>09-messaging</artifactId>
+        <groupId>ch.ttt</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>websockets</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>websocket-echo</module>
+        <module>websocket-config</module>
+        <module>websocket-sockjs</module>
+        <module>websocket-sockjs-javaclient</module>
+        <module>websocketbroker-stomp-echo</module>
+        <module>websocketbroker-stomp-push</module>
+        <module>websocketbroker-stomp-heartbeat</module>
+        <module>websocketbroker-stomp-echo-sendtouser</module>
+        <module>websocketbroker-stomp-push-sendtouser</module>
+    </modules>
+
+
+</project>

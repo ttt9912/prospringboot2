@@ -1,0 +1,8 @@
+ch9\jms\remote\activemq\Config.class
+ch9\jms\remote\activemq\RemoteJmsApplication.class
+ch9\jms\remote\activemq\consumer\TodoConsumer.class
+ch9\jms\remote\activemq\consumer\TodoValidator.class
+ch9\jms\remote\activemq\producer\TodoProducer.class
+ch9\jms\remote\activemq\consumer\TodoErrorHandler.class
+ch9\jms\remote\activemq\consumer\TodoConsumerConfig.class
+ch9\jms\remote\activemq\consumer\TodoConsumerConfig$MethodListenerConfig.class

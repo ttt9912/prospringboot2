@@ -1,0 +1,4 @@
+ch8\authprovider\jdbcdefault\JdbcConfig.class
+ch8\authprovider\jdbcdefault\SecurityConfig.class
+ch8\authprovider\jdbcdefault\service\WelcomeController.class
+ch8\authprovider\jdbcdefault\JdbcAuthApp.class

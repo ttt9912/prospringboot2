@@ -1,0 +1,6 @@
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-headers-exchange\src\main\java\ch9\amqp\headersexchange\RabbitMqHeadersExchangeApplication.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-headers-exchange\src\main\java\ch9\amqp\headersexchange\producer\MarketRabbitProducerConfig.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-headers-exchange\src\main\java\ch9\amqp\headersexchange\consumer\MarketRabbitConsumerConfig.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-headers-exchange\src\main\java\ch9\amqp\headersexchange\consumer\MarketRabbitConsumer.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-headers-exchange\src\main\java\ch9\amqp\headersexchange\Config.java
+D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-headers-exchange\src\main\java\ch9\amqp\headersexchange\producer\MarketRabbitProducer.java

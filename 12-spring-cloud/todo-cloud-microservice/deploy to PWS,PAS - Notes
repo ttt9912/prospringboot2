@@ -32,7 +32,7 @@ Deploy todoapp to PAS
 $ cf push <name-of-the-app> -p <location of jar> -n <unique subdomain>
 
 Example:
-$ cf push TodoApp -p /Users/ttt/dev/workspaces/prospringboot2/ch12-spring-cloud/todo-cloud-microservice/target/todo-cloud-microservice-0.0.1-SNAPSHOT.jar -n ttt-todo-app
+$ cf push TodoApp -p /Users/ttt/dev/workspaces/prospringboot2/12-spring-cloud/todo-cloud-microservice/target/todo-cloud-microservice-0.0.1-SNAPSHOT.jar -n ttt-todo-app
 
 ---------------------------------------------------------------------------------
 View Logs

@@ -1,0 +1,6 @@
+ch9\amqp\defaultexchange\consumer\TodoRabbitConsumerConfig.class
+ch9\amqp\defaultexchange\producer\TodoRabbitProducerConfig.class
+ch9\amqp\defaultexchange\producer\TodoRabbitProducer.class
+ch9\amqp\defaultexchange\RabbitMqDefaultExchangeApplication.class
+ch9\amqp\defaultexchange\Config.class
+ch9\amqp\defaultexchange\consumer\TodoRabbitConsumer.class

@@ -1,0 +1,29 @@
+#Server
+server:
+  # curl -I http://localhost:8080/my-app/api/todos
+  servlet:
+    context-path: /my-app
+
+    # manage the session (just demo)
+    session:
+      store-dir: /tmp
+      persistent: true
+      timeout: 15
+      cookie:
+        name: todo-cookie.dat
+        path: /tmp/cookies
+
+  # HTTP2 (just demo)
+  http2:
+    enabled: true
+
+# JSON Date Format (java.util.Date only, use @JsonFormat for others)
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Etc/GMT+1
+
+  # Enable XML Content format
+  mvc:
+    contentnegotiation:
+      favor-parameter: true

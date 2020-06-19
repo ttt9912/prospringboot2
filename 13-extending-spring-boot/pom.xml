@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>ch13-extending-spring-boot</artifactId>
+    <artifactId>13-extending-spring-boot</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>todo-client-spring-boot-autoconfigure</module>

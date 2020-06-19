@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>ch3-springboot-features</artifactId>
+    <artifactId>03-springboot-features</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>application</module>

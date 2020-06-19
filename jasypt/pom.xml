@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.ttt</groupId>
-    <artifactId>ch102-jasypt</artifactId>
+    <artifactId>jasypt</artifactId>
 
     <dependencies>
         <!-- spring boot -->

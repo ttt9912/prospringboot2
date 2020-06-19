@@ -1,0 +1,6 @@
+ch9\amqp\headersexchange\RabbitMqHeadersExchangeApplication.class
+ch9\amqp\headersexchange\consumer\MarketRabbitConsumerConfig.class
+ch9\amqp\headersexchange\consumer\MarketRabbitConsumer.class
+ch9\amqp\headersexchange\Config.class
+ch9\amqp\headersexchange\producer\MarketRabbitProducer.class
+ch9\amqp\headersexchange\producer\MarketRabbitProducerConfig.class
