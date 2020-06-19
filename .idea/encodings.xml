@@ -155,6 +155,7 @@
     <file url="file://$PROJECT_DIR$/common-todo/common-todo-rest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jasypt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jasypt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/random/component-scan/common-weather-forecasts/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/random/component-scan/weather-app/src/main/java" charset="UTF-8" />

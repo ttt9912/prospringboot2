@@ -47,6 +47,7 @@
         <module name="websocketbroker-stomp-push" />
         <module name="authorization-server" />
         <module name="data-jpa-tests" />
+        <module name="maven-failsafe-plugin" />
         <module name="server" />
         <module name="keycloak-spring-security" />
         <module name="spring-application" />
@@ -169,6 +170,7 @@
       <module name="keycloak-sso" target="11" />
       <module name="keycloak-sso-plain" target="11" />
       <module name="manual-oauth2-client-config" target="11" />
+      <module name="maven-failsafe-plugin" target="11" />
       <module name="maven-plugins" target="11" />
       <module name="maven-surefire-plugin" target="11" />
       <module name="micrometer-prometheus-grafana" target="11" />
@@ -283,6 +285,7 @@
       <module name="keycloak-spring-security" options="-parameters" />
       <module name="keycloak-sso-plain" options="-parameters" />
       <module name="manual-oauth2-client-config" options="-parameters" />
+      <module name="maven-failsafe-plugin" options="-parameters" />
       <module name="maven-plugins" options="-parameters" />
       <module name="maven-surefire-plugin" options="-parameters" />
       <module name="micrometer-prometheus-grafana" options="-parameters" />

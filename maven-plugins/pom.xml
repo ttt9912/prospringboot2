@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>maven-surefire-plugin</module>
+        <module>maven-failsafe-plugin</module>
     </modules>
 
 

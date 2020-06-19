@@ -64,6 +64,7 @@
       <module fileurl="file://$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso.iml" filepath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/keycloak-sso-plain.iml" filepath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/keycloak-sso-plain.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/manual-oauth2-client-config.iml" filepath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/manual-oauth2-client-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/maven-failsafe-plugin.iml" filepath="$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/maven-failsafe-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-plugins/maven-plugins.iml" filepath="$PROJECT_DIR$/maven-plugins/maven-plugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/maven-surefire-plugin.iml" filepath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/maven-surefire-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/micrometer-prometheus-grafana.iml" filepath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/micrometer-prometheus-grafana.iml" />
