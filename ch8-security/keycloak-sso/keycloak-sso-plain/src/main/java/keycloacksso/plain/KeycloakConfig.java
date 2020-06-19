@@ -12,7 +12,7 @@ public class KeycloakConfig {
      * instead of the default keycloak.json
      */
     @Bean
-    public KeycloakSpringBootConfigResolver KeycloakConfigResolver() {
+    public KeycloakSpringBootConfigResolver keycloakConfigResolver() {
         return new KeycloakSpringBootConfigResolver();
     }
 }

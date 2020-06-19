@@ -15,6 +15,7 @@
         <module>state-pattern</module>
         <module>spring-statemachine</module>
         <module>spring-statemachine-advanced</module>
+        <module>spring-statemachine-hierarchical</module>
     </modules>
 
 
