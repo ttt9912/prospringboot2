@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="reactive-data-mongodb" />
+        <module name="websocketbroker-stomp-echo" />
+        <module name="common-todo-rest" />
+        <module name="rest-client-test" />
+        <module name="spring-statemachine-advanced" />
+        <module name="amqp-direct-exchange" />
+        <module name="websocketbroker-stomp-push-sendtouser" />
+        <module name="data-mongo-test" />
+        <module name="spring-statemachine-hierarchical" />
+        <module name="auto-configuration" />
+        <module name="remember-me" />
+        <module name="webflux" />
+        <module name="websocket-sockjs" />
+        <module name="basic-welcome-logout-pages" />
+        <module name="todo-client-spring-boot-autoconfigure" />
+        <module name="actuator-basics" />
+        <module name="integration-with-annotations" />
+        <module name="integration-with-config" />
+        <module name="commandline-arguments" />
+        <module name="application-listener" />
+        <module name="amqp-fanout-exchange" />
+        <module name="actuator-health" />
+        <module name="http-basic" />
+        <module name="spring-data-jpa" />
+        <module name="web-endpoint-tests" />
+        <module name="spring-statemachine" />
+        <module name="jdbc-with-repository" />
+        <module name="jdbc-with-spring-default-schema" />
+        <module name="common-todo-data-jpa" />
+        <module name="todo-testapp" />
+        <module name="weather-app" />
+        <module name="oauth-client" />
+        <module name="websocketbroker-stomp-heartbeat" />
+        <module name="sse-webflux-client" />
+        <module name="actuator-custom-endpoints" />
+        <module name="jms-point-to-point" />
+        <module name="spring-application-builder" />
+        <module name="websocketbroker-stomp-push" />
+        <module name="authorization-server" />
+        <module name="data-jpa-tests" />
+        <module name="server" />
+        <module name="keycloak-spring-security" />
+        <module name="spring-application" />
+        <module name="micrometer-prometheus-grafana" />
+        <module name="state-pattern" />
+        <module name="todo-client-spring-boot-starter" />
+        <module name="websocket-sockjs-javaclient" />
+        <module name="websocketbroker-stomp-echo-sendtouser" />
+        <module name="oauth2-github" />
+        <module name="server-https" />
+        <module name="actuator-custom-config" />
+        <module name="todoapp-secured" />
+        <module name="spring-data-rest-repository-eventhandler" />
+        <module name="websocket-echo" />
+        <module name="maven-surefire-plugin" />
+        <module name="basic-redirect" />
+        <module name="todo-cloudstream-source" />
+        <module name="jasypt" />
+        <module name="redis-pubsub" />
+        <module name="keycloak-sso-plain" />
+        <module name="spring-data-redis" />
+        <module name="properties-profile-based" />
+        <module name="spring-data-mongodb" />
+        <module name="weather-business" />
+        <module name="amqp-topic-exchange" />
+        <module name="spring-data-rest-hal" />
+        <module name="manual-oauth2-client-config" />
+        <module name="todo-cloudstream-sink" />
+        <module name="reactor" />
+        <module name="in-memory-authentication" />
+        <module name="amqp-default-exchange" />
+        <module name="with-properties" />
+        <module name="common-todo-data-rest" />
+        <module name="applicationrunner-commandlinerunner" />
+        <module name="common-weather-forecasts" />
+        <module name="with-configuration" />
+        <module name="integration-with-xml" />
+        <module name="server-sent-events-webmvc" />
+        <module name="websocket-config" />
+        <module name="spring-jdbc" />
+        <module name="default-security" />
+        <module name="server-overriding-defaults" />
+        <module name="todo-cloud-microservice" />
+        <module name="client" />
+        <module name="properties" />
+        <module name="todo-cloudstream-processor" />
+        <module name="data-jdbc-tests" />
+        <module name="password-encoders" />
+        <module name="person-directory-service" />
+        <module name="remote-activemq" />
+        <module name="sse-webflux-server" />
+        <module name="todo-file-integration" />
+        <module name="amqp-headers-exchange" />
+        <module name="webflux-tests" />
+        <module name="security-context" />
+        <module name="form-login" />
+        <module name="jms-pub-sub" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="03-springboot-features" target="11" />
+      <module name="04-web" target="11" />
+      <module name="05-data-access" target="11" />
+      <module name="06-webflux" target="11" />
+      <module name="07-tests" target="11" />
+      <module name="08-security" target="11" />
+      <module name="09-messaging" target="11" />
+      <module name="10-actuator" target="11" />
+      <module name="11-integration-cloudstream" target="11" />
+      <module name="12-spring-cloud" target="11" />
+      <module name="13-extending-spring-boot" target="11" />
+      <module name="actuator-basics" target="11" />
+      <module name="actuator-custom-config" target="11" />
+      <module name="actuator-custom-endpoints" target="11" />
+      <module name="actuator-health" target="11" />
+      <module name="actuator-metrics" target="11" />
+      <module name="amqp-default-exchange" target="11" />
+      <module name="amqp-direct-exchange" target="11" />
+      <module name="amqp-fanout-exchange" target="11" />
+      <module name="amqp-headers-exchange" target="11" />
+      <module name="amqp-rabbitmq" target="11" />
+      <module name="amqp-topic-exchange" target="11" />
+      <module name="application" target="11" />
+      <module name="application-listener" target="11" />
+      <module name="applicationrunner-commandlinerunner" target="11" />
+      <module name="args-and-properties" target="11" />
+      <module name="authentication-mechanisms" target="11" />
+      <module name="authentication-provider" target="11" />
+      <module name="authorization-server" target="11" />
+      <module name="auto-configuration" target="11" />
+      <module name="basic-redirect" target="11" />
+      <module name="basic-welcome-logout-pages" target="11" />
+      <module name="client" target="11" />
+      <module name="commandline-arguments" target="11" />
+      <module name="common-todo" target="11" />
+      <module name="common-todo-data-jpa" target="11" />
+      <module name="common-todo-data-rest" target="11" />
+      <module name="common-todo-rest" target="11" />
+      <module name="common-weather-forecasts" target="11" />
+      <module name="component-scan" target="11" />
+      <module name="data-jdbc-tests" target="11" />
+      <module name="data-jpa-tests" target="11" />
+      <module name="data-mongo-test" target="11" />
+      <module name="default-security" target="11" />
+      <module name="form-login" target="11" />
+      <module name="hosting-the-authorization-server" target="11" />
+      <module name="http-basic" target="11" />
+      <module name="in-memory-authentication" target="11" />
+      <module name="integration-with-annotations" target="11" />
+      <module name="integration-with-config" target="11" />
+      <module name="integration-with-xml" target="11" />
+      <module name="jasypt" target="11" />
+      <module name="jdbc-with-directory-service" target="11" />
+      <module name="jdbc-with-repository" target="11" />
+      <module name="jdbc-with-spring-default-schema" target="11" />
+      <module name="jms-activemq" target="11" />
+      <module name="jms-point-to-point" target="11" />
+      <module name="jms-pub-sub" target="11" />
+      <module name="keycloak-spring-security" target="11" />
+      <module name="keycloak-sso" target="11" />
+      <module name="keycloak-sso-plain" target="11" />
+      <module name="manual-oauth2-client-config" target="11" />
+      <module name="maven-plugins" target="11" />
+      <module name="maven-surefire-plugin" target="11" />
+      <module name="micrometer-prometheus-grafana" target="11" />
+      <module name="oauth-client" target="11" />
+      <module name="oauth2-facebook-sso" target="11" />
+      <module name="oauth2-github" target="11" />
+      <module name="overriding-basic-security" target="11" />
+      <module name="password-encoders" target="11" />
+      <module name="person-directory-service" target="11" />
+      <module name="properties" target="11" />
+      <module name="properties-profile-based" target="11" />
+      <module name="prospringboot2" target="11" />
+      <module name="random" target="11" />
+      <module name="reactive-data-mongodb" target="11" />
+      <module name="reactor" target="11" />
+      <module name="redis-pubsub" target="11" />
+      <module name="remember-me" target="11" />
+      <module name="remote-activemq" target="11" />
+      <module name="rest-client-test" target="11" />
+      <module name="security-context" target="11" />
+      <module name="server" target="11" />
+      <module name="server-https" target="11" />
+      <module name="server-overriding-defaults" target="11" />
+      <module name="server-sent-events-webflux" target="11" />
+      <module name="server-sent-events-webmvc" target="11" />
+      <module name="spring-application" target="11" />
+      <module name="spring-application-builder" target="11" />
+      <module name="spring-cloudstream" target="11" />
+      <module name="spring-data-jpa" target="11" />
+      <module name="spring-data-mongodb" target="11" />
+      <module name="spring-data-redis" target="11" />
+      <module name="spring-data-rest" target="11" />
+      <module name="spring-data-rest-hal" target="11" />
+      <module name="spring-data-rest-repository-eventhandler" target="11" />
+      <module name="spring-integration" target="11" />
+      <module name="spring-jdbc" target="11" />
+      <module name="spring-statemachine" target="11" />
+      <module name="spring-statemachine-advanced" target="11" />
+      <module name="spring-statemachine-hierarchical" target="11" />
+      <module name="sse-webflux-client" target="11" />
+      <module name="sse-webflux-server" target="11" />
+      <module name="state-pattern" target="11" />
+      <module name="statemachine" target="11" />
+      <module name="todo-client-spring-boot-autoconfigure" target="8" />
+      <module name="todo-client-spring-boot-starter" target="11" />
+      <module name="todo-cloud-microservice" target="11" />
+      <module name="todo-cloudstream-processor" target="11" />
+      <module name="todo-cloudstream-sink" target="11" />
+      <module name="todo-cloudstream-source" target="11" />
+      <module name="todo-coudstream" target="11" />
+      <module name="todo-file-integration" target="11" />
+      <module name="todo-testapp" target="11" />
+      <module name="todoapp-secured" target="11" />
+      <module name="username-password" target="11" />
+      <module name="weather-app" target="11" />
+      <module name="weather-business" target="11" />
+      <module name="web-endpoint-tests" target="11" />
+      <module name="webflux" target="11" />
+      <module name="webflux-tests" target="11" />
+      <module name="websocket-config" target="11" />
+      <module name="websocket-echo" target="11" />
+      <module name="websocket-sockjs" target="11" />
+      <module name="websocket-sockjs-javaclient" target="11" />
+      <module name="websocketbroker-stomp-echo" target="11" />
+      <module name="websocketbroker-stomp-echo-sendtouser" target="11" />
+      <module name="websocketbroker-stomp-heartbeat" target="11" />
+      <module name="websocketbroker-stomp-push" target="11" />
+      <module name="websocketbroker-stomp-push-sendtouser" target="11" />
+      <module name="websockets" target="11" />
+      <module name="with-configuration" target="11" />
+      <module name="with-properties" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="actuator-basics" options="-parameters" />
+      <module name="actuator-custom-config" options="-parameters" />
+      <module name="actuator-custom-endpoints" options="-parameters" />
+      <module name="actuator-health" options="-parameters" />
+      <module name="amqp-default-exchange" options="-parameters" />
+      <module name="amqp-direct-exchange" options="-parameters" />
+      <module name="amqp-fanout-exchange" options="-parameters" />
+      <module name="amqp-headers-exchange" options="-parameters" />
+      <module name="amqp-topic-exchange" options="-parameters" />
+      <module name="application-listener" options="-parameters" />
+      <module name="applicationrunner-commandlinerunner" options="-parameters" />
+      <module name="authorization-server" options="-parameters" />
+      <module name="auto-configuration" options="-parameters" />
+      <module name="basic-redirect" options="-parameters" />
+      <module name="basic-welcome-logout-pages" options="-parameters" />
+      <module name="client" options="-parameters" />
+      <module name="commandline-arguments" options="-parameters" />
+      <module name="common-todo-data-jpa" options="-parameters" />
+      <module name="common-todo-data-rest" options="-parameters" />
+      <module name="common-todo-rest" options="-parameters" />
+      <module name="common-weather-forecasts" options="-parameters" />
+      <module name="data-jdbc-tests" options="-parameters" />
+      <module name="data-jpa-tests" options="-parameters" />
+      <module name="data-mongo-test" options="-parameters" />
+      <module name="default-security" options="-parameters" />
+      <module name="form-login" options="-parameters" />
+      <module name="http-basic" options="-parameters" />
+      <module name="in-memory-authentication" options="-parameters" />
+      <module name="integration-with-annotations" options="-parameters" />
+      <module name="integration-with-config" options="-parameters" />
+      <module name="integration-with-xml" options="-parameters" />
+      <module name="jasypt" options="-parameters" />
+      <module name="jdbc-with-repository" options="-parameters" />
+      <module name="jdbc-with-spring-default-schema" options="-parameters" />
+      <module name="jms-point-to-point" options="-parameters" />
+      <module name="jms-pub-sub" options="-parameters" />
+      <module name="keycloak-spring-security" options="-parameters" />
+      <module name="keycloak-sso-plain" options="-parameters" />
+      <module name="manual-oauth2-client-config" options="-parameters" />
+      <module name="maven-plugins" options="-parameters" />
+      <module name="maven-surefire-plugin" options="-parameters" />
+      <module name="micrometer-prometheus-grafana" options="-parameters" />
+      <module name="oauth-client" options="-parameters" />
+      <module name="oauth2-github" options="-parameters" />
+      <module name="password-encoders" options="-parameters" />
+      <module name="person-directory-service" options="-parameters" />
+      <module name="properties" options="-parameters" />
+      <module name="properties-profile-based" options="-parameters" />
+      <module name="reactive-data-mongodb" options="-parameters" />
+      <module name="reactor" options="-parameters" />
+      <module name="redis-pubsub" options="-parameters" />
+      <module name="remember-me" options="-parameters" />
+      <module name="remote-activemq" options="-parameters" />
+      <module name="rest-client-test" options="-parameters" />
+      <module name="security-context" options="-parameters" />
+      <module name="server" options="-parameters" />
+      <module name="server-https" options="-parameters" />
+      <module name="server-overriding-defaults" options="-parameters" />
+      <module name="server-sent-events-webmvc" options="-parameters" />
+      <module name="spring-application" options="-parameters" />
+      <module name="spring-application-builder" options="-parameters" />
+      <module name="spring-data-jpa" options="-parameters" />
+      <module name="spring-data-mongodb" options="-parameters" />
+      <module name="spring-data-redis" options="-parameters" />
+      <module name="spring-data-rest-hal" options="-parameters" />
+      <module name="spring-data-rest-repository-eventhandler" options="-parameters" />
+      <module name="spring-jdbc" options="-parameters" />
+      <module name="spring-statemachine" options="-parameters" />
+      <module name="spring-statemachine-advanced" options="-parameters" />
+      <module name="spring-statemachine-hierarchical" options="-parameters" />
+      <module name="sse-webflux-client" options="-parameters" />
+      <module name="sse-webflux-server" options="-parameters" />
+      <module name="state-pattern" options="-parameters" />
+      <module name="todo-client-spring-boot-autoconfigure" options="-parameters" />
+      <module name="todo-client-spring-boot-starter" options="-parameters" />
+      <module name="todo-cloud-microservice" options="-parameters" />
+      <module name="todo-cloudstream-processor" options="-parameters" />
+      <module name="todo-cloudstream-sink" options="-parameters" />
+      <module name="todo-cloudstream-source" options="-parameters" />
+      <module name="todo-file-integration" options="-parameters" />
+      <module name="todo-testapp" options="-parameters" />
+      <module name="todoapp-secured" options="-parameters" />
+      <module name="weather-app" options="-parameters" />
+      <module name="weather-business" options="-parameters" />
+      <module name="web-endpoint-tests" options="-parameters" />
+      <module name="webflux" options="-parameters" />
+      <module name="webflux-tests" options="-parameters" />
+      <module name="websocket-config" options="-parameters" />
+      <module name="websocket-echo" options="-parameters" />
+      <module name="websocket-sockjs" options="-parameters" />
+      <module name="websocket-sockjs-javaclient" options="-parameters" />
+      <module name="websocketbroker-stomp-echo" options="-parameters" />
+      <module name="websocketbroker-stomp-echo-sendtouser" options="-parameters" />
+      <module name="websocketbroker-stomp-heartbeat" options="-parameters" />
+      <module name="websocketbroker-stomp-push" options="-parameters" />
+      <module name="websocketbroker-stomp-push-sendtouser" options="-parameters" />
+      <module name="with-configuration" options="-parameters" />
+      <module name="with-properties" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,1 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=ch13.todoclient.configuration.TodoClientAutoConfiguration

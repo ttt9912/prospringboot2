@@ -1,9 +1,0 @@
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\security\TodoPasswordEncoderImportSelector.java
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\configuration\TodoClientAutoConfiguration.java
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\annotation\EnableTodoPasswordEncoder.java
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\annotation\Algorithm.java
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\dto\TodoDto.java
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\security\BCryptPasswordEncoderConfig.java
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\security\Pbkd2PasswordEncoderConfig.java
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\configuration\TodoClientProperties.java
-D:\dev\workspace\prospringboot2\13-extending-spring-boot\todo-client-spring-boot-autoconfigure\src\main\java\ch13\todoclient\client\TodoRestClient.java

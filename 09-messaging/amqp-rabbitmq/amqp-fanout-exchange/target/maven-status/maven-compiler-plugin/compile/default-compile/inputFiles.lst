@@ -1,6 +1,0 @@
-D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-fanout-exchange\src\main\java\ch9\amqp\fanoutexchange\consumer\OrdersRabbitConsumer.java
-D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-fanout-exchange\src\main\java\ch9\amqp\fanoutexchange\producer\OrdersRabbitProducer.java
-D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-fanout-exchange\src\main\java\ch9\amqp\fanoutexchange\producer\OrdersRabbitProducerConfig.java
-D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-fanout-exchange\src\main\java\ch9\amqp\fanoutexchange\Config.java
-D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-fanout-exchange\src\main\java\ch9\amqp\fanoutexchange\consumer\OrdersRabbitConsumerConfig.java
-D:\dev\workspace\prospringboot2\09-messaging\amqp-rabbitmq\amqp-fanout-exchange\src\main\java\ch9\amqp\fanoutexchange\RabbitMqFanoutExchangeApplication.java

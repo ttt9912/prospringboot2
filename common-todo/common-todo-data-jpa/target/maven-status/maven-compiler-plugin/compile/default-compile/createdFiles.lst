@@ -1,4 +1,0 @@
-common\todo\data\jpa\todo\Todo.class
-common\todo\data\jpa\todo\TodoRepository.class
-common\todo\data\jpa\util\RepositoryUtil.class
-common\todo\data\jpa\CommonTodoDataJpaConfig.class

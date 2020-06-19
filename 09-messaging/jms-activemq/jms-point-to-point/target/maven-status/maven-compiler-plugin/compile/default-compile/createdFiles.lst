@@ -1,8 +1,0 @@
-ch9\jms\pointtopoint\consumer\TodoConsumer.class
-ch9\jms\pointtopoint\Config.class
-ch9\jms\pointtopoint\producer\TodoProducer.class
-ch9\jms\pointtopoint\PointToPointJmsApplication.class
-ch9\jms\pointtopoint\consumer\TodoConsumerConfig.class
-ch9\jms\pointtopoint\consumer\TodoErrorHandler.class
-ch9\jms\pointtopoint\consumer\TodoValidator.class
-ch9\jms\pointtopoint\consumer\TodoConsumerConfig$MethodListenerConfig.class

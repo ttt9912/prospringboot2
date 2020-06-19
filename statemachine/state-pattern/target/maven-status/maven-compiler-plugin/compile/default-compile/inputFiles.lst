@@ -1,6 +1,0 @@
-D:\dev\workspace\prospringboot2\statemachine\state-pattern\src\main\java\ch103\statepattern\postoffice\Main.java
-D:\dev\workspace\prospringboot2\statemachine\state-pattern\src\main\java\ch103\statepattern\postoffice\state\DeliveredState.java
-D:\dev\workspace\prospringboot2\statemachine\state-pattern\src\main\java\ch103\statepattern\postoffice\state\ReceivedState.java
-D:\dev\workspace\prospringboot2\statemachine\state-pattern\src\main\java\ch103\statepattern\postoffice\context\PostPackage.java
-D:\dev\workspace\prospringboot2\statemachine\state-pattern\src\main\java\ch103\statepattern\postoffice\state\OrderedState.java
-D:\dev\workspace\prospringboot2\statemachine\state-pattern\src\main\java\ch103\statepattern\postoffice\state\PostPackageState.java

@@ -1,6 +1,0 @@
-ch6\reactive\data\mongodb\ReactiveMongoConfig.class
-ch6\reactive\data\mongodb\router\ToDoRouter.class
-ch6\reactive\data\mongodb\handler\ToDoHandler.class
-ch6\reactive\data\mongodb\ReactiveDataApp.class
-ch6\reactive\data\mongodb\data\ToDo.class
-ch6\reactive\data\mongodb\data\ToDoReactiveRepository.class

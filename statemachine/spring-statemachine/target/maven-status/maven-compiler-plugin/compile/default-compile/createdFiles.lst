@@ -1,6 +1,0 @@
-ch103\springstatemachine\App.class
-ch103\springstatemachine\listener\GlobalStateMachineListener.class
-ch103\springstatemachine\statemachine\Events.class
-ch103\springstatemachine\listener\StateListenerBean.class
-ch103\springstatemachine\statemachine\States.class
-ch103\springstatemachine\statemachine\StatemachineConfig.class

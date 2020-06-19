@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fa02307-e2e8-449d-9777-d788088cd98b" name="Default Changelist" comment="maven plugins">
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/application-listener/target/application-listener-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/application-listener/target/classes/ch2/application/listeners/ApplicationListenerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/application-listener/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/application-listener/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/application-listener/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/applicationrunner-commandlinerunner/target/applicationrunner-commandlinerunner-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/applicationrunner-commandlinerunner/target/classes/ch3/apprunner/cmdlinerunner/RunnerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/applicationrunner-commandlinerunner/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/applicationrunner-commandlinerunner/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/applicationrunner-commandlinerunner/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application-builder/target/classes/ch3/spring/application/builder/SpringApplicationBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application-builder/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application-builder/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application-builder/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application-builder/target/spring-application-builder-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application/target/classes/ch3/spring/application/SpringApplicationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/application/spring-application/target/spring-application-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/commandline-arguments/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/commandline-arguments/target/classes/ch3/commandline/args/ArgsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/commandline-arguments/target/classes/ch3/commandline/args/DemoComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/commandline-arguments/target/commandline-arguments-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/commandline-arguments/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/commandline-arguments/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/commandline-arguments/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties-profile-based/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties-profile-based/target/classes/application-qa.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties-profile-based/target/classes/ch3/properties/profilebased/ProfileBasedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties-profile-based/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties-profile-based/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties-profile-based/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties-profile-based/target/properties-profile-based-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties/target/classes/app/mycfg.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties/target/classes/ch3/config/properties/PropertiesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/args-and-properties/properties/target/properties-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/auto-configuration/target/auto-configuration-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/auto-configuration/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/auto-configuration/target/classes/ch3/autoconfiguration/AutoConfigurationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/auto-configuration/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/auto-configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-features/auto-configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/ch4/client/ClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/ch4/client/ClientProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/ch4/client/TodoClientApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/ch4/client/dto/ToDoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/ch4/client/error/ToDoErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/ch4/client/restclient/ToDoRestClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/ch4/client/restclient/ToDoRestClient$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/classes/ch4/client/restclient/ToDoRestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-https/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-https/target/classes/ch4/server/https/ssl/HttpsServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-https/target/classes/ch4/server/https/ssl/TodoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-https/target/classes/keystore.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-https/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-https/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-https/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-https/target/server-https-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-overriding-defaults/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-overriding-defaults/target/classes/ch4/server/overriding/defaults/OverridingDefaultsApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-overriding-defaults/target/classes/ch4/server/overriding/defaults/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-overriding-defaults/target/classes/ch4/server/overriding/defaults/TodoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-overriding-defaults/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-overriding-defaults/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-overriding-defaults/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server-overriding-defaults/target/server-overriding-defaults-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/classes/ch4/server/TodoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/classes/ch4/server/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/classes/ch4/server/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/classes/ch4/server/service/TodoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/classes/ch4/server/validation/ToDoValidationError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/classes/ch4/server/validation/ToDoValidationErrorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-web/server/target/server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/classes/ch5/data/jpa/DataJpaApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/classes/ch5/data/jpa/data/RepositoryUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/classes/ch5/data/jpa/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/classes/ch5/data/jpa/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/classes/ch5/data/jpa/service/ToDoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-jpa/target/spring-data-jpa-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/classes/ch5/data/mongodb/DataMongoDbApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/classes/ch5/data/mongodb/MongoClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/classes/ch5/data/mongodb/data/RepositoryUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/classes/ch5/data/mongodb/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/classes/ch5/data/mongodb/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/classes/ch5/data/mongodb/service/ToDoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-mongodb/target/spring-data-mongodb-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/classes/ch5/data/redis/DataRedisApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/classes/ch5/data/redis/EmbeddedRedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/classes/ch5/data/redis/data/RepositoryUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/classes/ch5/data/redis/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/classes/ch5/data/redis/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/classes/ch5/data/redis/service/ToDoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-redis/target/spring-data-redis-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/classes/ch5/data/rest/hal/DataRestHalApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/classes/ch5/data/rest/hal/data/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/classes/ch5/data/rest/hal/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/classes/ch5/data/rest/hal/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-hal/target/spring-data-rest-hal-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/classes/ch5/data/rest/repository/eventhandler/DataRestEventhandlerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/classes/ch5/data/rest/repository/eventhandler/data/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/classes/ch5/data/rest/repository/eventhandler/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/classes/ch5/data/rest/repository/eventhandler/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/classes/ch5/data/rest/repository/eventhandler/eventhandler/TodoEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-data-rest/spring-data-rest-repository-eventhandler/target/spring-data-rest-repository-eventhandler-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/classes/ch5/spring/jdbc/JdbcApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/classes/ch5/spring/jdbc/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/classes/ch5/spring/jdbc/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-data-access/spring-jdbc/target/spring-jdbc-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/classes/ch6/reactive/data/mongodb/ReactiveDataApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/classes/ch6/reactive/data/mongodb/ReactiveMongoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/classes/ch6/reactive/data/mongodb/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/classes/ch6/reactive/data/mongodb/data/ToDoReactiveRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/classes/ch6/reactive/data/mongodb/handler/ToDoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/classes/ch6/reactive/data/mongodb/router/ToDoRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/reactive-data-mongodb/target/reactive-data-mongodb-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/classes/ch6/webflux/client/WebClientDemo$FindAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/classes/ch6/webflux/client/WebClientDemo$FindById.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/classes/ch6/webflux/client/WebClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/classes/ch6/webflux/webflux/WebfluxApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/classes/ch6/webflux/webflux/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/classes/ch6/webflux/webflux/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/classes/ch6/webflux/webflux/handler/ToDoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/classes/ch6/webflux/webflux/routing/ToDoRoutingConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-webflux/webflux/target/webflux-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/classes/ch7/data/jdbc/tests/JdbcApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/classes/ch7/data/jdbc/tests/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/classes/ch7/data/jdbc/tests/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/data-jdbc-tests-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/surefire-reports/TEST-ch7.data.jdbc.tests.JdbcTestTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/surefire-reports/ch7.data.jdbc.tests.JdbcTestTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jdbc-tests/target/test-classes/ch7/data/jdbc/tests/JdbcTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/classes/ch7/data/jpa/tests/DataJpaApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/data-jpa-tests-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/surefire-reports/TEST-ch7.data.jpa.tests.DataJpaTestTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/surefire-reports/ch7.data.jpa.tests.DataJpaTestTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-jpa-tests/target/test-classes/ch7/data/jpa/tests/DataJpaTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/classes/ch7/mongo/tests/DataMongoDbApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/classes/ch7/mongo/tests/data/RepositoryUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/classes/ch7/mongo/tests/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/classes/ch7/mongo/tests/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/classes/ch7/mongo/tests/service/ToDoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/data-mongo-test-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/surefire-reports/TEST-ch7.mongo.tests.DataMongoTestTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/surefire-reports/ch7.mongo.tests.DataMongoTestTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/data-mongo-test/target/test-classes/ch7/mongo/tests/DataMongoTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/ch7/rest/client/tests/ClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/ch7/rest/client/tests/ClientProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/ch7/rest/client/tests/TodoClientApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/ch7/rest/client/tests/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/ch7/rest/client/tests/data/ToDoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/ch7/rest/client/tests/error/ToDoErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/ch7/rest/client/tests/restclient/ToDoRestClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/classes/ch7/rest/client/tests/restclient/ToDoRestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/rest-client-test-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/surefire-reports/TEST-ch7.rest.client.tests.todoclient.RestClientTestTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/surefire-reports/ch7.rest.client.tests.todoclient.RestClientTestTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/test-classes/ch7/rest/client/tests/todoclient/RestClientTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/test-classes/ch7/rest/client/tests/util/FileAsStringReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/rest-client-test/target/test-classes/read-book.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/classes/ch7/web/endpoint/tests/TodoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/classes/ch7/web/endpoint/tests/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/classes/ch7/web/endpoint/tests/data/ToDoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/classes/ch7/web/endpoint/tests/service/TodoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/TEST-ch7.web.endpoint.tests.JsonTestTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/TEST-ch7.web.endpoint.tests.MockBeanTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/TEST-ch7.web.endpoint.tests.MockMvcTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/TEST-ch7.web.endpoint.tests.TestRestTemplateTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/TEST-ch7.web.endpoint.tests.TodoAppSpringBootTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/TEST-ch7.web.endpoint.tests.TodoAppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/TEST-ch7.web.endpoint.tests.WebMvcTestTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/ch7.web.endpoint.tests.JsonTestTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/ch7.web.endpoint.tests.MockBeanTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/ch7.web.endpoint.tests.MockMvcTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/ch7.web.endpoint.tests.TestRestTemplateTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/ch7.web.endpoint.tests.TodoAppSpringBootTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/ch7.web.endpoint.tests.TodoAppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/surefire-reports/ch7.web.endpoint.tests.WebMvcTestTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/JsonTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/MockBeanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/MockMvcTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/TestRestTemplateTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/TestRestTemplateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/TodoAppSpringBootTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/TodoAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/WebMvcTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/ch7/web/endpoint/tests/util/FileAsStringReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/test-classes/read-book.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/web-endpoint-tests/target/web-endpoint-tests-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/classes/ch7/webflux/tests/WebfluxApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/classes/ch7/webflux/tests/controller/ToDoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/classes/ch7/webflux/tests/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/classes/ch7/webflux/tests/data/ToDoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/surefire-reports/TEST-ch7.webflux.tests.WebFluxTestTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/surefire-reports/ch7.webflux.tests.WebFluxTestTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/test-classes/ch7/webflux/tests/WebFluxTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-tests/webflux-tests/target/webflux-tests-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/remember-me/target/classes/ch8/rememberme/RememberMeApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/remember-me/target/classes/ch8/rememberme/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/remember-me/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/remember-me/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/remember-me/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/remember-me/target/remember-me-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/classes/ch8/auth/formlogin/FormLoginApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/classes/ch8/auth/formlogin/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/classes/ch8/auth/formlogin/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/form-login-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/form-login/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/http-basic/target/classes/ch8/auth/httpbasic/HttpBasicApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/http-basic/target/classes/ch8/auth/httpbasic/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/http-basic/target/http-basic-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/http-basic/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/http-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-mechanisms/username-password/http-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/in-memory-authentication/target/classes/ch8/authprovider/inmemory/InMemoryAuthApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/in-memory-authentication/target/classes/ch8/authprovider/inmemory/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/in-memory-authentication/target/in-memory-authentication-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/in-memory-authentication/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/in-memory-authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/in-memory-authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/classes/ch8/authprovider/jdbcdirectory/persons/DirectorySecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/classes/ch8/authprovider/jdbcdirectory/persons/PersonDirectoryApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/classes/ch8/authprovider/jdbcdirectory/persons/data/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/classes/ch8/authprovider/jdbcdirectory/persons/data/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/classes/ch8/authprovider/jdbcdirectory/persons/security/PersonUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/person-directory-service/target/person-directory-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/classes/ch8/authprovider/jdbcdirectory/todoapp/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/classes/ch8/authprovider/jdbcdirectory/todoapp/ToDoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/classes/ch8/authprovider/jdbcdirectory/todoapp/ToDoSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/classes/ch8/authprovider/jdbcdirectory/todoapp/client/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/classes/ch8/authprovider/jdbcdirectory/todoapp/client/PersonDirectoryClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/classes/ch8/authprovider/jdbcdirectory/todoapp/security/PersonUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-directory-service/todoapp-secured/target/todoapp-secured-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/classes/ch8/authprovider/jdbcrepo/JdbcRepoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/classes/ch8/authprovider/jdbcrepo/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/classes/ch8/authprovider/jdbcrepo/service/WelcomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/classes/ch8/authprovider/jdbcrepo/useraccount/UserAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/classes/ch8/authprovider/jdbcrepo/useraccount/UserAccountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/classes/ch8/authprovider/jdbcrepo/useraccount/UserAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/jdbc-with-repository-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/classes/ch8/authprovider/jdbcdefault/JdbcAuthApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/classes/ch8/authprovider/jdbcdefault/JdbcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/classes/ch8/authprovider/jdbcdefault/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/classes/ch8/authprovider/jdbcdefault/service/WelcomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/jdbc-with-spring-default-schema-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/authentication-provider/jdbc-with-spring-default-schema/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/default-security/target/classes/ch8/defaultsecurity/TodoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/default-security/target/default-security-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/default-security/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/default-security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/default-security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/classes/keycloaksso/springsecurity/KeycloakConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/classes/keycloaksso/springsecurity/KeycloakSecurityApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/classes/keycloaksso/springsecurity/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/classes/keycloaksso/springsecurity/service/PrincipalInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/keycloak-spring-security-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-spring-security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/target/classes/keycloacksso/plain/KeycloackSSOApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/target/classes/keycloacksso/plain/KeycloakConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/target/classes/keycloacksso/plain/service/PrincipalInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/target/keycloak-sso-plain-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/keycloak-sso/keycloak-sso-plain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-redirect/target/basic-redirect-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-redirect/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-redirect/target/classes/oauth2/facebook/basic/redirect/SocialAppSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-redirect/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-redirect/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-redirect/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-redirect/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/basic-welcome-logout-pages-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/classes/oauth2/facebook/basic/welcome/logout/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/classes/oauth2/facebook/basic/welcome/logout/SocialAppSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/classes/oauth2/facebook/basic/welcome/logout/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/basic-welcome-logout-pages/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/authorization-server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/classes/oauth2/facebook/auth/server/AuthorizationServer$ResourceServerConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/classes/oauth2/facebook/auth/server/AuthorizationServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/classes/oauth2/facebook/auth/server/ClientResources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/authorization-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/oauth-client/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/oauth-client/target/classes/oauth2/facebook/oauth/client/ClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/oauth-client/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/oauth-client/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/oauth-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/oauth-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/hosting-the-authorization-server/oauth-client/target/oauth-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/classes/oauth2/facebook/manual/client/SocialAppSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/classes/oauth2/facebook/manual/client/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/classes/oauth2/facebook/manual/client/service/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/manual-oauth2-client-config-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-facebook-sso/manual-oauth2-client-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-github/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-github/target/classes/oauth2/github/app/ToDoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-github/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-github/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-github/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/oauth2-github/target/oauth2-github-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/classes/ch8/overriding/basic/security/with/configuration/TodoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/classes/ch8/overriding/basic/security/with/configuration/config/ToDoSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/classes/ch8/overriding/basic/security/with/configuration/config/ToDoWebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/classes/templates/Login Page - Notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/classes/templates/index.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/classes/templates/login.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-configuration/target/with-configuration-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-properties/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-properties/target/classes/ch8/overriding/basic/security/with/properties/TodoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-properties/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-properties/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-properties/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/overriding-basic-security/with-properties/target/with-properties-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/password-encoders/target/classes/ch8/passwordencoders/PasswordEncodersDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/password-encoders/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/password-encoders/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/password-encoders/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/password-encoders/target/password-encoders-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/security-context/target/classes/ch8/securitycontext/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/security-context/target/classes/ch8/securitycontext/TodoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/security-context/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/security-context/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/security-context/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-security/security-context/target/security-context-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/amqp-default-exchange-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/classes/ch9/amqp/defaultexchange/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/classes/ch9/amqp/defaultexchange/RabbitMqDefaultExchangeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/classes/ch9/amqp/defaultexchange/consumer/TodoRabbitConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/classes/ch9/amqp/defaultexchange/consumer/TodoRabbitConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/classes/ch9/amqp/defaultexchange/producer/TodoRabbitProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/classes/ch9/amqp/defaultexchange/producer/TodoRabbitProducerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-default-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/amqp-direct-exchange-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/ch9/amqp/directexchange/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/ch9/amqp/directexchange/RabbitMqDirectExchangeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/ch9/amqp/directexchange/consumer/ShoppingRabbitConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/ch9/amqp/directexchange/consumer/ShoppingRabbitConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/ch9/amqp/directexchange/data/Delivery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/ch9/amqp/directexchange/data/Invoice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/ch9/amqp/directexchange/producer/ShoppingRabbitProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/classes/ch9/amqp/directexchange/producer/ShoppingRabbitProducerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-direct-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/amqp-fanout-exchange-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/classes/ch9/amqp/fanoutexchange/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/classes/ch9/amqp/fanoutexchange/RabbitMqFanoutExchangeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/classes/ch9/amqp/fanoutexchange/consumer/OrdersRabbitConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/classes/ch9/amqp/fanoutexchange/consumer/OrdersRabbitConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/classes/ch9/amqp/fanoutexchange/producer/OrdersRabbitProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/classes/ch9/amqp/fanoutexchange/producer/OrdersRabbitProducerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-fanout-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/amqp-headers-exchange-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/classes/ch9/amqp/headersexchange/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/classes/ch9/amqp/headersexchange/RabbitMqHeadersExchangeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/classes/ch9/amqp/headersexchange/consumer/MarketRabbitConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/classes/ch9/amqp/headersexchange/consumer/MarketRabbitConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/classes/ch9/amqp/headersexchange/producer/MarketRabbitProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/classes/ch9/amqp/headersexchange/producer/MarketRabbitProducerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-headers-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/amqp-topic-exchange-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/classes/ch9/amqp/topicexchange/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/classes/ch9/amqp/topicexchange/RabbitMqTopicExchangeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/classes/ch9/amqp/topicexchange/consumer/MarketRabbitConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/classes/ch9/amqp/topicexchange/consumer/MarketRabbitConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/classes/ch9/amqp/topicexchange/producer/MarketRabbitProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/classes/ch9/amqp/topicexchange/producer/MarketRabbitProducerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/amqp-rabbitmq/amqp-topic-exchange/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/ch9/jms/pointtopoint/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/ch9/jms/pointtopoint/PointToPointJmsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/ch9/jms/pointtopoint/consumer/TodoConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/ch9/jms/pointtopoint/consumer/TodoConsumerConfig$MethodListenerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/ch9/jms/pointtopoint/consumer/TodoConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/ch9/jms/pointtopoint/consumer/TodoErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/ch9/jms/pointtopoint/consumer/TodoValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/classes/ch9/jms/pointtopoint/producer/TodoProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/jms-point-to-point-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-point-to-point/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/ch9/jms/pubsub/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/ch9/jms/pubsub/PubSubJmsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/ch9/jms/pubsub/consumer/TodoConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/ch9/jms/pubsub/consumer/TodoConsumerConfig$MethodListenerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/ch9/jms/pubsub/consumer/TodoConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/ch9/jms/pubsub/consumer/TodoErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/ch9/jms/pubsub/consumer/TodoValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/classes/ch9/jms/pubsub/producer/TodoProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/jms-pub-sub-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/jms-pub-sub/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/ch9/jms/remote/activemq/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/ch9/jms/remote/activemq/RemoteJmsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/ch9/jms/remote/activemq/consumer/TodoConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/ch9/jms/remote/activemq/consumer/TodoConsumerConfig$MethodListenerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/ch9/jms/remote/activemq/consumer/TodoConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/ch9/jms/remote/activemq/consumer/TodoErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/ch9/jms/remote/activemq/consumer/TodoValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/classes/ch9/jms/remote/activemq/producer/TodoProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/jms-activemq/remote-activemq/target/remote-activemq-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/classes/ch9/redis/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/classes/ch9/redis/RedisPubSubApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/classes/ch9/redis/consumer/TodoConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/classes/ch9/redis/consumer/TodoConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/classes/ch9/redis/producer/TodoProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/classes/ch9/redis/producer/TodoProducerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/redis-pubsub/target/redis-pubsub-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/classes/ch9/sse_client/ServerSentEventsWebfluxClientApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/classes/ch9/sse_client/controller/ClientController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/classes/ch9/sse_client/controller/ClientController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/classes/ch9/sse_client/controller/ClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/target/sse-webflux-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-server/target/classes/ch9/sse_server/ServerSentEventsWebfluxServerApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-server/target/classes/ch9/sse_server/controller/ServerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-server/target/sse-webflux-server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/classes/ch9/sse/ServerSentEventsApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/classes/ch9/sse/controller/ResponseBodyEmitterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/classes/ch9/sse/controller/SseEmitterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/classes/ch9/sse/controller/StreamingResponseBodyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/classes/static/ajax-client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/server-sent-events-webmvc/target/server-sent-events-webmvc-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/classes/ch9/websocketcfg/TextEchoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/classes/ch9/websocketcfg/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/classes/ch9/websocketcfg/WebsocketConfigApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/classes/static/websocketclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-config/target/websocket-config-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/classes/ch9/websocketecho/TextEchoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/classes/ch9/websocketecho/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/classes/ch9/websocketecho/WebsocketEchoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/classes/static/websocketclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-echo/target/websocket-echo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/classes/ch9/websocketsockjsclient/WebsocketSockJsApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/classes/ch9/websocketsockjsclient/WebsocketSockJsApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/classes/ch9/websocketsockjsclient/client/PrintHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/classes/ch9/websocketsockjsclient/client/SockJsClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/classes/ch9/websocketsockjsclient/websocket/TextEchoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/classes/ch9/websocketsockjsclient/websocket/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs-javaclient/target/websocket-sockjs-javaclient-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/classes/ch9/websocketsockjs/TextEchoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/classes/ch9/websocketsockjs/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/classes/ch9/websocketsockjs/WebsocketSockJsApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/classes/static/sockjsclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocket-sockjs/target/websocket-sockjs-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/classes/ch9/echosendtouser/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/classes/ch9/echosendtouser/WebsocketUserApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/classes/ch9/echosendtouser/data/EchoMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/classes/ch9/echosendtouser/endpoint/EchoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/classes/ch9/echosendtouser/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/classes/static/stompclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo-sendtouser/target/websocketbroker-stomp-echo-sendtouser-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/classes/ch9/stompecho/WebsocketApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/classes/ch9/stompecho/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/classes/ch9/stompecho/data/ChatMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/classes/ch9/stompecho/endpoint/ChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/classes/static/stompclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-echo/target/websocketbroker-stomp-echo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/classes/ch9/stompheartbeat/WebsocketApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/classes/ch9/stompheartbeat/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/classes/static/stompclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-heartbeat/target/websocketbroker-stomp-heartbeat-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/ch9/simpsendtouser/UserChatApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/ch9/simpsendtouser/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/ch9/simpsendtouser/data/IncomingChatMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/ch9/simpsendtouser/data/OutgoingChatMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/ch9/simpsendtouser/endpoint/ChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/ch9/simpsendtouser/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/classes/static/stompclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push-sendtouser/target/websocketbroker-stomp-push-sendtouser-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/classes/ch9/stomppush/WebsocketApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/classes/ch9/stomppush/WebsocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/classes/static/stompclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-messaging/websockets/websocketbroker-stomp-push/target/websocketbroker-stomp-push-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-basics/target/actuator-basics-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-basics/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-basics/target/classes/ch10/actuator/basics/TodoActuatorApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-basics/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-basics/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-basics/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-config/target/actuator-custom-config-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-config/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-config/target/classes/ch10/actuator/custom/config/TodoCustomActuatorApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-config/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/actuator-custom-endpoints-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/classes/ch10/actuator/custom/endpoints/TodoActuatorCustomEndpointsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/classes/ch10/actuator/custom/endpoints/actuator/TodoOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/classes/ch10/actuator/custom/endpoints/actuator/TodoStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/classes/ch10/actuator/custom/endpoints/actuator/TodoStatsEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-custom-endpoints/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-health/target/actuator-health-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-health/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-health/target/classes/ch10/actuator/health/TodoActuatorHealthApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-health/target/classes/ch10/actuator/health/health/TodoHealthCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-health/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-health/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-health/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/target/classes/metrics/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/target/classes/metrics/TodoActuatorMetricsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/target/classes/metrics/intercept/TodoMetricHandlerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-actuator/actuator-metrics/micrometer-prometheus-grafana/target/micrometer-prometheus-grafana-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-processor/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-processor/target/classes/ch11/cloudstream/processor/TodoProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-processor/target/classes/ch11/cloudstream/processor/TodoProcessorApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-processor/target/classes/ch11/cloudstream/processor/data/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-processor/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-processor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-processor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-processor/target/todo-cloudstream-processor-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-sink/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-sink/target/classes/ch11/cloudstream/sink/TodoSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-sink/target/classes/ch11/cloudstream/sink/TodoSinkApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-sink/target/classes/ch11/cloudstream/sink/data/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-sink/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-sink/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-sink/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-sink/target/todo-cloudstream-sink-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-source/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-source/target/classes/ch11/cloudstream/source/TodoSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-source/target/classes/ch11/cloudstream/source/TodoSourceApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-source/target/classes/ch11/cloudstream/source/data/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-source/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-source/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-source/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-cloudstream/todo-coudstream/todo-cloudstream-source/target/todo-cloudstream-source-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/classes/ch11/integration/withannotations/TodoIntegrationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/classes/ch11/integration/withannotations/TodoIntegrationConfig$TodoFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/classes/ch11/integration/withannotations/TodoIntegrationConfig$TodoServiceActivator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/classes/ch11/integration/withannotations/TodoIntegrationConfig$TodoTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/classes/ch11/integration/withannotations/TodoIntegrationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/classes/ch11/integration/withannotations/data/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/integration-with-annotations-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-annotations/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-config/target/classes/ch11/integration/withconfig/TodoIntegrationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-config/target/classes/ch11/integration/withconfig/TodoIntegrationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-config/target/classes/ch11/integration/withconfig/data/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-config/target/integration-with-config-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-config/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-xml/target/classes/META-INF/spring/integration/todo-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-xml/target/classes/ch11/integration/withxml/TodoIntegrationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-xml/target/classes/ch11/integration/withxml/TodoIntegrationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-xml/target/classes/ch11/integration/withxml/data/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-xml/target/integration-with-xml-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-xml/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-xml/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/integration-with-xml/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/classes/ch11/file/integration/TodoFileIntegrationApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/classes/ch11/file/integration/TodoFileIntegrationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/classes/ch11/file/integration/data/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/classes/ch11/file/integration/messageendpoints/TodoConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/classes/ch11/file/integration/messageendpoints/TodoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/classes/ch11/file/integration/properties/TodoFileProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/todo-file-integration/target/todo-file-integration-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-spring-cloud/todo-cloud-microservice/target/classes/ch12/cloud/todo/microservice/TodoMicroserviceApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-spring-cloud/todo-cloud-microservice/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-spring-cloud/todo-cloud-microservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-spring-cloud/todo-cloud-microservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-spring-cloud/todo-cloud-microservice/target/todo-cloud-microservice-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-spring-cloud/todo-cloud-microservice/target/todo-cloud-microservice-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/annotation/Algorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/annotation/EnableTodoPasswordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/client/TodoRestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/configuration/TodoClientAutoConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/configuration/TodoClientProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/dto/TodoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/security/BCryptPasswordEncoderConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/security/Pbkd2PasswordEncoderConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/security/TodoPasswordEncoderImportSelector$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/classes/ch13/todoclient/security/TodoPasswordEncoderImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-autoconfigure/target/todo-client-spring-boot-autoconfigure-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-client-spring-boot-starter/target/todo-client-spring-boot-starter-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-testapp/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-testapp/target/classes/ch13/todotestapp/TodoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-testapp/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-testapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-testapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-extending-spring-boot/todo-testapp/target/todo-testapp-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/classes/common-todo-data-jpa.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/classes/common/todo/data/jpa/CommonTodoDataJpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/classes/common/todo/data/jpa/todo/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/classes/common/todo/data/jpa/todo/TodoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/classes/common/todo/data/jpa/util/RepositoryUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/common-todo-data-jpa-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-jpa/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-rest/target/classes/common-todo-data-rest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-rest/target/classes/common/todo/data/rest/CommonTodoDataRestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-rest/target/classes/common/todo/data/rest/data/TodoRepositoryEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-rest/target/common-todo-data-rest-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-rest/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-data-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-rest/target/classes/common/todo/rest/CommonTodoRestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-rest/target/classes/common/todo/rest/todo/TodoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-rest/target/common-todo-rest-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-rest/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-todo/common-todo-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasypt/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasypt/target/classes/jasypt/JasyptApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasypt/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasypt/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasypt/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasypt/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasypt/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasypt/target/test-classes/jasypttool/JasyptTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/common-weather-forecasts/target/classes/com/forecasts/CommonForecastConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/common-weather-forecasts/target/classes/com/forecasts/CommonForecastService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/common-weather-forecasts/target/common-weather-forecasts-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/common-weather-forecasts/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/common-weather-forecasts/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/common-weather-forecasts/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-app/target/classes/aus/weather/WeatherApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-app/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-app/target/weather-app-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-business/target/classes/aus/weather/business/WeatherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-business/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-business/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/component-scan/weather-business/target/weather-business-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor/target/classes/reactor/examples/FluxExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor/target/classes/reactor/examples/MonoExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor/target/classes/reactor/examples/data/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/classes/ch103/springstatemachineadv/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/classes/ch103/springstatemachineadv/listener/GlobalStateMachineListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/classes/ch103/springstatemachineadv/statemachine/EventEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/classes/ch103/springstatemachineadv/statemachine/StateEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/classes/ch103/springstatemachineadv/statemachine/StatemachineConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/target/spring-statemachine-advanced-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/classes/ch103/springstatemachinehierarc/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/classes/ch103/springstatemachinehierarc/listener/OnStateTransition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/classes/ch103/springstatemachinehierarc/listener/StateListenerBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/classes/ch103/springstatemachinehierarc/statemachine/EventEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/classes/ch103/springstatemachinehierarc/statemachine/StateEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/classes/ch103/springstatemachinehierarc/statemachine/StatemachineConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/target/spring-statemachine-hierarchical-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/classes/ch103/springstatemachine/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/classes/ch103/springstatemachine/listener/GlobalStateMachineListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/classes/ch103/springstatemachine/listener/StateListenerBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/classes/ch103/springstatemachine/statemachine/Events.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/classes/ch103/springstatemachine/statemachine/StatemachineConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/classes/ch103/springstatemachine/statemachine/States.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine/target/spring-statemachine-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/classes/ch103/statepattern/postoffice/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/classes/ch103/statepattern/postoffice/context/PostPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/classes/ch103/statepattern/postoffice/state/DeliveredState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/classes/ch103/statepattern/postoffice/state/OrderedState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/classes/ch103/statepattern/postoffice/state/PostPackageState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/classes/ch103/statepattern/postoffice/state/ReceivedState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/state-pattern/target/state-pattern-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ttt9912/prospringboot2" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="1dXH2Uix3mgKSwNTLRerI8M4phE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/maven-plugins" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mavenplugins.surefire.business" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\workspace\prospringboot2\maven-plugins" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\workspace\prospringboot2\maven-plugins\notes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PalindromeCheckerTest.isPalindrome">
+    <configuration name="All in data-jdbc-tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jdbc-tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTestTest.jdbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jdbc-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch7.data.jdbc.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch7.data.jdbc.tests" />
+      <option name="MAIN_CLASS_NAME" value="ch7.data.jdbc.tests.JdbcTestTest" />
+      <option name="METHOD_NAME" value="jdbcTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheckerTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-surefire-plugin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenplugins.surefire.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mavenplugins.surefire.business" />
+      <option name="MAIN_CLASS_NAME" value="mavenplugins.surefire.business.PalindromeCheckerTest" />
+      <option name="METHOD_NAME" value="isPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="12-spring-cloud" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="12-spring-cloud" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PalindromeCheckerTest.isPalindrome" />
+        <item itemvalue="JUnit.JdbcTestTest.jdbcTest" />
+        <item itemvalue="JUnit.All in data-jdbc-tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fa02307-e2e8-449d-9777-d788088cd98b" name="Default Changelist" comment="" />
+      <created>1592564311028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592564311028</updated>
+    </task>
+    <task id="LOCAL-00001" summary="aaaaa">
+      <created>1592567920286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592567920286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maven plugins">
+      <created>1592572534087</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592572534087</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaaaa" />
+    <MESSAGE value="maven plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven plugins" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1592566764363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592566764363" />
+    <state x="360" y="89" key="CommitChangelistDialog2" timestamp="1592566080709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="360" y="89" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592566080709" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1592572620170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592572620170" />
+    <state x="761" y="345" key="FileChooserDialogImpl" timestamp="1592568367481">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="345" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592568367481" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592572603288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592572603288" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592572603288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592572603288" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592572603288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592572603288" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592572603288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592572603288" />
+    <state x="278" y="191" width="1480" height="708" key="SettingsEditor" timestamp="1592567671383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="278" y="191" width="1480" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592567671383" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592572536261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592572536261" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592566884854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592566884854" />
+    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592570071644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592570071644" />
+    <state x="667" y="119" width="836" height="801" key="find.popup" timestamp="1592571835796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="836" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592571835796" />
+    <state x="342" y="140" key="new project wizard" timestamp="1592568130832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592568130832" />
+    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1592571440633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592571440633" />
+  </component>
+</project>

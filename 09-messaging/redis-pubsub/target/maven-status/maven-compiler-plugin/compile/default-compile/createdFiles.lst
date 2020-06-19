@@ -1,6 +1,0 @@
-ch9\redis\Config.class
-ch9\redis\producer\TodoProducerConfig.class
-ch9\redis\consumer\TodoConsumer.class
-ch9\redis\RedisPubSubApplication.class
-ch9\redis\producer\TodoProducer.class
-ch9\redis\consumer\TodoConsumerConfig.class
