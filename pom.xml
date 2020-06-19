@@ -4,22 +4,23 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>ch3-springboot-features</module>
-        <module>ch4-web</module>
-        <module>ch5-data-access</module>
-        <module>ch6-webflux</module>
-        <module>ch7-tests</module>
-        <module>ch8-security</module>
-        <module>ch9-messaging</module>
+        <module>03-springboot-features</module>
+        <module>04-web</module>
+        <module>05-data-access</module>
+        <module>06-webflux</module>
+        <module>07-tests</module>
+        <module>08-security</module>
+        <module>09-messaging</module>
         <module>common-todo</module>
-        <module>ch10-actuator</module>
-        <module>ch99-random</module>
-        <module>ch11-integration-cloudstream</module>
-        <module>ch12-spring-cloud</module>
-        <module>ch13-extending-spring-boot</module>
-        <module>ch101-reactor</module>
-        <module>ch102-jasypt</module>
-        <module>ch103-statemachine</module>
+        <module>10-actuator</module>
+        <module>random</module>
+        <module>11-integration-cloudstream</module>
+        <module>12-spring-cloud</module>
+        <module>13-extending-spring-boot</module>
+        <module>reactor</module>
+        <module>jasypt</module>
+        <module>statemachine</module>
+        <module>maven-plugins</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

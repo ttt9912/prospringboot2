@@ -1,5 +1,0 @@
----------------------------------------------------------------------------------
-create an @Enable* feature
----------------------------------------------------------------------------------
-- trigger a @Configuration to provide beans
-- use annotation attributes to decide between @Configuration classes

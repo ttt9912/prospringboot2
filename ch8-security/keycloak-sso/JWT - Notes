@@ -1,3 +1,0 @@
-Keycloak access token is a JWT.
-It is a JSON and each field in that JSON is called a claim.
-By default, logged in username is returned in a claim named “preferred_username” in access token.
