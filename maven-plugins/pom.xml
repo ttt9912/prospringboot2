@@ -14,6 +14,8 @@
     <modules>
         <module>maven-surefire-plugin</module>
         <module>maven-failsafe-plugin</module>
+        <module>maven-compiler-plugin</module>
+        <module>maven-verifier-plugin</module>
     </modules>
 
 

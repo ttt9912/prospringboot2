@@ -23,7 +23,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * ---------------------------------------------------------------------------------
  * - click: Plugins -> surefire -> surefire:test
  * - mvn test
- *
  */
 class PalindromeCheckerTest {
 

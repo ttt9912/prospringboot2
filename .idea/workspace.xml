@@ -26,15 +26,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa02307-e2e8-449d-9777-d788088cd98b" name="Default Changelist" comment="maven plugins">
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/src/main/java/mavenpluins/failsafe/business/PalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/src/test/java/mavenpluins/failsafe/business/PalindromeCheckerIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/main/java/mavenplugins/compiler/business/PalindromeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/test/java/mavenplugins/compiler/business/PalindromeCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/input-resources/welcome.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/src/main/java/mavenplugins/verifier/business/VerfierPalindromeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/src/test/verifier/verifications.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/notes/maven-add-plugins.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/test/java/mavenplugins/surefire/business/PalindromeCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/test/java/mavenplugins/surefire/business/PalindromeCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/surefire-plugin.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-plugins/notes/maven-core-plugins.md" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/notes/maven-core-plugins.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-plugins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -88,17 +93,20 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/maven-plugins" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mavenplugins.compiler.business" />
       <recent name="mavenpluins.failsafe.business" />
       <recent name="mavenplugins.surefire.business" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mavenplugin.verifier.business" />
+      <recent name="mavenplugins.compiler.business" />
       <recent name="mavenpluins.failsafe.business" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -110,6 +118,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\workspace\prospringboot2\maven-plugins\notes" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -q clean compile exec:java -Dexec.mainClass=&quot;mavenplugins-compiler.business.PalindromeChecker&quot;" />
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.PalindromeCheckerTest.isPalindrome">
     <configuration name="All in data-jdbc-tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -239,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592572775072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maven plugins">
+      <created>1592574556661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592574556661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +285,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="maven plugins" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1592775894890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1592775894890" />
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1592566764363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -281,46 +305,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="345" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592568367481" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592574303536">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592777288817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592574303536" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592574303536">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592777288817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592574303536" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592574303536">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592777288817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592574303536" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592574303536">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592777288817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592574303536" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
     <state x="278" y="191" width="1480" height="708" key="SettingsEditor" timestamp="1592567671383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="278" y="191" width="1480" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592567671383" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592572536261">
+    <state width="589" height="446" key="SwitcherDM" timestamp="1592777224565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592572536261" />
+    <state width="589" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1592777224565" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592574567806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592574567806" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592566884854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592566884854" />
-    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592573702395">
+    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592775405536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592573702395" />
+    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592775405536" />
     <state x="667" y="119" width="836" height="801" key="find.popup" timestamp="1592571835796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="119" width="836" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592571835796" />
-    <state x="342" y="140" key="new project wizard" timestamp="1592572826902">
+    <state x="342" y="140" key="new project wizard" timestamp="1592776230636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592572826902" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592776230636" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1592775884733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592775884733" />
     <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1592571440633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

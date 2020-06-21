@@ -17,13 +17,26 @@ Change this configuration using the `excludes` and `includes` parameters in pom.
 ### Reports
 Generates XML reports in the directory `target/surefire-reports`.
 
+### Configuration
+- includes/excludes
+
+```
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <configuration>
+        ...
+     </configuration>
+</plugin>
+```
+
 
 ## Failsafe plugin
 integration tests
 
 ### Goals
 - `integration-test` – run integration tests (bound to the **integration-test** phase)
-- `verify` – verify that the integration tests passed (**verify phase**)
+- `verify` – verify that the integration tests passed (**verify** phase)
 
 A test failure in the integration-test phase doesn't fail the build straight away, allowing the phase 
 **post-integration-test** to execute, where clean-up operations are performed.
@@ -46,3 +59,33 @@ Both execute tests and can be configured the same way
 
 **Failsafe** decouples failing the build if there are test failures from actually running the tests
 using 2 goals (best for integration tests)
+
+
+## Compiler plugin
+Compiles the source code of a Maven project
+
+### Goals
+- `compile` – compile main source files (bound to **compile** phase)
+- `testCompile` – compile test source files (**test-compile** phase)
+
+### Configuration
+
+#### Java version
+- `<source>` and `<target>` in the `<configuration>` section
+- `<maven.compiler.source>` `<maven.compiler.source>` in `<properties>`
+
+#### javac arguments
+`<compilerArgs>` in the `<configuration>` section
+
+
+## Verifier plugin
+Verifies the existence or non-existence of files and directories
+
+### Goals
+- `verify` - (bound to the **integration-test** phase)
+
+### verification file
+xml describing files to verify for existence and content
+
+
+## 

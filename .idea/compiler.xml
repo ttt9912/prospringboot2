@@ -11,6 +11,7 @@
         <module name="websocketbroker-stomp-echo" />
         <module name="common-todo-rest" />
         <module name="rest-client-test" />
+        <module name="maven-verifier-plugin" />
         <module name="spring-statemachine-advanced" />
         <module name="amqp-direct-exchange" />
         <module name="websocketbroker-stomp-push-sendtouser" />
@@ -28,6 +29,7 @@
         <module name="commandline-arguments" />
         <module name="application-listener" />
         <module name="amqp-fanout-exchange" />
+        <module name="maven-compiler-plugin" />
         <module name="actuator-health" />
         <module name="http-basic" />
         <module name="spring-data-jpa" />
@@ -170,9 +172,11 @@
       <module name="keycloak-sso" target="11" />
       <module name="keycloak-sso-plain" target="11" />
       <module name="manual-oauth2-client-config" target="11" />
+      <module name="maven-compiler-plugin" target="11" />
       <module name="maven-failsafe-plugin" target="11" />
       <module name="maven-plugins" target="11" />
       <module name="maven-surefire-plugin" target="11" />
+      <module name="maven-verifier-plugin" target="11" />
       <module name="micrometer-prometheus-grafana" target="11" />
       <module name="oauth-client" target="11" />
       <module name="oauth2-facebook-sso" target="11" />
@@ -285,9 +289,11 @@
       <module name="keycloak-spring-security" options="-parameters" />
       <module name="keycloak-sso-plain" options="-parameters" />
       <module name="manual-oauth2-client-config" options="-parameters" />
+      <module name="maven-compiler-plugin" options="-parameters" />
       <module name="maven-failsafe-plugin" options="-parameters" />
       <module name="maven-plugins" options="-parameters" />
       <module name="maven-surefire-plugin" options="-parameters" />
+      <module name="maven-verifier-plugin" options="-parameters" />
       <module name="micrometer-prometheus-grafana" options="-parameters" />
       <module name="oauth-client" options="-parameters" />
       <module name="oauth2-github" options="-parameters" />
