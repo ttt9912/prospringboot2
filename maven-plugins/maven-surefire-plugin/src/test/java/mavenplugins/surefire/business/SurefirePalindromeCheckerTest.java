@@ -24,10 +24,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * - click: Plugins -> surefire -> surefire:test
  * - mvn test
  */
-class PalindromeCheckerTest {
+class SurefirePalindromeCheckerTest {
 
     @Test
     void isPalindrome() {
-        assertTrue(PalindromeChecker.isPalindrome(""));
+        assertTrue(SurefirePalindromeChecker.isPalindrome(""));
     }
 }

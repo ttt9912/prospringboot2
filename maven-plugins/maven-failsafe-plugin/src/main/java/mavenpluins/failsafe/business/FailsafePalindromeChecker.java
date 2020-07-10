@@ -1,9 +1,9 @@
-package mavenplugins.surefire.business;
+package mavenpluins.failsafe.business;
 
 /*
- * see PalindromeCheckerTest
+ * see FailsafePalindromeCheckerTest
  */
-public class PalindromeChecker {
+public class FailsafePalindromeChecker {
 
     public static boolean isPalindrome(String inputString) {
         if (inputString.length() == 0) {

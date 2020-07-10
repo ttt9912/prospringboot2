@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /*
  * see PalindromeChecker
  */
-class PalindromeCheckerTest {
+class CompilerPalindromeCheckerTest {
 
     @Test
     void isPalindrome() {
-        assertTrue(PalindromeChecker.isPalindrome(""));
+        assertTrue(CompilerPalindromeChecker.isPalindrome(""));
     }
 }

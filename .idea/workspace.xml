@@ -26,20 +26,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa02307-e2e8-449d-9777-d788088cd98b" name="Default Changelist" comment="maven plugins">
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/main/java/mavenplugins/compiler/business/PalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/test/java/mavenplugins/compiler/business/PalindromeCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/input-resources/welcome.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/src/main/java/mavenplugins/verifier/business/VerfierPalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/src/test/verifier/verifications.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_1_android.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_enforcer_enforcer_api_3_0_0_M3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_builder_support_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_resolver_provider_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_resolver_maven_resolver_api_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_resolver_maven_resolver_impl_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_resolver_maven_resolver_spi_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_resolver_maven_resolver_util_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_inject_0_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_plexus_0_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-enforcer-plugin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/test/java/mavenplugins/surefire/business/PalindromeCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/test/java/mavenplugins/surefire/business/PalindromeCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/surefire-plugin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/main/java/mavenplugins/compiler/business/PalindromeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/main/java/mavenplugins/compiler/business/CompilerPalindromeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/test/java/mavenplugins/compiler/business/PalindromeCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/test/java/mavenplugins/compiler/business/CompilerPalindromeCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/src/main/java/mavenpluins/failsafe/business/PalindromeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/src/main/java/mavenpluins/failsafe/business/FailsafePalindromeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/src/test/java/mavenpluins/failsafe/business/PalindromeCheckerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-failsafe-plugin/src/test/java/mavenpluins/failsafe/business/FailsafePalindromeCheckerIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/main/java/mavenplugins/surefire/business/PalindromeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/main/java/mavenplugins/surefire/business/SurefirePalindromeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/test/java/mavenplugins/surefire/business/PalindromeCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/test/java/mavenplugins/surefire/business/SurefirePalindromeCheckerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-plugins/notes/maven-core-plugins.md" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/notes/maven-core-plugins.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-plugins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -52,8 +88,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,6 +126,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/maven-plugins" />
@@ -124,7 +161,7 @@
       <command value="mvn -q clean compile exec:java -Dexec.mainClass=&quot;mavenplugins-compiler.business.PalindromeChecker&quot;" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeCheckerTest.isPalindrome">
+  <component name="RunManager" selected="JUnit.All in data-jdbc-tests">
     <configuration name="All in data-jdbc-tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jdbc-tests" />
       <option name="PACKAGE_NAME" value="" />
@@ -149,7 +186,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeCheckerTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SurefirePalindromeCheckerTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven-surefire-plugin" />
       <extension name="coverage">
         <pattern>
@@ -158,7 +195,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mavenplugins.surefire.business" />
-      <option name="MAIN_CLASS_NAME" value="mavenplugins.surefire.business.PalindromeCheckerTest" />
+      <option name="MAIN_CLASS_NAME" value="mavenplugins.surefire.business.SurefirePalindromeCheckerTest" />
       <option name="METHOD_NAME" value="isPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -214,7 +251,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PalindromeCheckerTest.isPalindrome" />
+        <item itemvalue="JUnit.SurefirePalindromeCheckerTest.isPalindrome" />
         <item itemvalue="JUnit.JdbcTestTest.jdbcTest" />
         <item itemvalue="JUnit.All in data-jdbc-tests" />
       </list>
@@ -259,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592574556661</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="maven plugins">
+      <created>1592777400254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592777400254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +337,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592566764363" />
+    <state x="718" y="162" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592777537376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="162" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592777537376" />
     <state x="360" y="89" key="CommitChangelistDialog2" timestamp="1592566080709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -305,22 +353,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="345" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592568367481" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592777288817">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592780330006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592777288817">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592780330006" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592780330006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592777288817">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592780330006" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592780330006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592777288817">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592780330006" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592780330006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592780330006" />
     <state x="278" y="191" width="1480" height="708" key="SettingsEditor" timestamp="1592567671383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -329,10 +377,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="589" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1592777224565" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592574567806">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592777401660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592574567806" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592777401660" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592566884854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -345,10 +393,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="119" width="836" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592571835796" />
-    <state x="342" y="140" key="new project wizard" timestamp="1592776230636">
+    <state x="342" y="140" key="new project wizard" timestamp="1592778989156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592776230636" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592778989156" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1592775884733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

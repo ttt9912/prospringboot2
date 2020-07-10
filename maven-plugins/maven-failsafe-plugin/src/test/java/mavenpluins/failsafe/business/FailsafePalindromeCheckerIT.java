@@ -24,10 +24,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * - mvn verify
  *
  */
-class PalindromeCheckerIT {
+class FailsafePalindromeCheckerIT {
 
     @Test
     void isPalindrome() {
-        assertTrue(PalindromeChecker.isPalindrome(""));
+        assertTrue(FailsafePalindromeChecker.isPalindrome(""));
     }
 }
