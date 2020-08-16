@@ -26,23 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa02307-e2e8-449d-9777-d788088cd98b" name="Default Changelist" comment="maven plugins">
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/main/java/mavenplugins/compiler/business/PalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-compiler-plugin/src/test/java/mavenplugins/compiler/business/PalindromeCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/input-resources/welcome.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/src/main/java/mavenplugins/verifier/business/VerfierPalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-plugins/maven-verifier-plugin/src/test/verifier/verifications.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statemachine/spring-statemachine-examples/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/test/java/mavenplugins/surefire/business/PalindromeCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/src/test/java/mavenplugins/surefire/business/PalindromeCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/maven-surefire-plugin/surefire-plugin.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/notes/maven-core-plugins.md" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/notes/maven-core-plugins.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugins/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/Spring Integration - Notes" beforeDir="false" afterPath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/Spring Integration - Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/Spring Integration Building Blocks - Notes" beforeDir="false" afterPath="$PROJECT_DIR$/11-integration-cloudstream/spring-integration/Spring Integration Building Blocks - Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/statemachine/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/src/main/java/ch103/springstatemachinehierarc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/src/main/java/ch103/springstatemachinehierarc/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +67,7 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -88,8 +81,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/maven-plugins" />
@@ -124,7 +123,7 @@
       <command value="mvn -q clean compile exec:java -Dexec.mainClass=&quot;mavenplugins-compiler.business.PalindromeChecker&quot;" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeCheckerTest.isPalindrome">
+  <component name="RunManager" selected="Spring Boot.DataJpaApp">
     <configuration name="All in data-jdbc-tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jdbc-tests" />
       <option name="PACKAGE_NAME" value="" />
@@ -165,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="12-spring-cloud" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -178,7 +177,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <module name="12-spring-cloud" />
       <option name="filePath" />
       <option name="vmParameters" />
@@ -208,17 +207,64 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-statemachine-hierarchical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch103.springstatemachinehierarc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch103.springstatemachinehierarc.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataJpaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch5.data.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch5.data.jpa.DataJpaApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoMicroserviceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="todo-cloud-microservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch12.cloud.todo.microservice.TodoMicroserviceApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DataJpaApp" />
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.PalindromeCheckerTest.isPalindrome" />
         <item itemvalue="JUnit.JdbcTestTest.jdbcTest" />
         <item itemvalue="JUnit.All in data-jdbc-tests" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -230,6 +276,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592564311028</updated>
+      <workItem from="1594379905906" duration="1920000" />
+      <workItem from="1594846202006" duration="749000" />
+      <workItem from="1594847890633" duration="185000" />
+      <workItem from="1596444630493" duration="1068000" />
+      <workItem from="1597591369370" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="aaaaa">
       <created>1592567920286</created>
@@ -262,17 +313,16 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="false" />
-                </map>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -305,22 +355,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="345" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592568367481" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592777288817">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1594848025265">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592777288817">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="369" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1593781688048" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1594848025265" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1594848025265">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592777288817">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="369" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1593781688047" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1594848025265" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1594848025265">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592777288817">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="369" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1593781688047" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1594848025265" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1594848025265">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592777288817" />
+    <state width="1398" height="369" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1593781688047" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1594848025265" />
+    <state width="1398" height="212" key="GridCell.Tab.1.bottom" timestamp="1594848025266">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="369" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1593781688048" />
+    <state width="1398" height="212" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1594848025266" />
+    <state width="1398" height="212" key="GridCell.Tab.1.center" timestamp="1594848025266">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="369" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1593781688048" />
+    <state width="1398" height="212" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1594848025266" />
+    <state width="1398" height="212" key="GridCell.Tab.1.left" timestamp="1594848025265">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="369" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1593781688048" />
+    <state width="1398" height="212" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1594848025265" />
+    <state width="1398" height="212" key="GridCell.Tab.1.right" timestamp="1594848025266">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="369" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1593781688048" />
+    <state width="1398" height="212" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1594848025266" />
     <state x="278" y="191" width="1480" height="708" key="SettingsEditor" timestamp="1592567671383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -341,14 +419,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592775405536" />
-    <state x="667" y="119" width="836" height="801" key="find.popup" timestamp="1592571835796">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="500" y="117" width="924" height="634" key="find.popup" timestamp="1594847902644">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="667" y="119" width="836" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592571835796" />
-    <state x="342" y="140" key="new project wizard" timestamp="1592776230636">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="500" y="117" width="924" height="634" key="find.popup/0.23.1440.822@0.23.1440.822" timestamp="1594847902644" />
+    <state x="194" y="134" key="new project wizard" timestamp="1596444769016">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592776230636" />
+    <state x="194" y="134" key="new project wizard/0.23.1440.822@0.23.1440.822" timestamp="1596444769016" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1592775884733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

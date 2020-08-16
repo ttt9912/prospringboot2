@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------
 Spring Integration
 ---------------------------------------------------------------------------------
+- enables communication between things that don't want to talk to each other
+    (e.g. reactive and non-reactive app)
 - enables lightweight messaging within Spring-based applications
 - supports integration with external systems via declarative adapters
 

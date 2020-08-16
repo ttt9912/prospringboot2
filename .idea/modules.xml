@@ -105,6 +105,7 @@
       <module fileurl="file://$PROJECT_DIR$/05-data-access/spring-jdbc/spring-jdbc.iml" filepath="$PROJECT_DIR$/05-data-access/spring-jdbc/spring-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/statemachine/spring-statemachine/spring-statemachine.iml" filepath="$PROJECT_DIR$/statemachine/spring-statemachine/spring-statemachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/statemachine/spring-statemachine-advanced/spring-statemachine-advanced.iml" filepath="$PROJECT_DIR$/statemachine/spring-statemachine-advanced/spring-statemachine-advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statemachine/spring-statemachine-examples/spring-statemachine-examples.iml" filepath="$PROJECT_DIR$/statemachine/spring-statemachine-examples/spring-statemachine-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/spring-statemachine-hierarchical.iml" filepath="$PROJECT_DIR$/statemachine/spring-statemachine-hierarchical/spring-statemachine-hierarchical.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/sse-webflux-client.iml" filepath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-client/sse-webflux-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-server/sse-webflux-server.iml" filepath="$PROJECT_DIR$/09-messaging/server-sent-events-webflux/sse-webflux-server/sse-webflux-server.iml" />

@@ -9,48 +9,48 @@
         <outputRelativeToContentRoot value="true" />
         <module name="reactive-data-mongodb" />
         <module name="websocketbroker-stomp-echo" />
+        <module name="spring-data-rest-repository-eventhandler" />
         <module name="common-todo-rest" />
-        <module name="rest-client-test" />
         <module name="maven-verifier-plugin" />
         <module name="spring-statemachine-advanced" />
         <module name="amqp-direct-exchange" />
         <module name="websocketbroker-stomp-push-sendtouser" />
+        <module name="client" />
         <module name="data-mongo-test" />
-        <module name="spring-statemachine-hierarchical" />
+        <module name="todo-cloudstream-processor" />
         <module name="auto-configuration" />
-        <module name="remember-me" />
+        <module name="common-todo-data-jpa" />
         <module name="webflux" />
-        <module name="websocket-sockjs" />
-        <module name="basic-welcome-logout-pages" />
-        <module name="todo-client-spring-boot-autoconfigure" />
+        <module name="oauth2-github" />
+        <module name="rest-client-test" />
         <module name="actuator-basics" />
         <module name="integration-with-annotations" />
         <module name="integration-with-config" />
         <module name="commandline-arguments" />
-        <module name="application-listener" />
         <module name="amqp-fanout-exchange" />
-        <module name="maven-compiler-plugin" />
         <module name="actuator-health" />
         <module name="http-basic" />
         <module name="spring-data-jpa" />
-        <module name="web-endpoint-tests" />
+        <module name="basic-welcome-logout-pages" />
         <module name="spring-statemachine" />
         <module name="jdbc-with-repository" />
         <module name="jdbc-with-spring-default-schema" />
-        <module name="common-todo-data-jpa" />
+        <module name="spring-statemachine-hierarchical" />
         <module name="todo-testapp" />
+        <module name="authorization-server" />
         <module name="weather-app" />
         <module name="oauth-client" />
         <module name="websocketbroker-stomp-heartbeat" />
         <module name="sse-webflux-client" />
         <module name="actuator-custom-endpoints" />
-        <module name="jms-point-to-point" />
+        <module name="websocket-sockjs" />
         <module name="spring-application-builder" />
         <module name="websocketbroker-stomp-push" />
-        <module name="authorization-server" />
-        <module name="data-jpa-tests" />
+        <module name="spring-data-redis" />
+        <module name="web-endpoint-tests" />
         <module name="maven-failsafe-plugin" />
         <module name="server" />
+        <module name="todo-file-integration" />
         <module name="keycloak-spring-security" />
         <module name="spring-application" />
         <module name="micrometer-prometheus-grafana" />
@@ -58,11 +58,11 @@
         <module name="todo-client-spring-boot-starter" />
         <module name="websocket-sockjs-javaclient" />
         <module name="websocketbroker-stomp-echo-sendtouser" />
-        <module name="oauth2-github" />
+        <module name="data-jpa-tests" />
         <module name="server-https" />
         <module name="actuator-custom-config" />
         <module name="todoapp-secured" />
-        <module name="spring-data-rest-repository-eventhandler" />
+        <module name="maven-compiler-plugin" />
         <module name="websocket-echo" />
         <module name="maven-surefire-plugin" />
         <module name="basic-redirect" />
@@ -70,20 +70,20 @@
         <module name="jasypt" />
         <module name="redis-pubsub" />
         <module name="keycloak-sso-plain" />
-        <module name="spring-data-redis" />
+        <module name="manual-oauth2-client-config" />
         <module name="properties-profile-based" />
         <module name="spring-data-mongodb" />
         <module name="weather-business" />
         <module name="amqp-topic-exchange" />
         <module name="spring-data-rest-hal" />
-        <module name="manual-oauth2-client-config" />
+        <module name="application-listener" />
         <module name="todo-cloudstream-sink" />
         <module name="reactor" />
-        <module name="in-memory-authentication" />
+        <module name="jms-point-to-point" />
         <module name="amqp-default-exchange" />
+        <module name="spring-statemachine-examples" />
         <module name="with-properties" />
         <module name="common-todo-data-rest" />
-        <module name="applicationrunner-commandlinerunner" />
         <module name="common-weather-forecasts" />
         <module name="with-configuration" />
         <module name="integration-with-xml" />
@@ -93,16 +93,17 @@
         <module name="default-security" />
         <module name="server-overriding-defaults" />
         <module name="todo-cloud-microservice" />
-        <module name="client" />
+        <module name="amqp-headers-exchange" />
         <module name="properties" />
-        <module name="todo-cloudstream-processor" />
-        <module name="data-jdbc-tests" />
+        <module name="todo-client-spring-boot-autoconfigure" />
+        <module name="remember-me" />
         <module name="password-encoders" />
         <module name="person-directory-service" />
-        <module name="remote-activemq" />
+        <module name="in-memory-authentication" />
         <module name="sse-webflux-server" />
-        <module name="todo-file-integration" />
-        <module name="amqp-headers-exchange" />
+        <module name="applicationrunner-commandlinerunner" />
+        <module name="remote-activemq" />
+        <module name="data-jdbc-tests" />
         <module name="webflux-tests" />
         <module name="security-context" />
         <module name="form-login" />
@@ -213,6 +214,7 @@
       <module name="spring-jdbc" target="11" />
       <module name="spring-statemachine" target="11" />
       <module name="spring-statemachine-advanced" target="11" />
+      <module name="spring-statemachine-examples" target="11" />
       <module name="spring-statemachine-hierarchical" target="11" />
       <module name="sse-webflux-client" target="11" />
       <module name="sse-webflux-server" target="11" />
@@ -322,6 +324,7 @@
       <module name="spring-jdbc" options="-parameters" />
       <module name="spring-statemachine" options="-parameters" />
       <module name="spring-statemachine-advanced" options="-parameters" />
+      <module name="spring-statemachine-examples" options="-parameters" />
       <module name="spring-statemachine-hierarchical" options="-parameters" />
       <module name="sse-webflux-client" options="-parameters" />
       <module name="sse-webflux-server" options="-parameters" />

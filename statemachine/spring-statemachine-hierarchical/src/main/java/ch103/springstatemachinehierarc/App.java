@@ -20,7 +20,7 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 
-    // @Scheduled(initialDelay = 5_000, fixedDelay = 60 * 60_000)
+    @Scheduled(initialDelay = 5_000, fixedDelay = 60 * 60_000)
     public void withRestart() {
         System.out.println("\n--- E1");
         stateMachine.sendEvent(EventEnum.E1);       // STATE_INITIAL    -->     [STATE_PARENT, SUB_STATE_1]
@@ -37,7 +37,7 @@ public class App {
         stateMachine.start();                       // null             -->     STATE_INITIAL
     }
 
-    @Scheduled(initialDelay = 5_000, fixedDelay = 60 * 60_000)
+    // @Scheduled(initialDelay = 5_000, fixedDelay = 60 * 60_000)
     public void withReset() {
         System.out.println("\n--- E1");
         stateMachine.sendEvent(EventEnum.E1);       // STATE_INITIAL    -->     [STATE_PARENT, SUB_STATE_1]

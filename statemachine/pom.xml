@@ -16,6 +16,7 @@
         <module>spring-statemachine</module>
         <module>spring-statemachine-advanced</module>
         <module>spring-statemachine-hierarchical</module>
+        <module>spring-statemachine-examples</module>
     </modules>
 
 

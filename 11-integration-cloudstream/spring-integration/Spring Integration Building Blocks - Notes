@@ -41,6 +41,12 @@ Channel Adapter
   Message Channel
 - out of the box support for e.g. JMS, File, HTTP, Web Services, and Mail
 
+# Inbound Adapters
+real world object --> Message<T>
+
+# Outbound Adapters
+Message<T> --> real world object
+
 ---------------------------------------------------------------------------------
 Integration Flow
 ---------------------------------------------------------------------------------
