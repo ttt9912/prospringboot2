@@ -19,7 +19,8 @@
         <module name="data-mongo-test" />
         <module name="todo-cloudstream-processor" />
         <module name="auto-configuration" />
-        <module name="common-todo-data-jpa" />
+        <module name="remember-me" />
+        <module name="maven-enforcer-plugin" />
         <module name="webflux" />
         <module name="oauth2-github" />
         <module name="rest-client-test" />
@@ -174,6 +175,7 @@
       <module name="keycloak-sso-plain" target="11" />
       <module name="manual-oauth2-client-config" target="11" />
       <module name="maven-compiler-plugin" target="11" />
+      <module name="maven-enforcer-plugin" target="11" />
       <module name="maven-failsafe-plugin" target="11" />
       <module name="maven-plugins" target="11" />
       <module name="maven-surefire-plugin" target="11" />
@@ -292,6 +294,7 @@
       <module name="keycloak-sso-plain" options="-parameters" />
       <module name="manual-oauth2-client-config" options="-parameters" />
       <module name="maven-compiler-plugin" options="-parameters" />
+      <module name="maven-enforcer-plugin" options="-parameters" />
       <module name="maven-failsafe-plugin" options="-parameters" />
       <module name="maven-plugins" options="-parameters" />
       <module name="maven-surefire-plugin" options="-parameters" />

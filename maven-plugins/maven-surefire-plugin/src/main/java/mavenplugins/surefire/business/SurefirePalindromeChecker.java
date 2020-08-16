@@ -1,13 +1,9 @@
-package mavenplugins.compiler.business;
+package mavenplugins.surefire.business;
 
 /*
- * ---------------------------------------------------------------------------------
- * run
- * ---------------------------------------------------------------------------------
- * - click: Plugins -> compiler -> compiler:compile
- *                              -> compiler:testCompile
+ * see SurefirePalindromeCheckerTest
  */
-public class PalindromeChecker {
+public class SurefirePalindromeChecker {
 
     public static boolean isPalindrome(String inputString) {
         if (inputString.length() == 0) {

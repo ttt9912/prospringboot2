@@ -16,6 +16,7 @@
         <module>maven-failsafe-plugin</module>
         <module>maven-compiler-plugin</module>
         <module>maven-verifier-plugin</module>
+        <module>maven-enforcer-plugin</module>
     </modules>
 
 

@@ -1,9 +1,13 @@
-package mavenpluins.failsafe.business;
+package mavenplugins.compiler.business;
 
 /*
- * see PalindromeCheckerTest
+ * ---------------------------------------------------------------------------------
+ * run
+ * ---------------------------------------------------------------------------------
+ * - click: Plugins -> compiler -> compiler:compile
+ *                              -> compiler:testCompile
  */
-public class PalindromeChecker {
+public class CompilerPalindromeChecker {
 
     public static boolean isPalindrome(String inputString) {
         if (inputString.length() == 0) {

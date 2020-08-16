@@ -1,6 +1,6 @@
 # Core Plugins
 
-## Surefire plugin
+## Maven Surefire Plugin
 Executing tests
 
 ### Goals
@@ -31,7 +31,7 @@ Generates XML reports in the directory `target/surefire-reports`.
 ```
 
 
-## Failsafe plugin
+## Maven Failsafe Plugin
 integration tests
 
 ### Goals
@@ -61,7 +61,7 @@ Both execute tests and can be configured the same way
 using 2 goals (best for integration tests)
 
 
-## Compiler plugin
+## Maven Compiler Plugin
 Compiles the source code of a Maven project
 
 ### Goals
@@ -78,7 +78,7 @@ Compiles the source code of a Maven project
 `<compilerArgs>` in the `<configuration>` section
 
 
-## Verifier plugin
+## Maven Verifier Plugin
 Verifies the existence or non-existence of files and directories
 
 ### Goals
@@ -88,4 +88,51 @@ Verifies the existence or non-existence of files and directories
 xml describing files to verify for existence and content
 
 
-## 
+## Maven Install plugin
+Adds artifacts to the local repository
+
+### Goals
+- `install` - (bound to the **install** phase)
+- `install-file` - automatically install external artifacts into the local repository
+
+### No extra config needed
+This plugin is included in the super POM, therefore a POM doesn't need to explicitly include it.
+
+In most cases, the install plugin doesn't need any custom configuration. 
+
+
+## Maven Deploy Plugin
+Pushing artifacts to a remote repository (e.g. Nexus)
+
+### Goals
+- `deploy` - (bound to the deploy phase)
+- `deploy-file` - deploying an artifact in a remote repository
+
+
+## Maven Enforcer Plugin
+Used to guarantee the level of compliance in our project
+
+### Goals
+- `enforce` - executes rules specified in the configuration
+- `display-info` - shows current information about the built-in rules that are present in the project's pom.xml
+
+### Define rules
+Define rules in `<executions>` section
+
+### Available rules
+- `<banDuplicatePomDependencyVersions/>` - for multi-module projects
+- `<requireMavenVersion>`
+- `<requireJavaVersion>`
+- `<requireEnvironmentVariable>`
+- `<requireActiveProfile>`
+- `<bannedPlugins>`
+- ...
+
+### Breaking rules
+By default, build is broken
+
+Let build succeed and only log broken rule using `<level>WARN</level>`
+
+### Create custom rules
+Extend `EnforceRule` and implement `execute()`.
+Just throw an `EnforcerRuleException` when rule is broken.
