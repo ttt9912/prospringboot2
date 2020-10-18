@@ -1,4 +1,4 @@
-package ch5.spring.jdbc.data;
+package ch5.springjdbc.data;
 
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;

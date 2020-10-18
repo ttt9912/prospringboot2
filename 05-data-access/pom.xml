@@ -18,5 +18,6 @@
         <module>spring-data-rest</module>
         <module>spring-data-mongodb</module>
         <module>spring-data-redis</module>
+        <module>spring-jooq</module>
     </modules>
 </project>

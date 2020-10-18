@@ -23,12 +23,6 @@
         <module>maven-plugins</module>
         <module>rsocket</module>
     </modules>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.3.RELEASE</version>
-        <relativePath/>
-    </parent>
     <groupId>ch.ttt</groupId>
     <artifactId>prospringboot2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -37,7 +31,6 @@
 
     <properties>
         <java.version>11</java.version>
-        <maven-enforcer.version>3.0.0-M3</maven-enforcer.version>
     </properties>
 
     <dependencies>
@@ -59,42 +52,27 @@
         </repository>
     </repositories>
 
-    <!--
-        dependency management - most dependency versions are managed in
-        spring-boot-starter-parent pom
-    -->
     <dependencyManagement>
         <dependencies>
-            <!-- commontodo -->
+
+            <!-- spring boot -->
             <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>common-todo-data-rest</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>common-todo-data-jpa</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>common-todo-rest</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.ttt</groupId>
-                <artifactId>todo-client-spring-boot-starter</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.3.4.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
             <!-- spring cloud -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Hoxton.RC1</version>
+                <version>Hoxton.SR8</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
 
             <!-- reactor -->
             <dependency>
@@ -152,23 +130,45 @@
                 <artifactId>sockjs-client</artifactId>
                 <version>1.1.2</version>
             </dependency>
+
+            <!-- commontodo -->
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>common-todo-data-rest</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>common-todo-data-jpa</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>common-todo-rest</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.ttt</groupId>
+                <artifactId>todo-client-spring-boot-starter</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <build>
+        <plugins>
+            <!-- https://www.baeldung.com/maven-java-version -->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+
         <pluginManagement>
             <plugins>
-                <!-- Frontend -->
-                <plugin>
-                    <groupId>com.github.eirslett</groupId>
-                    <artifactId>frontend-maven-plugin</artifactId>
-                    <version>1.8.0</version>
-                </plugin>
-                <plugin>
-                    <groupId>cz.habarta.typescript-generator</groupId>
-                    <artifactId>typescript-generator-maven-plugin</artifactId>
-                    <version>1.10.212</version>
-                </plugin>
 
                 <!-- core maven plugins-->
                 <plugin>
@@ -189,7 +189,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-enforcer-plugin</artifactId>
-                    <version>${maven-enforcer.version}</version>
+                    <version>3.0.0-M3</version>
                 </plugin>
             </plugins>
         </pluginManagement>

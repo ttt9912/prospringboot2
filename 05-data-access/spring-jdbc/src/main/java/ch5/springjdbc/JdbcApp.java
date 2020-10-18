@@ -1,6 +1,6 @@
-package ch5.spring.jdbc;
+package ch5.springjdbc;
 
-import ch5.spring.jdbc.data.ToDoRepository;
+import ch5.springjdbc.data.ToDoRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package ch5.spring.jdbc.data;
+package ch5.springjdbc.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
