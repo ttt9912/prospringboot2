@@ -1,4 +1,22 @@
 ---------------------------------------------------------------------------------
+Programming model
+---------------------------------------------------------------------------------
+
+# Inbound Adapters
+real world object --> Message<T>
+
+# Outbound Adapters
+Message<T> --> real world object
+
+in between: Split, Route, Transform, Enrich, WireTap, Aggregate
+
+# Inbound Gateway
+real world object --> Spring Integration --> real world object
+
+# Outbound Gateway
+Spring Integration --> request to real world --> Spring Integration
+
+---------------------------------------------------------------------------------
 Messages
 ---------------------------------------------------------------------------------
 Spring Message interface
@@ -40,12 +58,6 @@ Channel Adapter
 - Message Endpoint that enables connecting a single sender or receiver to a
   Message Channel
 - out of the box support for e.g. JMS, File, HTTP, Web Services, and Mail
-
-# Inbound Adapters
-real world object --> Message<T>
-
-# Outbound Adapters
-Message<T> --> real world object
 
 ---------------------------------------------------------------------------------
 Integration Flow

@@ -20,3 +20,11 @@ Asynchronous Messaging
 ---------------------------------------------------------------------------------
 need to deal with concurrency, multithreading, speed, latency,
 high availability, fault tolerance, etc.
+
+---------------------------------------------------------------------------------
+Spring Integration Projects
+---------------------------------------------------------------------------------
+spring-integration-* projects are porjects to talk to the outside world.
+E.g.
+- spring-integration-file       : integrate file systems
+- spring-integration-rsocket    : communicate with RSocket

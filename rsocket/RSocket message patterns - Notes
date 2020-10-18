@@ -1,0 +1,34 @@
+---------------------------------------------------------------------------------
+RSocket
+---------------------------------------------------------------------------------
+Is a Binary Protocol that can run on various protocols including TCP, Websocket, etc.
+
+---------------------------------------------------------------------------------
+Message exchange patterns
+---------------------------------------------------------------------------------
+- fire-and-forget
+- request-response
+- request-stream
+- channel
+
+HTTP does only support request-response
+
+---------------------------------------------------------------------------------
+Examples
+---------------------------------------------------------------------------------
+
+# fire-and-forget
+Mono<Void> greet(GreetingRequest request)
+- no response
+
+# request-response
+Mono<GreetingResponse>(GreetingRequest request)
+- single value in, single value out
+
+# request-stream
+Flux<GreetingResponse>(GreetingRequest request)
+- single value in, multiple values out
+
+# channel
+Flux<GreetingResponse>(Flux<GreetingRequest> request)
+- multiple values in, multiple values out
