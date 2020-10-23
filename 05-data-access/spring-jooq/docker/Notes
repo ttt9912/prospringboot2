@@ -1,0 +1,27 @@
+-----------------------------------------------
+create image
+-----------------------------------------------
+$ docker build --tag mysql-initialized .
+
+-----------------------------------------------
+create & run container
+-----------------------------------------------
+$ docker run -d --rm --name jooq-mysql -p 3306:3306 mysql-initialized
+
+-----------------------------------------------
+connect with commandline SQL client
+-----------------------------------------------
+https://stackoverflow.com/a/33170610
+
+$ docker run -it --link jooq-mysql:mysql --rm mariadb sh -c 'exec mysql -h"$MYSQL_PORT_3306_TCP_ADDR" -P"$MYSQL_PORT_3306_TCP_PORT" -uroot -p"$MYSQL_ENV_MYSQL_ROOT_PASSWORD"'
+
+
+$ MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| testdb             |
++--------------------+
