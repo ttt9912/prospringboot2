@@ -19,5 +19,6 @@
         <module>spring-data-mongodb</module>
         <module>spring-data-redis</module>
         <module>spring-jooq</module>
+        <module>spring-flyway</module>
     </modules>
 </project>

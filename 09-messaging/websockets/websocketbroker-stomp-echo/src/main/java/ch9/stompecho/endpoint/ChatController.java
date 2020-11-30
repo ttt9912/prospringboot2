@@ -49,7 +49,7 @@ import org.springframework.stereotype.Controller;
 public class ChatController {
 
 
-    @MessageMapping("/chat") // listen to /app/chat
+    @MessageMapping("/chatmessage") // listen to /app/chat
     // @SendTo("/topic/chat") // optional here, /app is automatically replaced with /topic
     public ChatMessage handle(final ChatMessage chatMessage) {
         log.info(">>> received - {}", chatMessage);

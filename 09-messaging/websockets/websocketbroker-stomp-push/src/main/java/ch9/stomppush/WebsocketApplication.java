@@ -23,6 +23,7 @@ public class WebsocketApplication {
 
     @Scheduled(fixedRate = 2 * 1000)
     public void modifyTodos() {
+        System.out.println("sending message");
         simp.convertAndSend("/topic/greeting", "Hello");
     }
 }

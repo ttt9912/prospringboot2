@@ -21,6 +21,8 @@
         <module>websocketbroker-stomp-heartbeat</module>
         <module>websocketbroker-stomp-echo-sendtouser</module>
         <module>websocketbroker-stomp-push-sendtouser</module>
+        <module>websocketbroker-stomp-echo-interception</module>
+        <module>websocketbroker-stomp-echo-tests</module>
     </modules>
 
 

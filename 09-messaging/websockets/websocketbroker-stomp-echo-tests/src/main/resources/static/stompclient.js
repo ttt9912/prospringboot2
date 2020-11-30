@@ -6,7 +6,7 @@ function connect() {
         refreshStatus();
 
         // subscribe to /topic/chat
-        stomp.subscribe("/topic/chatmessage", function (message) {
+        stomp.subscribe("/topic/msg", function (message) {
             console.log("Message");
             console.log(message);
             showMessage(JSON.parse(message.body))
@@ -38,7 +38,7 @@ function sendMessage() {
         'text': $('#text').val()
     });
 
-    stomp.send("/app/chatmessage", {}, chatmessage);
+    stomp.send("/app/msg", {}, chatmessage);
 }
 
 function showMessage(messageBody) {

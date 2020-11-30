@@ -1,4 +1,4 @@
-package ch9.stompecho.data;
+package ch9.stompinterception.data;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Value;
