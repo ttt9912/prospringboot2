@@ -1,7 +1,7 @@
 package jasypttool;
 
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class JasyptTool {
 

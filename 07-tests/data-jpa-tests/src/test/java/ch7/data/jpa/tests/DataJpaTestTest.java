@@ -3,12 +3,12 @@ package ch7.data.jpa.tests;
 import common.todo.data.jpa.todo.Todo;
 import common.todo.data.jpa.todo.TodoRepository;
 import common.todo.data.jpa.util.RepositoryUtil;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.List;
 
@@ -21,7 +21,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * - ignores @Component
  * - provides TestEntityManager
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @DataJpaTest
 // @AutoConfigureTestDatabase(replace = NONE) // test with a real database
 public class DataJpaTestTest {

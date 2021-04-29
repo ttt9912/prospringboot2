@@ -3,11 +3,11 @@ package ch7.rest.client.tests.todoclient;
 import ch7.rest.client.tests.data.ToDo;
 import ch7.rest.client.tests.restclient.ToDoRestClient;
 import ch7.rest.client.tests.util.FileAsStringReader;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.client.RestClientTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.client.MockRestServiceServer;
 
 import java.io.IOException;
@@ -29,7 +29,7 @@ import static org.springframework.test.web.client.response.MockRestResponseCreat
  * MockRestServiceServer - mocking the remote server
  *
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @RestClientTest(ToDoRestClient.class)
 public class RestClientTestTest {
 

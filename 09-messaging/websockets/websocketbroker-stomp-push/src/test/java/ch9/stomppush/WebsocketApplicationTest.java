@@ -1,7 +1,7 @@
 package ch9.stomppush;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.messaging.Message;
@@ -9,8 +9,7 @@ import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.simp.stomp.StompHeaderAccessor;
 import org.springframework.messaging.support.AbstractSubscribableChannel;
 import org.springframework.messaging.support.ChannelInterceptor;
-import org.springframework.messaging.support.ChannelInterceptorAdapter;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.util.PathMatcher;
 
@@ -21,8 +20,8 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
+@ExtendWith(SpringExtension.class)
 @SpringBootTest
-@RunWith(SpringRunner.class)
 public class WebsocketApplicationTest {
 
     @Autowired
@@ -79,8 +78,7 @@ public class WebsocketApplicationTest {
         public Message<?> preSend(Message<?> message, MessageChannel channel) {
             if (this.destinationPatterns.isEmpty()) {
                 this.messages.add(message);
-            }
-            else {
+            } else {
                 StompHeaderAccessor headers = StompHeaderAccessor.wrap(message);
                 if (headers.getDestination() != null) {
                     for (String pattern : this.destinationPatterns) {

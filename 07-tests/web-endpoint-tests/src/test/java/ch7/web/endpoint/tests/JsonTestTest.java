@@ -2,13 +2,13 @@ package ch7.web.endpoint.tests;
 
 import ch7.web.endpoint.tests.data.ToDo;
 import ch7.web.endpoint.tests.util.FileAsStringReader;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.json.JsonTest;
 import org.springframework.boot.test.json.JacksonTester;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.io.IOException;
 
@@ -20,7 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  *
  * isEqualToJson() - provide file, stream, or body
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @JsonTest
 public class JsonTestTest {
 

@@ -59,9 +59,14 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.3.4.RELEASE</version>
+                <version>2.4.5</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-rest-hal-browser</artifactId>
+                <version>3.3.9.RELEASE</version>
             </dependency>
 
             <!-- spring cloud -->
@@ -160,6 +165,7 @@
             <!-- https://www.baeldung.com/maven-java-version -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>11</source>
                     <target>11</target>
@@ -169,6 +175,11 @@
 
         <pluginManagement>
             <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>2.4.5</version>
+                </plugin>
 
                 <!-- core maven plugins-->
                 <plugin>

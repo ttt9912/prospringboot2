@@ -2,12 +2,12 @@ package ch7.data.jdbc.tests;
 
 import ch7.data.jdbc.tests.data.ToDo;
 import ch7.data.jdbc.tests.data.ToDoRepository;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.JdbcTest;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -19,7 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * - auto-configures in-memory database
  * - JdbcTemplate
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @JdbcTest
 @Transactional(propagation = Propagation.NOT_SUPPORTED)
 public class JdbcTestTest {

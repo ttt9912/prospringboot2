@@ -2,10 +2,11 @@ package ch7.web.endpoint.tests;
 
 import ch7.web.endpoint.tests.data.ToDo;
 import ch7.web.endpoint.tests.data.ToDoService;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Collections;
@@ -18,7 +19,7 @@ import static org.mockito.BDDMockito.given;
  * @MockBean - defines a Mockito Mock for a bean inside the ApplicationContext
  * Mock a new bean or replace an existing.
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @SpringBootTest
 public class MockBeanTest {
 
