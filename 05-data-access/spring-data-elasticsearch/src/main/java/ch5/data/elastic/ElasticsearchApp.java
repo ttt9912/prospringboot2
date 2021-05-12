@@ -3,10 +3,16 @@ package ch5.data.elastic;
 import ch5.data.elastic.data.Article;
 import ch5.data.elastic.data.Author;
 import ch5.data.elastic.repository.ArticleRepository;
+import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.elasticsearch.client.ClientConfiguration;
+import org.springframework.data.elasticsearch.client.RestClients;
+import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
+import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
 
 import java.util.List;
 
@@ -16,11 +22,11 @@ import java.util.List;
  * Queries
  *  - Spring repository
  *  - @Query (on Spring repository methods)
- *  - Query dsl (using ElasticsearchRestTemplate)
- *
- * https://www.baeldung.com/spring-data-elasticsearch-queries
- *
- * https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html
+ *  - High Level REST Client - contains a lot of APIs
+ *      https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/java-rest-high.html
+ *  - Query dsl (using ElasticsearchRestTemplate - deprecated)
+ *      https://www.baeldung.com/spring-data-elasticsearch-queries
+ *      https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html
  */
 @SpringBootApplication
 public class ElasticsearchApp {

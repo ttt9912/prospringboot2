@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("repo")
+@RequestMapping("articles")
 @RequiredArgsConstructor
-public class ArticleRepositoryController {
+public class ArticleController {
     private final ArticleRepository repository;
 
     /*
