@@ -9,20 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ch.ttt</groupId>
-    <artifactId>08-security</artifactId>
+    <artifactId>spring-cache</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>overriding-basic-security</module>
-        <module>oauth2-github</module>
-        <module>oauth2-facebook-sso</module>
-        <module>keycloak-sso</module>
-        <module>password-encoders</module>
-        <module>default-security</module>
-        <module>security-context</module>
-        <module>authentication-mechanisms</module>
-        <module>authentication-provider</module>
+        <module>caching-client</module>
+        <module>caching-service</module>
     </modules>
 
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 
 </project>

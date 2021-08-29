@@ -1,0 +1,20 @@
+authentication-mechanisms
+authentication-provider
+default-security
+
+keycloak-password-grant-plain
+keycloak-password-grant-spring
+
+keycloak-spa
+    keycloak-spa-todoapp-resource-server
+    keycloak-spa-todoapp-client
+
+keycloak-webapp
+    keycloak-webapp-todoapp-resource-server
+    keycloak-webapp-todoapp-client
+
+keycloak-social-github
+
+spring-facebook
+
+spring-github
