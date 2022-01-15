@@ -1,0 +1,1 @@
+docker run --name spring-elasticsearch-highlevel -d -p 9200:9200 -e "discovery.type=single-node" elasticsearch:7.14.2

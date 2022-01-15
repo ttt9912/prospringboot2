@@ -1,0 +1,11 @@
+Spring Data Repository
+    - org.springframework
+    - Typesafe: yes
+
+ElasticsearchRestTemplate
+    - org.springframework
+    - Typesafe: yes
+
+RestHighLevelClient
+    - com.elastic
+    - Typesafe: no, manual deserialization
