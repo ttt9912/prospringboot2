@@ -10,6 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 /*
+ * - Sets up a H2 DB
+ * - populates data from /resources/data.sql
+ *
  * ---------------------------------------------------------------------------------
  * @EnableAutoConfiguration
  * ---------------------------------------------------------------------------------
