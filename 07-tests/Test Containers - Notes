@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------
+Testcontainer vs. Embedded DB
+---------------------------------------------------------------------------------
+Embedded DB (H2, Embedded Mongo, etc.) will not behave exactly like
+the production databases
+- provider-dependent queries will behave differently
+- embedded mongo is not an official mongo product
