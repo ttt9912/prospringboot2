@@ -22,5 +22,7 @@
         <module>spring-data-elasticsearch</module>
         <module>spring-elasticsearch-highlevel</module>
         <module>spring-data-elasticsearch-highlevel</module>
+        <module>spring-data-jpa-criteria</module>
+        <module>spring-data-jpa-envers</module>
     </modules>
 </project>
